@@ -1,0 +1,26 @@
+.section{
+    min-height: 250px;
+}
+.yellow_bg{
+    background-color: #ffd007;
+}
+
+.green_bg{
+    background-color: #37e38a;
+}
+
+.dark_blue_bg{
+    background-color: #18204a;
+}
+
+.light_blue_bg{
+    background-color: #21becb;
+}
+
+.pink_bg{
+    background-color: #eec7d6;
+}
+
+.dark_bg{
+    background-color: #000000;
+}
