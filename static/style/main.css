@@ -101,23 +101,22 @@ p {
   justify-content: space-between;
 }
 
-.first_columns{
+.first_columns {
   margin-top: 25px;
   width: 45%;
   display: flex;
   justify-content: space-between;
 }
 
-.left_column_context{
+.left_column_context {
   text-align: right;
 }
 
-.main_text{
+.main_text {
   width: 70%;
-  
 }
 
-.main_icon{
+.main_icon {
   width: 29%;
   align-content: center;
   text-align: center;
@@ -127,6 +126,10 @@ p {
   background-color: #37e38a;
   position: relative;
   overflow: hidden;
+}
+
+.img img {
+  width: 150%;
 }
 
 .dark_blue_bg {
@@ -353,9 +356,6 @@ p {
   width: 50%;
   border: 1px solid white;
 }
-.columns_title {
-  text-align: center;
-}
 .columns {
   width: 100%;
   display: flex;
@@ -379,4 +379,29 @@ p {
 .column_about_us {
   width: 25%;
   margin-right: 35px;
+}
+
+.footer_column_contacts{
+  display: flex;
+  justify-content: space-between;
+}
+.footer_contact_title h1{
+  text-align: left;
+}
+
+.footer_column{
+  width: 49%;
+}
+
+footer{
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo{
+  width: 49%;
+}
+
+.logo img{
+  width: 100%;
 }
