@@ -33,7 +33,7 @@ p {
   position: relative;
 }
 
-.bg_blandy {
+.bg_blendy {
   position: relative;
   width: 108%;
   left: -7%;
@@ -46,7 +46,7 @@ p {
   top: -10%;
 }
 
-.bottles_group_blandy{
+.bottles_group_blandy {
   position: relative;
   left: 2%;
   top: 3%;
@@ -55,34 +55,34 @@ p {
   z-index: 1;
 }
 
-.elemento_grafico_Y{
- position: absolute;
- transform: rotate(-49grad);
- top: 69%;
- left: 14%;
- height: 450px;
- z-index: 1;
+.elemento_grafico_Y {
+  position: absolute;
+  transform: rotate(-49grad);
+  top: 69%;
+  left: 14%;
+  height: 450px;
+  z-index: 1;
 }
 
-.elemento_grafico_E{
+.elemento_grafico_E {
   position: absolute;
   transform: rotate(-5grad);
   top: 73%;
   right: 22%;
   height: 250px;
   z-index: 1;
- }
+}
 
- .elemento_grafico_L{
+.elemento_grafico_L {
   position: absolute;
   transform: rotate(10grad);
   top: 69%;
   right: 5%;
   height: 290px;
   z-index: 1;
- }
+}
 
-.elemento_grafico_why{
+.elemento_grafico_why {
   position: absolute;
   top: 100%;
   left: 30%;
@@ -114,9 +114,9 @@ p {
   margin: 0 auto;
 }
 
-.white_line_midle{
+.white_line_midle {
   position: absolute;
-  right: -35%;
+  right: -34%;
   top: 180px;
   z-index: -1;
 }
@@ -127,11 +127,10 @@ p {
 }
 
 .first_yellow_context_aria h2 {
-  margin:30px auto;
+  margin: 30px auto;
   width: 60%;
   font-size: 40px;
 }
-
 
 .custom-shape-divider-top-1724595830 {
   position: relative;
@@ -153,47 +152,82 @@ p {
   fill: #ffd007;
 }
 
-.B_not_compleat{
+.B_not_compleat {
   position: absolute;
   transform: rotate(-130grad);
   height: 500px;
   right: -45%;
   top: -400px;
 }
-.D_not_compleat{
+.D_not_compleat {
   position: absolute;
   transform: rotate(0grad);
   height: 500px;
   left: -30%;
-
 }
 
-.row {
+.elemento_grafico_L2 {
+  position: absolute;
+  transform: rotate(10grad);
+  top: 30%;
+  right: -20%;
+  height: 350px;
+  z-index: -1;
+}
+
+.B2_compleate {
+  position: absolute;
+  transform: rotate(120grad);
+  height: 500px;
+  top: 1000px;
+  right: -250px;
+  z-index: -1;
+}
+
+.left_first_rec {
+  margin-top: 70px;
+}
+
+.left_second_rec{
+  margin-top: 100px;
+}
+
+.left_third_rec{
+  margin-top: 150px;
+}
+
+.left_fourth_rec{
+  margin-top: 110px;
+}
+
+.main_columns_yellow_bg {
   display: flex;
   justify-content: space-between;
 }
-
-.first_columns {
-  border: red 1px solid;
-  width: 49%;
-  display: flex;
-  justify-content: space-between;
-}
-
-.left_column_context {
+.left_column {
   text-align: right;
+  display: grid;
 }
 
-.main_text {
-  width: 70%;
+.rec {
+  display: flex;
+  justify-content: space-around;
 }
 
-.main_icon {
-  width: 29%;
+.rec .icon {
   align-content: center;
-  text-align: center;
 }
-.main_icon img{
+
+.main_columns {
+  width: 47%;
+  display: grid;
+}
+
+.text_columns_yellow_bg {
+  width: 80%;
+}
+
+.icon img {
   width: 50px;
 }
 
@@ -203,6 +237,114 @@ p {
   overflow: hidden;
 }
 
+.context_aria{
+  margin-top: 100px;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+}
+.list_area{
+  border: red 2px solid;
+}
+
+.table_aria{
+  width: 40%;
+  }
+
+.title_table_area{
+  text-align: center;
+  font-size: 30px;
+}
+
+.columns{
+  display: flex;
+  justify-content:space-around;
+}
+
+.column{
+  width: 49%;
+}
+
+.vantagens{
+  width: 30%;
+  font-size: 30px;
+}
+
+.context_img {
+  width: 30%;
+}
+
+.context_img img{
+  width: 130%;
+  position: relative;
+  top: -190px;
+  right: 0px;
+  z-index: 1;
+}
+
+.points_area{
+  margin-top: 25px;
+  display: flex;
+  justify-content:start;
+}
+
+.points_area img{
+  height: 100%;
+}
+
+.points_area_img{
+  margin-right: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 20%;
+  height: 50px;
+}
+.points_area_text{
+  align-content: center;
+}
+
+.B3_compleate{
+  position: absolute;
+  transform: rotate(-30grad);
+  top: -25px;
+  left: 700px;
+  width: 450px;
+  height: 450px;
+  z-index: 0;
+}
+
+.elemento_grafico_E2{
+  position: absolute;
+  transform: rotate(0grad);
+  top: 5px;
+  right: 00px;
+  width: 350px;
+  height: 350px;
+  z-index: 0;
+}
+
+.elemento_grafico_E3{
+  position: absolute;
+  transform: rotate(0grad);
+  top: 425px;
+  left: 600px;
+  width: 350px;
+  height: 350px;
+  z-index: 0;
+}
+
+.elemento_grafico_Y2{
+  position: absolute;
+  transform: rotate(-45grad);
+  top: 250px;
+  right: 275px;
+  width: 400px;
+  height: 400px;
+  z-index: 0;
+}
 /*
 
 .white_color_dark_bg {
@@ -576,4 +718,3 @@ footer{
 
 
 */
-
