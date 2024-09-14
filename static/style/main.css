@@ -15,6 +15,17 @@ h6 {
   margin: 0;
   padding: 0;
 }
+
+.white_color_dark_bg{
+  color: white;
+  background-color: #000000;
+}
+
+.black_color_white_bg{
+  color: black;
+  background-color: white;
+}
+
 /*NAVBAR*/
 nav {
   background-color: white;
@@ -586,6 +597,46 @@ nav {
   background-color: #ffd007;
 }
 
+.yellow_bg .context_area{
+  position: relative;
+  top:50px;
+}
+
+.yellow_bg .vantagens h1{
+  position: absolute;
+  top:150px;
+}
+
+.yellow_bg .bottle_img{
+  position: relative;
+}
+
+.elemento_grafico_D_yellow_bg2{
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  transform: rotate(170grad);
+  top:80px;
+  z-index: -1;
+}
+
+.elemento_grafico_L_yellow_bg2{
+  width: 400px !important;
+  height: 400px;
+  position: absolute;
+  top:150px;
+  right: 250px;
+}
+
+.elemento_grafico_B_yellow_bg2{
+  width: 400px !important;
+  height: 400px;
+  position: relative;
+  top: -250px;
+  z-index: -1;
+  right: -150px;
+}
+
 .custom-shape-divider-top-1726092004 {
   position: absolute;
   top: 0;
@@ -610,11 +661,98 @@ nav {
 .black_bg{
   background-color: #000000;
   position: relative;
+  height: 1000px;
 }
 
 .black_bg_wave_section{
   position: relative;
   transform: rotateY(3.142rad);
+}
+
+.black_bg .context_area{
+  font-size: 25px;
+  line-height: 1.7;
+  color: white;
+  position: relative;
+  top:250px;
+  display: inline-block;
+}
+
+
+.column_about_us{
+  width: 30%;
+  margin-top: 250px;
+}
+
+.context_aria_about_us{
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+}
+
+.columns_about_us{
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+}
+
+.context_aria_about_us_letters{
+  width: 30%;
+}
+
+.elemento_grafico_L_black_bg{
+  width: 300px !important;
+  height: 300px;
+  position: absolute; 
+  right: 650px;
+  top: -150px;
+  z-index: 0;
+}
+.elemento_grafico_D_black_bg{
+  width: 500px !important;
+  height: 500px;
+  position: relative; 
+  right: 250px;
+  top: -350px;
+  z-index: 1;
+}
+
+.elemento_grafico_E_black_bg{
+  width: 300px !important;
+  height: 300px;
+  position: absolute;
+  z-index: 0; 
+  top: 0px;
+  right: 50px;
+}
+
+.elemento_grafico_B_black_bg{
+  width: 300px !important;
+  height: 300px;
+  position: absolute;
+  z-index: 0; 
+  top: -250px;
+  right: -200px;
+  transform: rotate(90grad);
+}
+
+.elemento_grafico_Y_black_bg{
+  width: 500px !important;
+  height: 500px;
+  position: absolute;
+  z-index: 0; 
+  top:50px;
+  right: -350px;
+  transform: rotate(-45grad);
+}
+
+.elemento_grafico_J_black_bg{
+  width: 300px !important;
+  height: 300px;
+  position: absolute;
+  z-index: 0; 
+  top: 350px;
+  right: -150px;
 }
 
 .custom-shape-divider-top-1726092284 {
@@ -640,6 +778,8 @@ nav {
 
 .footer_yellow_bg{
   background-color: #FFD007;
+  position: relative;
+  height: 750px;
 }
 
 .custom-shape-divider-top-1726092523 {
@@ -661,4 +801,30 @@ nav {
 
 .custom-shape-divider-top-1726092523 .shape-fill {
   fill: #000000;
+}
+
+.context_area_footer{
+  margin-top: 250px;
+  display: flex;
+}
+
+
+.footer_logo{
+  width: 50%;
+}
+
+.footer_logo img{
+  width: 100%;
+}
+
+.footer_contact_title{
+  margin-top: 150px;
+}
+
+.footer_column_contacts{
+  display: flex;
+}
+
+.footer_column{
+  width: 40%;
 }
