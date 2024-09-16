@@ -714,6 +714,10 @@ nav {
   height: 1000px;
 }
 
+.about_us_title h1{
+  font-size: 100px;
+}
+
 .black_bg_wave_section{
   position: relative;
   transform: rotateY(3.142rad);
