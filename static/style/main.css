@@ -1,4 +1,20 @@
-/*DELETE ALL MARGENS*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/*
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 800
+
+.open-sans-<uniquifier> {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+*/
 body,
 html {
   overflow-x: hidden;
@@ -16,6 +32,7 @@ h6 {
   padding: 0;
 }
 
+
 .white_color_dark_bg{
   color: white;
   background-color: #000000;
@@ -26,9 +43,32 @@ h6 {
   background-color: white;
 }
 
+.vantagens h1 {
+  font-size: 50px !important;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.table_aria h1 {
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-size: 70px;
+  font-style: normal;
+}
+
+.why_text h1{
+  font-size: 80px !important;
+}
+
+.why_text h2{
+  font-size: 50px !important;
+}
+
 /*NAVBAR*/
 nav {
   background-color: white;
+  font-size: 16px !important;
 }
 
 .navbar-nav li {
@@ -77,9 +117,6 @@ nav {
   width: 25%;
 }
 
-.letter{
-  width: 33%;
-}
 
 .elemento_grafico_E {
   position: relative;
@@ -99,7 +136,7 @@ nav {
 
 .curved_line_context_content{
   position: relative;
-  top: -250px;
+  top: -350px;
 }
 
 .why_content{
@@ -132,41 +169,42 @@ nav {
   position: relative;
   width: 90%;
   height: 90%;
-  left: 150px;
-  top:0px;
+  left: 2%; /*5% to center it but a picture wil stay a litlebit lefter*/
+  top:-100px;
 }
 
 .why_text{
+  font-family: "Open Sans", sans-serif;
   position: absolute;
   width: 50%;
   z-index: 2;
-  top: 250px;
-  left: 30%;
+  top: 200px;
+  left: 25%;
+  margin: 0 auto;
   text-align: center;
+
 }
 
 .why_text h1{
-  font-size: 100px;
   font-weight: bold;
 }
 
 .why_text h2{
-  font-size: 50px;
   margin-top: 100px;
   font-weight: bold;
 }
 
 .curved_line{
   position: relative;
-  top: -125px;
-  left: -150px;
+  top: -200px;
+  left: -120px;
   z-index: 1;
 }
 
 .columns_white_curved_line{
   position: absolute;
   display: flex ;
-  top: 850px;
+  top: 780px;
   width: 80%;
   left:10%;
 }
@@ -175,7 +213,17 @@ nav {
   width: 50%;
   position: relative;
   z-index: 1;
-  margin-top: 25px;
+  font-size: 20px !important;
+}
+
+.main_columns h4{
+  font-weight: bold;
+  line-height: 38px;
+
+}
+
+.main_columns p{
+  font-weight: 400;
 }
 
 .rec{
@@ -209,7 +257,7 @@ nav {
 }
 
 .left_second_rec{
-  margin-top: 150px;
+  margin-top: 120px;
 }
 
 .left_third_rec{
@@ -217,7 +265,7 @@ nav {
 }
 
 .left_fourth_rec{
-  margin-top: 145px;
+  margin-top: 55px;
 }
 
 .right_column{
@@ -250,7 +298,7 @@ nav {
 
 .right_second_rec{
   position: relative;
-  top: 200px;
+  top: 180px;
 }
 
 .right_third_rec{
@@ -261,7 +309,7 @@ nav {
 .girls_yellow_bg{
   position: relative;
   width: 125%;
-  margin-top: -900px;
+  margin-top: -1100px;
   margin-left: -300px;
   z-index:0;
 }
@@ -345,6 +393,8 @@ nav {
 
 .points_area_text{
   align-content: center;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 .vantagens{
