@@ -111,7 +111,7 @@ navbar .container-fluid{
 
 
 .navbar-nav li {
-  margin-right: 50px;
+  margin-right: 25px;
   position: relative;
 }
 
@@ -154,6 +154,7 @@ navbar .container-fluid{
   padding: 0;
   margin: 0;
 }
+
 .blendy_bg {
   margin: 0;
   position: absolute;
@@ -165,8 +166,9 @@ navbar .container-fluid{
 .bottles_group_blendy {
   position: relative;
   width: 95%;
-  margin-top: 50px;
+  margin-top: 4%;
   left: 5%;
+  z-index: 5;
 }
 
 .first_row_letter {
@@ -179,30 +181,32 @@ navbar .container-fluid{
 .elemento_grafico_Y {
   position: relative;
   transform: rotate(-45grad);
-  right: -250px;
-  top: -50px;
+  right: -5%;
+  top: -5%;
   width: 25%;
 }
 
 .elemento_grafico_E {
   position: relative;
   top: 0px;
-  width: 300px;
-  height: 300px;
-  right: -400px;
+  width: 20%;
+  height: 20%;
+  right: -20%;
+  z-index: 0;
 }
 
 .elemento_grafico_L {
   position: relative;
-  top: -90px;
-  right: -50px;
-  width: 400px;
-  height: 400px;
+  top: -5%;
+  right: -5%;
+  width: 20%;
+  height: 20%;
 }
 
 .curved_line_context_content {
   position: relative;
-  top: -350px;
+  margin-top: -15%;
+  width: 100%;
 }
 
 .why_content {
@@ -210,15 +214,13 @@ navbar .container-fluid{
   justify-content: space-between;
 }
 
-.letter {
-  width: 30%;
-}
+
 
 .elemento_grafico_d {
   width: 30%;
   height: 30%;
   position: relative;
-  left: -100px;
+  left: -5%;
   top: 100px;
 }
 
@@ -228,7 +230,7 @@ navbar .container-fluid{
   transform: scaleX(-1);
   transform: rotate(-120grad);
   position: relative;
-  right: -150px;
+  right: -10%;
 }
 
 .elemento_grafico_why {
@@ -244,7 +246,7 @@ navbar .container-fluid{
   position: absolute;
   width: 50%;
   z-index: 2;
-  top: 200px;
+  top: 8%;
   left: 25%;
   margin: 0 auto;
   text-align: center;
@@ -255,23 +257,25 @@ navbar .container-fluid{
 }
 
 .why_text h2 {
-  margin-top: 100px;
+  margin-top: 10%;
   font-weight: bold;
 }
 
 .curved_line {
   position: relative;
-  top: -200px;
-  left: -120px;
+  left: -5%;
+  width: 110%;
+  margin-top: -15%;
   z-index: 1;
 }
 
 .columns_white_curved_line {
   position: absolute;
   display: flex;
-  top: 780px;
+  top: 44%;
   width: 80%;
   left: 10%;
+  z-index: 100;
 }
 
 .main_columns {
@@ -328,7 +332,7 @@ navbar .container-fluid{
 }
 
 .left_fourth_rec {
-  margin-top: 55px;
+  margin-top: 15px;
 }
 
 .right_column {
@@ -372,7 +376,7 @@ navbar .container-fluid{
 .girls_yellow_bg {
   position: relative;
   width: 125%;
-  margin-top: -1100px;
+  margin-top: -500px;
   margin-left: -300px;
   z-index: 0;
 }
