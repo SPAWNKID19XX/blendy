@@ -345,10 +345,11 @@ navbar .container-fluid{
   width: 10%;
 }
 .elemento_grafico_L_line_curved {
-  width: 350px;
+  width: 500%;
   position: relative;
-  top: -700px;
-  right: -600px;
+  top: -200%;
+  right: -600%;
+  z-index: -1;
 }
 .elemento_grafico_B_line_curved {
   width: 500px;
@@ -365,12 +366,12 @@ navbar .container-fluid{
 
 .right_second_rec {
   position: relative;
-  top: 180px;
+  margin-top: 20%;
 }
 
 .right_third_rec {
   position: relative;
-  top: 300px;
+  margin-top: 15%;
 }
 
 .girls_yellow_bg {
@@ -423,12 +424,11 @@ navbar .container-fluid{
   height: 600px;
   display: flex;
   justify-content: space-around;
+  position: relative;
 }
 
 .table_aria {
   width: 30%;
-  margin: 100px 0px;
-
   display: inline;
 }
 .table_aria h1 {
@@ -467,30 +467,29 @@ navbar .container-fluid{
   width: 30%;
   height: 500px;
   display: inline-block;
-  align-content: center;
-  z-index: 0;
+  align-content:normal;
+  z-index: 1;
 }
 
 .vantagens h1 {
   font-size: 50px;
   font-weight: bold;
   position: relative;
+  z-index: 0;
 }
 
 .elemento_grafico_B_green_bg {
   position: absolute;
-  width: 400px;
-  height: 400px;
-  top: -150px;
+  width: 90%;
+  top: -35%;
   left: 250px;
   z-index: 0;
 }
 
 .elemento_grafico_E_green_bg {
-  position: absolute;
-  width: 300px;
-  height: 300px;
-  top: 270px;
+  position: relative;
+  width: 100% !important;
+  top: -20%;
   z-index: -1;
   left: 0px;
 }
@@ -498,9 +497,9 @@ navbar .container-fluid{
 .elemento_grafico_E2_green_bg {
   position: absolute;
   top: 10px;
-  height: 350px;
-  width: 350px !important;
-  right: -120px;
+  width: 100% !important;
+  right: -30%;
+  z-index: -1;
 }
 .elemento_grafico_J_green_bg {
   position: absolute;
@@ -512,8 +511,7 @@ navbar .container-fluid{
 
 .elemento_grafico_Y_green_bg {
   position: absolute;
-  width: 150px;
-  height: 350px;
+  width: 100% !important;
   top: 370px;
   right: 30px;
   z-index: -1;
@@ -565,16 +563,17 @@ navbar .container-fluid{
 
 .elemento_grafico_B_blue_dark_bg {
   position: absolute;
-  width: 400px !important;
-  top: 150px;
+  width: 100% !important;
+  top: 15%;
   left: -100px;
 }
 
 .elemento_grafico_E_blue_dark_bg {
   position: absolute;
-  width: 350px !important;
-  top: 450px;
-  left: 250px;
+  width: 100% !important;
+  top: 60%;
+  left: 50%;
+  z-index:0;
 }
 
 .bottte_after_party {
