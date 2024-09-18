@@ -572,7 +572,7 @@ navbar .container-fluid{
   position: absolute;
   width: 100% !important;
   top: 60%;
-  left: 50%;
+  left: 40%;
   z-index:0;
 }
 
@@ -610,8 +610,13 @@ navbar .container-fluid{
 
 .light_blue_bg .my_custom_container {
   position: relative;
-  top: 50px;
 }
+
+.light_blue_bg .context_area {
+  position: relative;
+  top: 150px;
+}
+
 
 .elemento_grafico_J_light_blue_bg {
   width: 350px;
@@ -641,7 +646,7 @@ navbar .container-fluid{
 
 .blendy_focus {
   position: relative;
-  top: 150px;
+  top: 50px;
 }
 
 .pink_bg {
@@ -668,6 +673,7 @@ navbar .container-fluid{
 
 .colagen_Blendy {
   position: absolute;
+  top: 50px;
 }
 
 .elemento_grafico_D_pink_bg {
@@ -710,7 +716,7 @@ navbar .container-fluid{
 
 .yellow_bg .context_area {
   position: relative;
-  top: 50px;
+  top: 150px;
 }
 
 .yellow_bg .vantagens h1 {
@@ -743,7 +749,7 @@ navbar .container-fluid{
   width: 400px !important;
   height: 400px;
   position: relative;
-  top: -250px;
+  top: -450px;
   z-index: -1;
   right: -150px;
 }
@@ -815,20 +821,20 @@ navbar .container-fluid{
 }
 
 .elemento_grafico_L_black_bg {
-  width: 300px !important;
-  height: 300px;
-  position: absolute;
-  right: 650px;
-  top: -150px;
+  width: 40% !important;
+  height: 40%;
+  position: relative;
+  right: 50%;
+  top: -35%;
   z-index: 0;
 }
 .elemento_grafico_D_black_bg {
-  width: 500px !important;
-  height: 500px;
-  position: relative;
-  right: 250px;
-  top: -350px;
-  z-index: 1;
+  width: 50% !important;
+  height: 50%;
+  position:relative;
+  right: 50%;
+  top: -35%;
+  z-index: 0;
 }
 
 .elemento_grafico_E_black_bg {
