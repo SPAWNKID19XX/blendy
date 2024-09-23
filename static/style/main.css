@@ -141,17 +141,17 @@ body {
 }
 .father .left2 img{
   left: 16%;
-  top: 20%;
+  top: 25%;
 }
 
 .father .left3 img{
   left:25%;
-  top: 25%;
+  top: 35%;
 }
 
 .father .left4 img{
   left:34%;
-  top: 30%;
+  top: 45%;
 }
 
 .father .right1 img{
@@ -160,20 +160,20 @@ body {
 }
 .father .right2 img{
   right:11%;
-  top: 20%;
+  top: 25%;
 }
 .father .right3 img{
   right:20%;
-  top: 25%;
+  top: 35%;
 }
 .father .right4 img{
   right:29%;
-  top: 30%;
+  top: 45%;
 }
 
 .father .center_blendy_img img{
   right:37%;
-  top: 35%;
+  top: 55%;
 }
 
 .father div:hover {
@@ -331,7 +331,7 @@ navbar .container-fluid{
   position: relative;
   background-color: #ffd007;
   padding: 0;
-  margin: 0;
+  margin-top: 100px;
 }
 
 .blendy_bg {
@@ -440,7 +440,7 @@ navbar .container-fluid{
   font-weight: bold;
 }
 
-.curved_line {
+.curved_line_desktop {
   position: relative;
   left: -5%;
   width: 110%;
@@ -455,6 +455,12 @@ navbar .container-fluid{
   width: 80%;
   left: 10%;
   z-index: 100;
+}
+
+.curved_line_mobile{
+  position: relative;
+  width: 110%;
+  display: none;
 }
 
 .main_columns {
