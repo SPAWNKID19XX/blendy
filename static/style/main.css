@@ -16,6 +16,185 @@
   box-sizing: border-box;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(238, 238, 27);
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 5%;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.logo img {
+  height: 80px;
+  
+}
+
+.nav-menu {
+  display: flex;
+  list-style: none;
+}
+
+.nav-menu li {
+  margin-left: 2rem;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  position: relative;
+}
+
+.nav-menu a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 50%;
+  background-color: #007bff;
+  transition: all 0.3s ease;
+  transform: translateX(-50%);
+}
+
+.nav-menu a:hover {
+  color: #007bff;
+  background-color: rgba(0, 123, 255, 0.1);
+}
+
+.nav-menu a:hover::after {
+  width: calc(100% - 2rem);
+}
+
+.menu-toggle {
+  display: none;
+  cursor: pointer;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  background-color: #333;
+  margin: 5px auto;
+  transition: all 0.3s ease;
+}
+
+
+
+
+
+
+/* Main Content Styles */
+.father {
+  position: relative;
+  width:100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 60px; /* Add space for the navbar */
+}
+
+.father div {
+  transition: all 0.3s ease;
+}
+
+.father div img {
+  width: 400px;
+  position: absolute;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.father .left1 img{
+  left: 7%;
+  top: 15%;
+}
+.father .left2 img{
+  left: 16%;
+  top: 20%;
+}
+
+.father .left3 img{
+  left:25%;
+  top: 25%;
+}
+
+.father .left4 img{
+  left:34%;
+  top: 30%;
+}
+
+.father .right1 img{
+  right: 2%;
+  top: 15%;
+}
+.father .right2 img{
+  right:11%;
+  top: 20%;
+}
+.father .right3 img{
+  right:20%;
+  top: 25%;
+}
+.father .right4 img{
+  right:29%;
+  top: 30%;
+}
+
+.father .center_blendy_img img{
+  right:37%;
+  top: 35%;
+}
+
+.father div:hover {
+  z-index: 1;
+}
+
+.father .left_blendy_img:hover img {
+  transform: scale(1.1) rotate(-2deg)
+}
+
+.father .right_blendy_img:hover img {
+  transform: scale(1.1) rotate(2deg)
+}
+
+.father .right_blendy_img:hover img {
+  transform: scale(1.1) rotate(2deg)
+}
+.father .center_blendy_img img:hover{
+  transform: scale(1.1);
+}
+
 /*
 
 // <uniquifier>: Use a unique and descriptive class name
@@ -446,6 +625,11 @@ navbar .container-fluid{
   height: 50px;
 }
 
+.before_party_blendy{
+  position: absolute;
+  z-index: 1000;
+}
+
 .column {
   width: 40%;
 }
@@ -468,7 +652,7 @@ navbar .container-fluid{
   height: 500px;
   display: inline-block;
   align-content:normal;
-  z-index: 1;
+  z-index: 3;
 }
 
 .vantagens h1 {
@@ -481,8 +665,8 @@ navbar .container-fluid{
 .elemento_grafico_B_green_bg {
   position: absolute;
   width: 90%;
-  top: -35%;
-  left: 250px;
+  top: -5%;
+  left: -350px;
   z-index: 0;
 }
 
@@ -721,7 +905,6 @@ navbar .container-fluid{
 
 .yellow_bg .vantagens h1 {
   position: absolute;
-  top: 150px;
 }
 
 .yellow_bg .bottle_img {
@@ -801,7 +984,8 @@ navbar .container-fluid{
 
 .column_about_us {
   width: 30%;
-  margin-top: 250px;
+  position: relative;
+  z-index: 2;
 }
 
 .context_aria_about_us {
