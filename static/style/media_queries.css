@@ -1,5 +1,9 @@
 /* Extra large devices (large laptops and desktops, 1700px and up) */
 @media only screen and (max-width: 1700px) {
+  .father .center_blendy_img img{
+    right:36%;
+  }
+
   .why_text {
     width: 80%;
     left: 10%;
@@ -36,8 +40,37 @@
 
 /* Extra large devices (large laptops and desktops, 1500px and up) */
 @media only screen and (max-width: 1500px) {
-  
+  .father div img {
+    width: 300px;
+  }
+  .father .center_blendy_img img{
+    right:37%;
+  }
+  .vantagens h1 {
+    font-size: 45px !important;
+  }
+
+  .light_blue_bg .columns{
+    display: inline;
+  }
+
+  .right_second_rec{
+    margin-top: 0;
+  }
+
+  .right_third_rec{
+    margin-top: 0;
+  }
+
+  .light_blue_bg .column{
+    width: 100%;
+  }
+
+  .light_blue_bg .points_area{
+    justify-content:left;
+  }
 }
+
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (max-width: 1200px) {
@@ -45,21 +78,57 @@
     top: -50px;
   }
 
-  .bottles_group_blendy {
-    position: relative;
-    width: 95%;
-    margin-top: 10%;
-    left: 5%;
+  .father .center_blendy_img img{
+    right:35%;
   }
+}
+
+/* New layout for screens smaller than 1050px */
+@media only screen and (max-width: 1050px) {
+  .father {
+      height: auto;
+      padding: 80px 0 5vh; /* Increased top padding for navbar */
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+
+  .father div img {
+      position: relative;
+      width: 30vw;
+      max-width: 250px;
+      margin: 2vh;
+  }
+
+  .left1, .left2, .left3, .left4,
+  .right1, .right2, .right3, .right4,
+  .center {
+      flex: 0 0 33.33%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .right_blendy_img{
+    display: none;
+  }
+
+  .left4 img{
+    top: -1000px;
+    left: -1000px;
+  }
+
+  .center_blendy_img img{
+    left: 0px;
+    top: -1000px;
+  }
+
+}
+
+  
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (max-width: 992px) {
-  ...;
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (max-width: 768px) {
   ...;
 }
 
@@ -68,7 +137,91 @@
   ...;
 }
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-  ...;
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+  .nav-menu {
+    position: fixed;
+    left: -100%;
+    top: 60px;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 100%;
+    text-align: center;
+    transition: all 0.5s ease;
+    box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+    opacity: 0;
 }
+
+.nav-menu.active {
+    left: 0;
+    opacity: 1;
+}
+
+.nav-menu li {
+    margin: 2.5rem 0;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.nav-menu.active li {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.nav-menu li:nth-child(1) { transition-delay: 0.1s; }
+.nav-menu li:nth-child(2) { transition-delay: 0.2s; }
+.nav-menu li:nth-child(3) { transition-delay: 0.3s; }
+.nav-menu li:nth-child(4) { transition-delay: 0.4s; }
+
+.nav-menu a {
+    display: block;
+    padding: 1rem;
+}
+
+.nav-menu a:hover::after {
+    width: calc(100% - 2rem);
+}
+
+.menu-toggle {
+    display: block;
+}
+
+.menu-toggle.active .bar:nth-child(2) {
+    opacity: 0;
+}
+
+.menu-toggle.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+}
+
+.menu-toggle.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+}
+
+.father div img {
+    width: 45vw;
+    max-width: 200px;
+}
+
+.left1, .left2, .left3, .left4,
+.right1, .right2, .right3, .right4 {
+    flex: 0 0 50%;
+}
+}
+
+/* Extra small devices (phones, 480px and down) */
+@media only screen and (max-width: 480px) {
+  .father div img {
+      width: 80vw;
+      max-width: 250px;
+  }
+
+  .left1, .left2, .left3, .left4,
+  .right1, .right2, .right3, .right4,
+  .center {
+      flex: 0 0 100%;
+  }
+}
+
+
