@@ -43,9 +43,18 @@
   .father div img {
     width: 300px;
   }
+
   .father .center_blendy_img img {
     right: 37%;
   }
+
+  .girls_yellow_bg {
+    position: relative;
+    width: 100%;
+    margin-top: -500px;
+    margin-left: 0px;
+  }
+
   .vantagens h1 {
     font-size: 45px !important;
   }
@@ -97,14 +106,21 @@
   }
 
   .columns_white_curved_line {
+    position: static;
+    /*
     display: inline-block;
-    top: 14%;
+    top: 14%;*/
   }
 
   .main_columns{
     width: 50%;
     margin: auto;
     text-align: center;
+  }
+  .girls_yellow_bg {
+    position: relative;
+    width: 100%;
+    margin-top: -300px;
   }
 
   .why_text {
@@ -116,17 +132,10 @@
     display: none;
   }
 
-  .curved_line_mobile {
-    display: block;
-    position: relative;
-    top: -250px;
-    z-index: 1;
-  }
-
   .rec p {
     background-color: rgba(255, 255, 255, 0);
   }
-
+/*
   .left__recs__line{
     display: grid
   }
@@ -137,15 +146,15 @@
   }
 
   .left_second_rec{
-    margin-top: 27%;
+    margin-top: 0;
   }
 
   .left_third_rec{
-    margin-top: 80%;
+    margin-top: 0;
   }
 
   .left_fourth_rec{
-    margin-top: 25%;
+    margin-top: 0;
   }
   
   .right__recs__line{
@@ -158,22 +167,22 @@
   }
 
   .right_first_rec{
-    margin-top: 50%;
+    margin-top: 0;
   }
 
   .right_second_rec{
-    margin-top: 40%;
+    margin-top: 0%;
   }
 
   .right_third_rec{
-    margin-top: 100%;
+    margin-top: 0%;
   }
 
   .text_columns_yellow_bg{
     margin: auto;
   }
 
-
+*/
 
 }
 
@@ -188,6 +197,7 @@
   }
   .father .left2 img {
     left: 20%;
+    top: 20%;
   }
   .father .left3 img {
     left: 65%;
