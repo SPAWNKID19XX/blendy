@@ -109,7 +109,161 @@ body {
 }
 
 
+/*WAVES*/
+.custom-shape-divider-bottom-1727186367 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
 
+.custom-shape-divider-bottom-1727186367 svg {
+  position: relative;
+  display: block;
+  width: calc(122% + 1.3px);
+  height: 79px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1727186367 .shape-fill {
+  fill: #37E38A;
+}
+
+
+.custom-shape-divider-bottom-1727186124 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1727186124 svg {
+  position: relative;
+  display: block;
+  width: calc(122% + 1.3px);
+  height: 79px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1727186124 .shape-fill {
+  fill: #18204A;
+}
+
+.custom-shape-divider-bottom-1727186818 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1727186818 svg {
+  position: relative;
+  display: block;
+  width: calc(122% + 1.3px);
+  height: 79px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1727186818 .shape-fill {
+  fill: #21BECB;
+}
+
+.custom-shape-divider-bottom-1727186927 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1727186927 svg {
+  position: relative;
+  display: block;
+  width: calc(122% + 1.3px);
+  height: 79px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1727186927 .shape-fill {
+  fill: #EEC7D6;
+}
+
+.custom-shape-divider-bottom-1727186983 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1727186983 svg {
+  position: relative;
+  display: block;
+  width: calc(122% + 1.3px);
+  height: 79px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1727186983 .shape-fill {
+  fill: #FFD007;
+}
+
+.custom-shape-divider-bottom-1727187031 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1727187031 svg {
+  position: relative;
+  display: block;
+  width: calc(122% + 1.3px);
+  height: 79px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1727187031 .shape-fill {
+  fill: #000000;
+}
+
+
+/*FOOTER*/
+.custom-shape-divider-bottom-1727187124 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1727187124 svg {
+  position: relative;
+  display: block;
+  width: calc(300% + 1.3px);
+  height: 86px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1727187124 .shape-fill {
+  fill: #FFD007;
+}
+/*FINISH WAVES*/
 
 
 
@@ -589,29 +743,10 @@ navbar .container-fluid{
   width: 100%;
 }
 
-.custom-shape-divider-bottom-1726059298 {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-}
 
-.custom-shape-divider-bottom-1726059298 svg {
-  position: relative;
-  display: block;
-  width: calc(145% + 1.3px);
-  height: 120px;
-}
-
-.custom-shape-divider-bottom-1726059298 .shape-fill {
-  fill: #37e38a;
-}
 
 .green_bg {
   position: relative;
-  top: -30px;
   background-color: #37e38a;
 }
 
@@ -747,80 +882,77 @@ navbar .container-fluid{
   color: white;
 }
 
+.foto_image_after_party{
+  position: relative;
+  width: 25%;
+}
+
+.foto_image_after_party img{
+  width: 100%;
+  bottom: 0px;
+}
+
 .blue_dark_bg_wave_section {
   position: relative;
   /*transform: rotateY(3.142rad);*/
+}
+
+.blue_dark_bg .table_aria{
+  z-index: 2;
+}
+
+.foto_person_focus{
+  bottom: -150px;
+  z-index: 5;
+}
+
+.blendy_focus{
+  position: relative;
+  top:-50px;
+  transform: rotate(-5grad);
+}
+
+.blue_dark_bg .vantagens{
+  z-index: 2;
 }
 .light_blue_bg_wave_section{
   position: relative;
   transform: rotateY(3.142rad);
 }
 
-.custom-shape-divider-bottom-1726073786 {
+.blendy_power{
+  transform: rotate(-5grad);
   position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
+  top: -100px;
 }
 
-.custom-shape-divider-bottom-1726073786 svg {
-  position: relative;
-  display: block;
-  width: calc(145% + 1.3px);
-  height: 120px;
-}
 
-.custom-shape-divider-bottom-1726073786 .shape-fill {
-  fill: #18204a;
-}
-
-.elemento_grafico_B_blue_dark_bg {
+.foto_person_power{
   position: absolute;
-  width: 100% !important;
-  top: 15%;
-  left: -100px;
+  width: 250% !important;
+  right: -50%;
+  transform: scaleX(-1);
+  z-index: 2;
 }
 
 .elemento_grafico_E_blue_dark_bg {
-  position: absolute;
   width: 100% !important;
-  top: 60%;
-  left: 40%;
-  z-index:0;
+  position: relative;
+  top: 40%;
+  left: 150%;
+  z-index: 0;
 }
 
-.bottte_after_party {
+.bottle_after_party {
   position: relative;
-  top: 50px;
+  top: 0px;
+  transform: rotate(5grad);
   left: 100px;
 }
 
 .light_blue_bg {
   background-color: #21becb;
   position: relative;
-}
-
-.custom-shape-divider-top-1726077691 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-  transform: rotate(180deg);
-}
-
-.custom-shape-divider-top-1726077691 svg {
-  position: relative;
-  display: block;
-  width: calc(145% + 1.3px);
-  height: 120px;
-}
-
-.custom-shape-divider-top-1726077691 .shape-fill {
-  fill: #18204a;
 }
 
 .light_blue_bg .my_custom_container {
@@ -831,7 +963,6 @@ navbar .container-fluid{
   position: relative;
   top: 150px;
 }
-
 
 .elemento_grafico_J_light_blue_bg {
   width: 350px;
@@ -845,24 +976,19 @@ navbar .container-fluid{
 .elemento_grafico_D_light_blue_bg {
   position: absolute;
   width: 400px !important;
-  z-index: -1;
-  top: 400px;
+  z-index: 0;
+  top: 0px;
   right: -150px;
-  transform: rotate(150grad);
-}
+  }
 
 .elemento_grafico_E_light_blue_bg {
   position: absolute;
   width: 300px !important;
-  top: 200px;
-  right: 0px;
-  z-index: -1;
+  top: -250px;
+  right: -150px;
+  z-index: 0;
 }
 
-.blendy_focus {
-  position: relative;
-  top: 50px;
-}
 
 .pink_bg {
   background-color: #eec7d6;
@@ -887,8 +1013,8 @@ navbar .container-fluid{
 .elemento_grafico_Y_pink_bg {
   position: absolute;
   transform: rotate(-40grad);
-  left: 150px;
-  top: 50px;
+  width: 100%;
+  top: -20%
 }
 
 .colagen_Blendy {
@@ -911,9 +1037,10 @@ navbar .container-fluid{
 .foto_image_collagen{
 
 }
+
 .foto_image_collagen img{
   position: absolute;
-  width: 100% !important;
+  width: 120% !important;
   bottom: 0px;
   z-index: 10;
 }
@@ -924,46 +1051,8 @@ navbar .container-fluid{
   z-index: 0;
 }
 
-.custom-shape-divider-top-1726091728 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-  transform: rotate(180deg);
-}
 
-.custom-shape-divider-top-1726091728 svg {
-  position: relative;
-  display: block;
-  width: calc(145% + 1.3px);
-  height: 120px;
-}
 
-.custom-shape-divider-top-1726091728 .shape-fill {
-  fill: #21becb;
-}
-.custom-shape-divider-bottom-1727178822 {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-  transform: rotate(180deg);
-}
-
-.custom-shape-divider-bottom-1727178822 svg {
-  position: relative;
-  display: block;
-  width: calc(149% + 1.3px);
-  height: 113px;
-}
-
-.custom-shape-divider-bottom-1727178822 .shape-fill {
-  fill: #FFD007;
-}
 .yellow_bg {
   position: relative;
   background-color: #ffd007;
@@ -982,52 +1071,36 @@ navbar .container-fluid{
   position: relative;
 }
 
+
+
 .elemento_grafico_D_yellow_bg2 {
   position: absolute;
   width: 500px;
   height: 500px;
   transform: rotate(170grad);
-  top: 80px;
+  top: -50px;
+  right: 150px;
   z-index: -1;
 }
 
-.elemento_grafico_L_yellow_bg2 {
+.elemento_grafico_L_yellow_bg{
   width: 400px !important;
   height: 400px;
   position: absolute;
-  top: 150px;
-  right: 250px;
+  top: 50px;
+  right: 150px;
 }
 
-.elemento_grafico_B_yellow_bg2 {
-  width: 400px !important;
-  height: 400px;
+.elemento_grafico_B_yellow_bg {
+  width: 300px !important;
+  height: 300px;
   position: relative;
-  top: -450px;
+  top: -50px;
   z-index: -1;
-  right: -150px;
+  right: -80%;
 }
 
-.custom-shape-divider-bottom-1726092004 {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-  transform: rotate(180deg);
-}
 
-.custom-shape-divider-bottom-1726092004 svg {
-  position: relative;
-  display: block;
-  width: calc(145% + 1.3px);
-  height: 120px;
-}
-
-.custom-shape-divider-bottom-1726092004 .shape-fill {
-  fill: #eec7d6;
-}
 
 .black_bg {
   background-color: #000000;
@@ -1129,26 +1202,7 @@ navbar .container-fluid{
   right: -150px;
 }
 
-.custom-shape-divider-top-1726092284 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-  transform: rotate(180deg);
-}
 
-.custom-shape-divider-top-1726092284 svg {
-  position: relative;
-  display: block;
-  width: calc(145% + 1.3px);
-  height: 120px;
-}
-
-.custom-shape-divider-top-1726092284 .shape-fill {
-  fill: #ffd007;
-}
 
 .footer_yellow_bg {
   background-color: #ffd007;
@@ -1156,26 +1210,7 @@ navbar .container-fluid{
   height: 750px;
 }
 
-.custom-shape-divider-top-1726092523 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-  transform: rotate(180deg);
-}
 
-.custom-shape-divider-top-1726092523 svg {
-  position: relative;
-  display: block;
-  width: calc(270% + 1.3px);
-  height: 120px;
-}
-
-.custom-shape-divider-top-1726092523 .shape-fill {
-  fill: #000000;
-}
 
 .context_area_footer {
   margin-top: 250px;
