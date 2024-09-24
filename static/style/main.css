@@ -393,8 +393,6 @@ navbar .container-fluid{
   justify-content: space-between;
 }
 
-
-
 .elemento_grafico_d {
   width: 30%;
   height: 30%;
@@ -454,7 +452,7 @@ navbar .container-fluid{
   top: 44%;
   width: 80%;
   left: 10%;
-  z-index: 100;
+  z-index: 1;
 }
 
 .curved_line_mobile{
@@ -466,13 +464,33 @@ navbar .container-fluid{
 .main_columns {
   width: 50%;
   position: relative;
-  z-index: 1;
+  z-index: 2;
   font-size: 20px !important;
 }
 
 .main_columns h4 {
   font-weight: bold;
   line-height: 38px;
+}
+
+.bottle_img{
+  width: 25%;
+  position: relative;
+  top: -10%;
+  height: 500px;
+  align-content: center;
+}
+
+.bottle_img img{
+  width: 125%;
+}
+
+.bottle_before_party{
+  transform: rotate(-5grad);
+}
+
+.bottle_collagen{
+  transform: rotate(5grad);
 }
 
 .main_columns p {
@@ -533,7 +551,7 @@ navbar .container-fluid{
   width: 500%;
   position: relative;
   top: -200%;
-  right: -600%;
+  right: -700%;
   z-index: -1;
 }
 .elemento_grafico_B_line_curved {
@@ -562,7 +580,7 @@ navbar .container-fluid{
 .girls_yellow_bg {
   position: relative;
   width: 125%;
-  margin-top: -500px;
+  margin-top: -400px;
   margin-left: -300px;
   z-index: 0;
 }
@@ -599,6 +617,7 @@ navbar .container-fluid{
 
 .green_bg_wave_section {
   position: relative;
+  transform: rotateY(3.142rad);
 }
 
 .my_custom_container {
@@ -631,9 +650,11 @@ navbar .container-fluid{
   height: 50px;
 }
 
-.before_party_blendy{
+.foto_person{
   position: absolute;
-  z-index: 1000;
+  width: 170% !important;
+  bottom: 0;
+  right: -100px;
 }
 
 .column {
@@ -668,17 +689,17 @@ navbar .container-fluid{
   z-index: 0;
 }
 
-.elemento_grafico_B_green_bg {
+.elemento_grafico_B_green_bg{
   position: absolute;
-  width: 90%;
-  top: -5%;
+  width: 70% !important;
+  top: 20%;
   left: -350px;
-  z-index: 0;
+  z-index: -1;
 }
 
 .elemento_grafico_E_green_bg {
   position: relative;
-  width: 100% !important;
+  width: 70% !important;
   top: -20%;
   z-index: -1;
   left: 0px;
@@ -687,8 +708,8 @@ navbar .container-fluid{
 .elemento_grafico_E2_green_bg {
   position: absolute;
   top: 10px;
-  width: 100% !important;
-  right: -30%;
+  width: 70% !important;
+  right: -25%;
   z-index: -1;
 }
 .elemento_grafico_J_green_bg {
@@ -708,14 +729,14 @@ navbar .container-fluid{
   transform: rotate(-45grad);
 }
 
-.bottle_img {
+.foto_image_img {
   width: 30%;
   position: relative;
-  top: -200px;
-  z-index: 1;
+  top: 00px;
+  z-index: 0;
 }
 
-.bottle_img img {
+.foto_image_img img {
   width: 110%;
 }
 
@@ -727,6 +748,10 @@ navbar .container-fluid{
 }
 
 .blue_dark_bg_wave_section {
+  position: relative;
+  /*transform: rotateY(3.142rad);*/
+}
+.light_blue_bg_wave_section{
   position: relative;
   transform: rotateY(3.142rad);
 }
@@ -842,11 +867,16 @@ navbar .container-fluid{
 .pink_bg {
   background-color: #eec7d6;
   position: relative;
+  height: 700px;
 }
 
 .pink_bg_wave_section {
   position: relative;
-  transform: rotateY(3.142rad);
+  /*transform: rotateY(3.142rad);*/
+}
+
+.pink_bg .bottle_img{
+  top: 0;
 }
 
 .pink_bg .my_custom_container {
@@ -878,6 +908,22 @@ navbar .container-fluid{
   z-index: 1;
 }
 
+.foto_image_collagen{
+
+}
+.foto_image_collagen img{
+  position: absolute;
+  width: 100% !important;
+  bottom: 0px;
+  z-index: 10;
+}
+
+.yellow_bg2_wave_section{
+  position: relative;
+  transform: rotateY(3.142rad); 
+  z-index: 0;
+}
+
 .custom-shape-divider-top-1726091728 {
   position: absolute;
   top: 0;
@@ -898,7 +944,26 @@ navbar .container-fluid{
 .custom-shape-divider-top-1726091728 .shape-fill {
   fill: #21becb;
 }
+.custom-shape-divider-bottom-1727178822 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
 
+.custom-shape-divider-bottom-1727178822 svg {
+  position: relative;
+  display: block;
+  width: calc(149% + 1.3px);
+  height: 113px;
+}
+
+.custom-shape-divider-bottom-1727178822 .shape-fill {
+  fill: #FFD007;
+}
 .yellow_bg {
   position: relative;
   background-color: #ffd007;
@@ -913,7 +978,7 @@ navbar .container-fluid{
   position: absolute;
 }
 
-.yellow_bg .bottle_img {
+.yellow_bg .foto_image_img {
   position: relative;
 }
 
@@ -943,9 +1008,9 @@ navbar .container-fluid{
   right: -150px;
 }
 
-.custom-shape-divider-top-1726092004 {
+.custom-shape-divider-bottom-1726092004 {
   position: absolute;
-  top: 0;
+  bottom: 0;
   left: 0;
   width: 100%;
   overflow: hidden;
@@ -953,14 +1018,14 @@ navbar .container-fluid{
   transform: rotate(180deg);
 }
 
-.custom-shape-divider-top-1726092004 svg {
+.custom-shape-divider-bottom-1726092004 svg {
   position: relative;
   display: block;
   width: calc(145% + 1.3px);
   height: 120px;
 }
 
-.custom-shape-divider-top-1726092004 .shape-fill {
+.custom-shape-divider-bottom-1726092004 .shape-fill {
   fill: #eec7d6;
 }
 
@@ -976,7 +1041,7 @@ navbar .container-fluid{
 
 .black_bg_wave_section {
   position: relative;
-  transform: rotateY(3.142rad);
+  /*transform: rotateY(3.142rad);*/
 }
 
 .black_bg .context_area {
