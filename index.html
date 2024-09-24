@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="./static/style/main.css" />
-    <link rel="stylesheet" type="text/css" href="./static/style/media_queries.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./static/style/media_queries.css"
+    />
 
     <title>Blendy</title>
     <link
@@ -15,43 +19,22 @@
     />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg fixed-top my_custom_navbar">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <div class="logo_nav">
-            <img src="./static/img/logo/Blendy-logo-biale.png" alt="logo" />
-          </div>
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div
-          class="collapse navbar-collapse navbar_links justify-content-end"
-          id="navbarNav"
-        >
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="#why_blendy">Why blendy?</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#our_products">Our products</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about_us">About us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#footer_contact_title">Contact</a>
-            </li>
-          </ul>
+    <nav class="navbar fixed-top">
+      <div class="navbar-container">
+        <div class="logo">
+          <img src="/static/img/logo/Blendy-logo-biale.png" alt="Blendy Logo" />
         </div>
+        <div class="menu-toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="nav-menu">
+          <li><a href="#why-blendy">Why Blendy</a></li>
+          <li><a href="#our-products">Our Products</a></li>
+          <li><a href="#about-us">About Us</a></li>
+          <li><a href="#footer_contact_title">Contact</a></li>
+        </ul>
       </div>
     </nav>
 
@@ -62,11 +45,62 @@
           alt="bg_blendy"
           class="blendy_bg"
         />
-        <img
-          src="./static/img/bottles/garrafas.svg"
-          alt="bottles_group_blendy"
-          class="bottles_group_blendy"
-        />
+        <div class="father">
+          <div class="left1 left_blendy_img">
+            <img
+              src="/static/img/bottles/Blendy-100ml-wizualizacja-BS-collagen-v1-2024-09-19.png"
+              alt="collagen"
+            />
+          </div>
+          <div class="left2 left_blendy_img">
+            <img
+              src="/static/img/bottles/Blendy-100ml-wizualizacja-FS-FOCUS-v1-2024-09-19.png"
+              alt="Focus"
+            />
+          </div>
+          <div class="left3 left_blendy_img">
+            <img
+              src="/static/img/bottles/Blendy-100ml-wizualizacja-FS-before-party-v1-2024-09-19.png"
+              alt="Before Party"
+            />
+          </div>
+          <div class="left4 left_blendy_img">
+            <img
+              src="/static/img/bottles/Blendy-100ml-wizualizacja-FS-after-party-v1-2024-09-19.png"
+              alt="After Party"
+            />
+          </div>
+          <div class="right1 right_blendy_img">
+            <img
+              src="/static/img/bottles/Blendy-100ml-wizualizacja-BS-collagen-v1-2024-09-19.png"
+              alt="collagen"
+            />
+          </div>
+          <div class="right2 right_blendy_img">
+            <img
+              src="/static/img/bottles/Blendy-100ml-wizualizacja-FS-FOCUS-v1-2024-09-19.png"
+              alt="Focus"
+            />
+          </div>
+          <div class="right3 right_blendy_img">
+            <img
+              src="/static/img/bottles/Blendy-100ml-wizualizacja-FS-before-party-v1-2024-09-19.png"
+              alt="Before Party"
+            />
+          </div>
+          <div class="right4 right_blendy_img">
+            <img
+              src="/static/img/bottles/Blendy-100ml-wizualizacja-FS-after-party-v1-2024-09-19.png"
+              alt="After Party"
+            />
+          </div>
+          <div class="center_blendy_img">
+            <img
+              src="/static/img/bottles/Blendy-100ml-wizualizacja-FS-Power-v1-2024-09-19.png"
+              alt="Power"
+            />
+          </div>
+        </div>
       </div>
       <div class="first_row_letter">
         <img
@@ -85,16 +119,16 @@
           class="elemento_grafico_L"
         />
       </div>
-      <div class="curved_line_context_content" id="why_blendy">
+      <div class="curved_line_context_content" id="why-blendy">
         <div class="why_content">
           <div class="why_text">
             <h1>Why Blendy?</h1>
             <h2>
-              BECOUSE OUR SHOTS <br />
+              BECAUSE OUR SHOTS <br />
               ARE
-              <span class="white_color_dark_bg">A TESTY AND EFFICIENT</span>
+              <span class="white_color_dark_bg">A TASTY AND EFFICIENT</span>
               ALTERNATIVE TO TRADICIONAL TABLETS OR CAPSULES.<br />
-              THEY ARE:
+              THEY:
             </h2>
           </div>
           <img
@@ -116,11 +150,11 @@
         <img
           src="./static/img/background_letters/LINHAAtivo 1.png"
           alt=""
-          class="curved_line"
+          class="curved_line_desktop"
         />
         <div class="columns_white_curved_line">
           <div class="left_column main_columns">
-            <div class="rec left_first_rec">
+            <div class="rec left_first_rec left__recs__line">
               <div class="text_columns_yellow_bg">
                 <div class="title_column_context">
                   <h4>Are better obsorved</h4>
@@ -136,7 +170,7 @@
                 <img src="./static/img/icons/icons png/icon 1.png" alt="" />
               </div>
             </div>
-            <div class="rec left_second_rec">
+            <div class="rec left_second_rec left__recs__line">
               <div class="text_columns_yellow_bg">
                 <div class="title_column_context">
                   <h4>Can be consumed with easy</h4>
@@ -152,7 +186,7 @@
                 <img src="./static/img/icons/icons png/icon 3.png" alt="" />
               </div>
             </div>
-            <div class="rec left_third_rec">
+            <div class="rec left_third_rec left__recs__line">
               <div class="text_columns_yellow_bg">
                 <div class="title_column_context">
                   <h4>Have higher concentration of active ingridients</h4>
@@ -168,7 +202,7 @@
                 <img src="./static/img/icons/icons png/icon 5.png" alt="" />
               </div>
             </div>
-            <div class="rec left_fourth_rec">
+            <div class="rec left_fourth_rec left__recs__line">
               <div class="text_columns_yellow_bg">
                 <div class="title_column_context">
                   <h4>Can be taken anywhere... and they look splendid</h4>
@@ -188,9 +222,8 @@
               </div>
             </div>
           </div>
-
           <div class="right_column main_columns">
-            <div class="rec right_first_rec">
+            <div class="rec right_first_rec right__recs__line">
               <div class="white_line_icon">
                 <img src="./static/img/icons/icons png/icon 2.png" alt="" />
               </div>
@@ -207,7 +240,7 @@
                 </div>
               </div>
             </div>
-            <div class="rec right_second_rec">
+            <div class="rec right_second_rec right__recs__line">
               <div class="white_line_icon">
                 <img src="./static/img/icons/icons png/icon 4.png" alt="" />
               </div>
@@ -223,7 +256,7 @@
                 </div>
               </div>
             </div>
-            <div class="rec right_third_rec">
+            <div class="rec right_third_rec right__recs__line">
               <div class="white_line_icon">
                 <img src="./static/img/icons/icons png/icon 6.png" alt="" />
               </div>
@@ -253,9 +286,9 @@
     <div class="girls_yellow_bg">
       <img src="./static/img/icons/tlo1.jpg" alt="" class="img_girls" />
     </div>
-    <div class="green_bg" id="our_products">
+    <div class="green_bg" id="our-products">
       <div class="green_bg_wave_section">
-        <div class="custom-shape-divider-bottom-1726059298">
+        <div class="custom-shape-divider-bottom-1727186367">
           <svg
             data-name="Layer 1"
             xmlns="http://www.w3.org/2000/svg"
@@ -271,6 +304,13 @@
       </div>
       <div class="my_custom_container">
         <div class="context_area">
+          <div class="bottle_img">
+            <img
+              src="./static/img/bottles/Blendy-100ml-wizualizacja-FS-before-party-v1-2024-09-19.png"
+              alt="After party Blendy"
+              class="bottle_before_party"
+            />
+          </div>
           <div class="table_aria">
             <div class="title_table_area">
               <h1>Before party</h1>
@@ -346,23 +386,18 @@
             </div>
           </div>
           <div class="vantagens">
-            <img
-              src="./static/img/background_letters/Blendy-elementgraficzny-1-b.png"
-              alt=""
-              class="elemento_grafico_B_green_bg"
-            />
             <h1>
               PREVENTS THE
               <span class="white_color_dark_bg">NEGATIVE</span> EFFECTS OF
               <span class="white_color_dark_bg">ALCOHOL</span> CONSUMPTION
             </h1>
-            <img
-              src="./static/img/background_letters/Blendy-elementgraficzny-5-b.png"
-              alt=""
-              class="elemento_grafico_E_green_bg"
-            />
           </div>
-          <div class="bottle_img">
+          <div class="foto_image_img">
+            <img
+              src="./static/img/background_letters/Blendy-elementgraficzny-1-b.png"
+              alt=""
+              class="elemento_grafico_B_green_bg"
+            />
             <img
               src="./static/img/background_letters/Blendy-elementgraficzny-2-b.png"
               alt=""
@@ -379,8 +414,9 @@
               class="elemento_grafico_E2_green_bg"
             />
             <img
-              src="./static/img/bottles/Blendy-100ml-green.png"
-              alt="Before party Blendy"
+              src="./static/img/bottles/person_blende_before_party.png"
+              alt="Foto"
+              class="foto_person foto_person_before_party"
             />
           </div>
         </div>
@@ -388,7 +424,7 @@
     </div>
     <div class="blue_dark_bg">
       <div class="blue_dark_bg_wave_section">
-        <div class="custom-shape-divider-bottom-1726073786">
+        <div class="custom-shape-divider-bottom-1727186124">
           <svg
             data-name="Layer 1"
             xmlns="http://www.w3.org/2000/svg"
@@ -396,7 +432,7 @@
             preserveAspectRatio="none"
           >
             <path
-              d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
+              d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
               class="shape-fill"
             ></path>
           </svg>
@@ -404,28 +440,23 @@
       </div>
       <div class="my_custom_container">
         <div class="context_area">
-          <div class="bottle_img">
+          <div class="foto_image_after_party">
             <img
-              src="./static/img/background_letters/Blendy-elementgraficzny-1-b.png"
-              alt=""
-              class="elemento_grafico_B_blue_dark_bg"
+              src="./static/img/bottles/person_blendy_after_party.png"
+              alt="Foto"
+              class="foto_person foto_person_after_party"
             />
             <img
               src="./static/img/background_letters/Blendy-elementgraficzny-5-b.png"
-              alt=""
+              alt="elemento_grafico_E_blue_dark_bg"
               class="elemento_grafico_E_blue_dark_bg"
-            />
-            <img
-              src="./static/img/bottles/Blendy-100ml-blue-pink.png"
-              alt="After party Blendy"
-              class="bottte_after_party"
             />
           </div>
           <div class="vantagens">
             <h1>
               ELIMINATE THE
               <span class="black_color_white_bg">NEGATIVE</span> EFFECTS OF
-              <span class="black_color_white_bg">ALCOHOL</span> CONSUMPTION
+              <span class="black_color_white_bg">ALCOHOL CONSUMPTION</span>
             </h1>
           </div>
           <div class="table_aria">
@@ -511,12 +542,20 @@
               </div>
             </div>
           </div>
+          
+          <div class="bottle_img">
+            <img
+              src="./static/img/bottles/Blendy-100ml-wizualizacja-FS-after-party-v1-2024-09-19.png"
+              alt="After party Blendy"
+              class="bottle_after_party"
+            />
+          </div>
         </div>
       </div>
     </div>
     <div class="light_blue_bg">
       <div class="light_blue_bg_wave_section">
-        <div class="custom-shape-divider-top-1726077691">
+        <div class="custom-shape-divider-bottom-1727186818">
           <svg
             data-name="Layer 1"
             xmlns="http://www.w3.org/2000/svg"
@@ -532,6 +571,13 @@
       </div>
       <div class="my_custom_container">
         <div class="context_area">
+          <div class="bottle_img">
+            <img
+              src="./static/img/bottles/Blendy-100ml-wizualizacja-FS-FOCUS-v1-2024-09-19.png"
+              alt="Before party Blendy"
+              class="blendy_focus"
+            />
+          </div>  
           <div class="table_aria">
             <div class="title_table_area">
               <h1>Focus</h1>
@@ -594,7 +640,12 @@
               class="elemento_grafico_J_light_blue_bg"
             />
           </div>
-          <div class="bottle_img">
+          <div class="foto_image_img">
+            <img
+              src="./static/img/bottles/person_blendy_focus.png"
+              alt="Foto"
+              class="foto_person foto_person_focus"
+            />
             <img
               src="./static/img/background_letters/Blendy-elementgraficzny-3-b.png"
               alt="elemento_grafico_J_green_bg"
@@ -605,18 +656,13 @@
               alt=""
               class="elemento_grafico_E_light_blue_bg"
             />
-            <img
-              src="./static/img/bottles/Blendy-100ml-blue-focus.png"
-              alt="Before party Blendy"
-              class="blendy_focus"
-            />
-          </div>
+          </div> 
         </div>
       </div>
     </div>
     <div class="pink_bg">
       <div class="pink_bg_wave_section">
-        <div class="custom-shape-divider-top-1726091728">
+        <div class="custom-shape-divider-bottom-1727186927">
           <svg
             data-name="Layer 1"
             xmlns="http://www.w3.org/2000/svg"
@@ -624,7 +670,7 @@
             preserveAspectRatio="none"
           >
             <path
-              d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
+              d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
               class="shape-fill"
             ></path>
           </svg>
@@ -632,24 +678,19 @@
       </div>
       <div class="my_custom_container">
         <div class="context_area">
-          <div class="bottle_img">
+          <div class="foto_image_img foto_image_collagen">
             <img
-              src="./static/img/background_letters/Blendy-elementgraficzny-2-b.png"
-              alt=""
-              class="elemento_grafico_Y_pink_bg"
-            />
-            <img
-              src="./static/img/bottles/Blendy-100ml-pink.png"
-              alt="colagen Blendy"
-              class="colagen_Blendy"
-            />
-            <img
-              src="./static/img/background_letters/Blendy-elementgraficzny-3-b.png"
-              alt="elemento_grafico_J_green_bg"
-              class="elemento_grafico_D_pink_bg"
+              src="./static/img/bottles/person_blendy_collagen.png"
+              alt="Foto"
+              class="foto_person foto_person_collagen"
             />
           </div>
           <div class="vantagens">
+            <img
+              src="./static/img/background_letters/Blendy-elementgraficzny-2-b.png"
+              alt="elemento_grafico_Y_black_bg"
+              class="elemento_grafico_Y_pink_bg"
+            />
             <h1>
               HELPS KEEP THE SKIN
               <span class="white_color_dark_bg">YOUNG</span> &
@@ -705,12 +746,19 @@
               </div>
             </div>
           </div>
+          <div class="bottle_img">
+            <img
+              src="./static/img/bottles/Blendy-100ml-wizualizacja-BS-collagen-v1-2024-09-19.png"
+              alt="After party Blendy"
+              class="bottle_collagen"
+            />
+          </div>
         </div>
       </div>
     </div>
     <div class="yellow_bg">
       <div class="yellow_bg2_wave_section">
-        <div class="custom-shape-divider-top-1726092004">
+        <div class="custom-shape-divider-bottom-1727186983">
           <svg
             data-name="Layer 1"
             xmlns="http://www.w3.org/2000/svg"
@@ -726,6 +774,18 @@
       </div>
       <div class="my_custom_container">
         <div class="context_area">
+          <div class="bottle_img">
+            <img
+                src="./static/img/background_letters/Blendy-elementgraficzny-4-b.png"
+                alt="elemento_grafico_L_yellow_bg"
+                class="elemento_grafico_L_yellow_bg"
+              />
+            <img
+              src="./static/img/bottles/Blendy-100ml-wizualizacja-FS-Power-v1-2024-09-19.png"
+              alt="Before party Blendy"
+              class="blendy_power"
+            />
+          </div>
           <div class="table_aria">
             <div class="title_table_area">
               <h1>POWER</h1>
@@ -778,35 +838,32 @@
               BOOSTS THE
               <span class="white_color_dark_bg">ENERGY</span> <br />LEVELS
             </h1>
+            
+          </div>
+          <div class="foto_image_img">
             <img
               src="./static/img/background_letters/Blendy-elementgraficzny-3-b.png"
               alt=""
               class="elemento_grafico_D_yellow_bg2"
             />
-          </div>
-          <div class="bottle_img">
             <img
-              src="./static/img/background_letters/Blendy-elementgraficzny-4-b.png"
-              alt="elemento_grafico_J_green_bg"
-              class="elemento_grafico_L_yellow_bg2"
+              src="./static/img/bottles/person_blendy_power.png"
+              alt="Foto"
+              class="foto_person foto_person_power"
             />
             <img
-              src="./static/img/bottles/Blendy-100ml-yellow-pink.png"
-              alt="Before party Blendy"
-              class="blendy_focus"
-            />
-            <img
-              src="./static/img/background_letters/Blendy-elementgraficzny-1-b.png"
-              alt=""
-              class="elemento_grafico_B_yellow_bg2"
-            />
+                src="./static/img/background_letters/Blendy-elementgraficzny-1-b.png"
+                alt="elemento_grafico_B_yellow_bg"
+                class="elemento_grafico_B_yellow_bg"
+              />
+
           </div>
         </div>
       </div>
     </div>
-    <div class="black_bg" id="about_us">
+    <div class="black_bg" id="about-us">
       <div class="black_bg_wave_section">
-        <div class="custom-shape-divider-top-1726092284">
+        <div class="custom-shape-divider-bottom-1727187031">
           <svg
             data-name="Layer 1"
             xmlns="http://www.w3.org/2000/svg"
@@ -814,7 +871,7 @@
             preserveAspectRatio="none"
           >
             <path
-              d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
+              d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
               class="shape-fill"
             ></path>
           </svg>
@@ -840,7 +897,7 @@
                   Our producrs are easily degestible and small bottles make them
                   not only eco friendly, but also very convenient to use. you
                   can basecly take them anywhere and they come in very handyin
-                  many occasions
+                  many ocasions
                 </p>
               </div>
               <div class="column_about_us">
@@ -863,23 +920,23 @@
                 class="elemento_grafico_D_black_bg"
               />
               <img
-                src="./static/img/background_letters/4Ativo 1.png"
+                src="./static/img/background_letters/2Ativo 1.png"
                 alt="elemento_grafico_B_black_bg"
                 class="elemento_grafico_B_black_bg"
               />
               <img
-                src="./static/img/background_letters/Blendy-elementgraficzny-5-b.png"
+                src="./static/img/background_letters/6Ativo 1.png"
                 alt="elemento_grafico_E_black_bg"
                 class="elemento_grafico_E_black_bg"
               />
 
               <img
-                src="./static/img/background_letters/Blendy-elementgraficzny-2-b.png"
+                src="./static/img/background_letters/3Ativo 1.png"
                 alt="elemento_grafico_Y_black_bg"
                 class="elemento_grafico_Y_black_bg"
               />
               <img
-                src="./static/img/background_letters/Blendy-elementgraficzny-0-b.png"
+                src="./static/img/background_letters/Ativo 1.png"
                 alt="elemento_grafico_J_black_bg"
                 class="elemento_grafico_J_black_bg"
               />
@@ -890,7 +947,7 @@
     </div>
     <div class="footer_yellow_bg">
       <div class="black_bg_wave_section">
-        <div class="custom-shape-divider-top-1726092523">
+        <div class="custom-shape-divider-bottom-1727187124">
           <svg
             data-name="Layer 1"
             xmlns="http://www.w3.org/2000/svg"
@@ -898,7 +955,7 @@
             preserveAspectRatio="none"
           >
             <path
-              d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
+              d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
               class="shape-fill"
             ></path>
           </svg>
@@ -937,6 +994,6 @@
       integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
       crossorigin="anonymous"
     ></script>
-    <!--<script src="./static/js/navbar.js"></script>-->
+    <script src="./static/js/script.js"></script>
   </body>
 </html>
