@@ -1034,9 +1034,7 @@ navbar .container-fluid{
   z-index: 1;
 }
 
-.foto_image_collagen{
 
-}
 
 .foto_image_collagen img{
   position: absolute;
@@ -1153,13 +1151,13 @@ navbar .container-fluid{
   height: 50%;
   position: relative;
   right: 90%;
-  top: -35%;
+  top: -75%;
   z-index: 1;
 }
 .elemento_grafico_D_black_bg {
   position: absolute;
   width: 20% !important;
-  top: -40%;
+  top: -70%;
   right: 15%;
   z-index: 1;
 }
@@ -1169,7 +1167,7 @@ navbar .container-fluid{
   height: 50%;
   position:relative;
   right: 0%;
-  top: -35%;
+  top: -45%;
   z-index: 0;
 }
 
@@ -1178,7 +1176,7 @@ navbar .container-fluid{
   height: 300px;
   position: absolute;
   z-index: 0;
-  top: -250px;
+  top: -350px;
   right: -200px;
   transform: rotate(90grad);
 }

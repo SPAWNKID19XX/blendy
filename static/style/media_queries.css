@@ -4,6 +4,24 @@
     right: 36%;
   }
 
+  .foto_person_focus{
+    bottom: -50px;
+  }
+
+  .pink_bg .foto_image_collagen{
+    position: relative;
+    width: 50% !important;
+    
+  }
+
+  .vantagens h1 {
+    font-size: 45px !important;
+  }
+
+  .table_aria h1 {
+    font-size: 60px;
+   }
+  
   .why_text {
     width: 80%;
     left: 10%;
@@ -59,8 +77,19 @@
     font-size: 45px !important;
   }
 
+  .yellow_bg .columns,
   .light_blue_bg .columns {
     display: inline;
+  }
+
+  .yellow_bg .column,
+  .light_blue_bg .column {
+    width: 100%;
+  }
+
+  .light_blue_bg .vantagens h1{
+    border: red 2px solid;
+    font-size: 40px !important;
   }
 
   .left_second_rec {
@@ -83,15 +112,17 @@
     margin-top: 0;
   }
 
-  .light_blue_bg .column {
-    width: 100%;
-  }
 
   .light_blue_bg .points_area {
     justify-content: left;
   }
   .rec p {
     background-color: rgba(255, 255, 255, 0.5);
+  }
+
+
+  .foto_person_power{
+    width: 300% !important;
   }
 }
 
