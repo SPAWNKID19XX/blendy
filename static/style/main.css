@@ -36,7 +36,6 @@ body {
   left: 0;
   right: 0;
   z-index: 1000;
-  
 }
 
 .navbar-container {
@@ -51,7 +50,6 @@ body {
 
 .logo img {
   height: 80px;
-  
 }
 
 .nav-menu {
@@ -74,7 +72,7 @@ body {
 }
 
 .nav-menu a::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 0;
   height: 2px;
@@ -108,7 +106,6 @@ body {
   transition: all 0.3s ease;
 }
 
-
 /*WAVES*/
 .custom-shape-divider-bottom-1727186367 {
   position: absolute;
@@ -128,9 +125,8 @@ body {
 }
 
 .custom-shape-divider-bottom-1727186367 .shape-fill {
-  fill: #37E38A;
+  fill: #37e38a;
 }
-
 
 .custom-shape-divider-bottom-1727186124 {
   position: absolute;
@@ -151,7 +147,7 @@ body {
 }
 
 .custom-shape-divider-bottom-1727186124 .shape-fill {
-  fill: #18204A;
+  fill: #18204a;
 }
 
 .custom-shape-divider-bottom-1727186818 {
@@ -172,7 +168,7 @@ body {
 }
 
 .custom-shape-divider-bottom-1727186818 .shape-fill {
-  fill: #21BECB;
+  fill: #21becb;
 }
 
 .custom-shape-divider-bottom-1727186927 {
@@ -194,7 +190,7 @@ body {
 }
 
 .custom-shape-divider-bottom-1727186927 .shape-fill {
-  fill: #EEC7D6;
+  fill: #eec7d6;
 }
 
 .custom-shape-divider-bottom-1727186983 {
@@ -215,7 +211,7 @@ body {
 }
 
 .custom-shape-divider-bottom-1727186983 .shape-fill {
-  fill: #FFD007;
+  fill: #ffd007;
 }
 
 .custom-shape-divider-bottom-1727187031 {
@@ -240,7 +236,6 @@ body {
   fill: #000000;
 }
 
-
 /*FOOTER*/
 .custom-shape-divider-bottom-1727187124 {
   position: absolute;
@@ -261,16 +256,14 @@ body {
 }
 
 .custom-shape-divider-bottom-1727187124 .shape-fill {
-  fill: #FFD007;
+  fill: #ffd007;
 }
 /*FINISH WAVES*/
-
-
 
 /* Main Content Styles */
 .father {
   position: relative;
-  width:100%;
+  width: 100%;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -289,44 +282,44 @@ body {
   cursor: pointer;
 }
 
-.father .left1 img{
+.father .left1 img {
   left: 7%;
   top: 15%;
 }
-.father .left2 img{
+.father .left2 img {
   left: 16%;
   top: 25%;
 }
 
-.father .left3 img{
-  left:25%;
+.father .left3 img {
+  left: 25%;
   top: 35%;
 }
 
-.father .left4 img{
-  left:34%;
+.father .left4 img {
+  left: 34%;
   top: 45%;
 }
 
-.father .right1 img{
+.father .right1 img {
   right: 2%;
   top: 15%;
 }
-.father .right2 img{
-  right:11%;
+.father .right2 img {
+  right: 11%;
   top: 25%;
 }
-.father .right3 img{
-  right:20%;
+.father .right3 img {
+  right: 20%;
   top: 35%;
 }
-.father .right4 img{
-  right:29%;
+.father .right4 img {
+  right: 29%;
   top: 45%;
 }
 
-.father .center_blendy_img img{
-  right:37%;
+.father .center_blendy_img img {
+  right: 37%;
   top: 55%;
 }
 
@@ -335,17 +328,17 @@ body {
 }
 
 .father .left_blendy_img:hover img {
-  transform: scale(1.1) rotate(-2deg)
+  transform: scale(1.1) rotate(-2deg);
 }
 
 .father .right_blendy_img:hover img {
-  transform: scale(1.1) rotate(2deg)
+  transform: scale(1.1) rotate(2deg);
 }
 
 .father .right_blendy_img:hover img {
-  transform: scale(1.1) rotate(2deg)
+  transform: scale(1.1) rotate(2deg);
 }
-.father .center_blendy_img img:hover{
+.father .center_blendy_img img:hover {
   transform: scale(1.1);
 }
 
@@ -416,10 +409,9 @@ html {
   width: 100%;
   top: 0;
   z-index: 1000;
-  
 }
 
-navbar .container-fluid{
+navbar .container-fluid {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
@@ -429,19 +421,17 @@ navbar .container-fluid{
   height: 70px;
 }
 
-.logo_nav{
-  display: block;  
-  margin-top: 10px; 
-  height: auto;  
-  max-width: 100%; 
-  max-height: 60px; 
+.logo_nav {
+  display: block;
+  margin-top: 10px;
+  height: auto;
+  max-width: 100%;
+  max-height: 60px;
 }
 
-.logo_nav:hover{
+.logo_nav:hover {
   color: #006aff;
 }
-
-
 
 .navbar-nav li {
   margin-right: 25px;
@@ -456,14 +446,14 @@ navbar .container-fluid{
   transition: 0.3s ease;
 }
 
-.navbar-nav a:hover{
+.navbar-nav a:hover {
   color: #006aff;
   background-color: #f0f8ff;
   border-radius: 5px;
 }
 
-.navbar-nav a:hover::after{
-  content: '';
+.navbar-nav a:hover::after {
+  content: "";
   position: absolute;
   bottom: -5px;
   left: 50%;
@@ -609,7 +599,7 @@ navbar .container-fluid{
   z-index: 1;
 }
 
-.curved_line_mobile{
+.curved_line_mobile {
   position: relative;
   width: 110%;
   display: none;
@@ -627,7 +617,7 @@ navbar .container-fluid{
   line-height: 38px;
 }
 
-.bottle_img{
+.bottle_img {
   width: 25%;
   position: relative;
   top: -10%;
@@ -635,15 +625,15 @@ navbar .container-fluid{
   align-content: center;
 }
 
-.bottle_img img{
+.bottle_img img {
   width: 125%;
 }
 
-.bottle_before_party{
+.bottle_before_party {
   transform: rotate(-5grad);
 }
 
-.bottle_collagen{
+.bottle_collagen {
   transform: rotate(5grad);
 }
 
@@ -743,8 +733,6 @@ navbar .container-fluid{
   width: 100%;
 }
 
-
-
 .green_bg {
   position: relative;
   background-color: #37e38a;
@@ -785,7 +773,7 @@ navbar .container-fluid{
   height: 50px;
 }
 
-.foto_person{
+.foto_person {
   position: absolute;
   width: 170% !important;
   bottom: 0;
@@ -813,7 +801,7 @@ navbar .container-fluid{
   width: 30%;
   height: 500px;
   display: inline-block;
-  align-content:normal;
+  align-content: normal;
   z-index: 3;
 }
 
@@ -824,7 +812,7 @@ navbar .container-fluid{
   z-index: 0;
 }
 
-.elemento_grafico_B_green_bg{
+.elemento_grafico_B_green_bg {
   position: absolute;
   width: 70% !important;
   top: 20%;
@@ -882,12 +870,12 @@ navbar .container-fluid{
   color: white;
 }
 
-.foto_image_after_party{
+.foto_image_after_party {
   position: relative;
   width: 25%;
 }
 
-.foto_image_after_party img{
+.foto_image_after_party img {
   width: 100%;
   bottom: 0px;
 }
@@ -897,37 +885,36 @@ navbar .container-fluid{
   /*transform: rotateY(3.142rad);*/
 }
 
-.blue_dark_bg .table_aria{
+.blue_dark_bg .table_aria {
   z-index: 2;
 }
 
-.foto_person_focus{
+.foto_person_focus {
   bottom: -150px;
   z-index: 5;
 }
 
-.blendy_focus{
+.blendy_focus {
   position: relative;
-  top:-50px;
+  top: -50px;
   transform: rotate(-5grad);
 }
 
-.blue_dark_bg .vantagens{
+.blue_dark_bg .vantagens {
   z-index: 2;
 }
-.light_blue_bg_wave_section{
+.light_blue_bg_wave_section {
   position: relative;
   transform: rotateY(3.142rad);
 }
 
-.blendy_power{
+.blendy_power {
   transform: rotate(-5grad);
   position: absolute;
   top: -100px;
 }
 
-
-.foto_person_power{
+.foto_person_power {
   position: absolute;
   width: 250% !important;
   right: -50%;
@@ -947,7 +934,6 @@ navbar .container-fluid{
   position: relative;
   top: 0px;
   transform: rotate(5grad);
-  left: 100px;
 }
 
 .light_blue_bg {
@@ -979,7 +965,7 @@ navbar .container-fluid{
   z-index: 0;
   top: 0px;
   right: -150px;
-  }
+}
 
 .elemento_grafico_E_light_blue_bg {
   position: absolute;
@@ -988,7 +974,6 @@ navbar .container-fluid{
   right: -150px;
   z-index: 0;
 }
-
 
 .pink_bg {
   background-color: #eec7d6;
@@ -1001,7 +986,7 @@ navbar .container-fluid{
   /*transform: rotateY(3.142rad);*/
 }
 
-.pink_bg .bottle_img{
+.pink_bg .bottle_img {
   top: 0;
 }
 
@@ -1014,7 +999,7 @@ navbar .container-fluid{
   position: absolute;
   transform: rotate(-40grad);
   width: 100%;
-  top: -20%
+  top: -20%;
 }
 
 .colagen_Blendy {
@@ -1034,22 +1019,11 @@ navbar .container-fluid{
   z-index: 1;
 }
 
-
-
-.foto_image_collagen img{
-  position: absolute;
-  width: 120% !important;
-  bottom: 0px;
-  z-index: 10;
-}
-
-.yellow_bg2_wave_section{
+.yellow_bg2_wave_section {
   position: relative;
-  transform: rotateY(3.142rad); 
+  transform: rotateY(3.142rad);
   z-index: 0;
 }
-
-
 
 .yellow_bg {
   position: relative;
@@ -1069,8 +1043,6 @@ navbar .container-fluid{
   position: relative;
 }
 
-
-
 .elemento_grafico_D_yellow_bg2 {
   position: absolute;
   width: 500px;
@@ -1081,7 +1053,7 @@ navbar .container-fluid{
   z-index: -1;
 }
 
-.elemento_grafico_L_yellow_bg{
+.elemento_grafico_L_yellow_bg {
   width: 400px !important;
   height: 400px;
   position: absolute;
@@ -1097,8 +1069,6 @@ navbar .container-fluid{
   z-index: -1;
   right: -80%;
 }
-
-
 
 .black_bg {
   background-color: #000000;
@@ -1138,7 +1108,7 @@ navbar .container-fluid{
 
 .columns_about_us {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   width: 70%;
 }
 
@@ -1165,7 +1135,7 @@ navbar .container-fluid{
 .elemento_grafico_E_black_bg {
   width: 50% !important;
   height: 50%;
-  position:relative;
+  position: relative;
   right: 0%;
   top: -45%;
   z-index: 0;
@@ -1200,15 +1170,11 @@ navbar .container-fluid{
   right: -150px;
 }
 
-
-
 .footer_yellow_bg {
   background-color: #ffd007;
   position: relative;
   height: 750px;
 }
-
-
 
 .context_area_footer {
   margin-top: 250px;

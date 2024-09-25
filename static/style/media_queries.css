@@ -4,14 +4,12 @@
     right: 36%;
   }
 
-  .foto_person_focus{
+  .foto_person_focus {
     bottom: -50px;
   }
 
-  .pink_bg .foto_image_collagen{
+  .pink_bg .foto_image_collagen {
     position: relative;
-    width: 50% !important;
-    
   }
 
   .vantagens h1 {
@@ -20,8 +18,8 @@
 
   .table_aria h1 {
     font-size: 60px;
-   }
-  
+  }
+
   .why_text {
     width: 80%;
     left: 10%;
@@ -77,6 +75,10 @@
     font-size: 45px !important;
   }
 
+  .bottle_img img {
+    width: 170%;
+  }
+
   .yellow_bg .columns,
   .light_blue_bg .columns {
     display: inline;
@@ -85,11 +87,6 @@
   .yellow_bg .column,
   .light_blue_bg .column {
     width: 100%;
-  }
-
-  .light_blue_bg .vantagens h1{
-    border: red 2px solid;
-    font-size: 40px !important;
   }
 
   .left_second_rec {
@@ -112,7 +109,6 @@
     margin-top: 0;
   }
 
-
   .light_blue_bg .points_area {
     justify-content: left;
   }
@@ -120,9 +116,12 @@
     background-color: rgba(255, 255, 255, 0.5);
   }
 
-
-  .foto_person_power{
+  .foto_person_power {
     width: 300% !important;
+  }
+
+  .light_blue_bg .vantagens h1 {
+    font-size: 35px !important;
   }
 }
 
@@ -143,7 +142,25 @@
     top: 14%;*/
   }
 
-  .main_columns{
+  .yellow_bg .vantagens h1 {
+    font-size: 40px;
+  }
+
+  .blue_dark_bg .vantagens h1 {
+    font-size: 40px;
+  }
+
+  .points_area_img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .points_area_img img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .main_columns {
     width: 50%;
     margin: auto;
     text-align: center;
@@ -163,6 +180,30 @@
     display: none;
   }
 
+  .columns_about_us {
+    width: 100% !important;
+    margin: auto;
+  }
+  .context_aria_about_us_letters {
+    display: none;
+  }
+
+  .elemento_grafico_E_black_bg,
+  .elemento_grafico_L_black_bg {
+    display: none;
+  }
+
+  .foto_person {
+    width: 250% !important;
+  }
+
+  .foto_person_power {
+    top: -300px;
+  }
+
+  .foto_person_collagen {
+    left: -250px;
+  }
   .rec p {
     background-color: rgba(255, 255, 255, 0);
   }
@@ -199,20 +240,20 @@
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (max-width: 992px) {
-  .columns_white_curved_line{
+  .columns_white_curved_line {
     display: block;
     margin-top: 100px;
     z-index: 5;
   }
-  .main_columns{
+  .main_columns {
     width: 100%;
   }
 
-  .left_column .white_line_icon{
+  .left_column .white_line_icon {
     order: -1;
   }
 
-  .right_letters_curved_line{
+  .right_letters_curved_line {
     display: none;
   }
   .girls_yellow_bg {
@@ -220,6 +261,10 @@
     width: 100%;
     margin-top: -200px;
   }
+
+  /*MOBILE VERSION*/
+
+  
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
