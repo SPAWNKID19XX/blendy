@@ -1177,7 +1177,6 @@ navbar .container-fluid {
 }
 
 .button-container{
-  border: #006aff 2px solid;
   width: 100%;
 }
 
@@ -1199,6 +1198,33 @@ navbar .container-fluid {
   color: #000000;
   font-weight: 900;
   cursor: pointer;
+}
+
+.main_answer_section{
+  display: flex;
+  position: relative;
+}
+
+.title_main_answer_section{
+  width: 30%;
+  align-content: center;
+
+}
+
+.title_main_answer_section h1{
+  font-size: 80px;
+  position: relative;
+  z-index: 1;
+}
+
+.title_main_answer_section img{
+  position: absolute;
+  width: 20%;
+  z-index: 0;
+}
+
+.elemento_grafico_B_faqs{
+  top:-20%;
 }
 
 
@@ -1254,10 +1280,6 @@ navbar .container-fluid {
 .FAQ_title h1{
   font-size: 80px;
   font-family: "Open Sans", sans-serif;
-}
-
-.FAQ_section{
-  border: blue 2px solid;
 }
 
 
@@ -1316,6 +1338,8 @@ navbar .container-fluid {
 .faq-question.active::after {
   transform: rotate(180deg);
 }
+
+
 .faq-answer {
   max-height: 0;
   overflow: hidden;
