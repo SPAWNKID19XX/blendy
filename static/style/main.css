@@ -1173,7 +1173,37 @@ navbar .container-fluid {
 .footer_yellow_bg {
   background-color: #ffd007;
   position: relative;
-  height: 750px;
+  height: 1750px;
+}
+
+.button-container{
+  border: #006aff 2px solid;
+  width: 100%;
+}
+
+.button-container button{
+  display: flex;
+  margin-top: 150px;
+
+}
+
+.faqs_blandy_list a{
+  display: flex;
+  justify-content: space-around;
+  width: 15%;
+  padding:  25px 0px;
+  border-radius: 30px;
+  text-align: center;
+  align-items: center;
+  text-decoration: none;
+  color: #000000;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+
+.faqs_blandy_list a:hover{
+  color: #000000;
 }
 
 .context_area_footer {
@@ -1206,4 +1236,94 @@ navbar .container-fluid {
 
 .footer_column {
   width: 40%;
+}
+
+.footer_yellow_bg  .context_area{
+  display: grid;
+
+}
+
+.FAQ_title{
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  font-size: 80px;
+}
+
+
+.FAQ_title h1{
+  font-size: 80px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.FAQ_section{
+  border: blue 2px solid;
+}
+
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.faq-button {
+  padding: 10px 20px;
+  border: none;
+  background-color: transparent;
+  color: #3498db;
+  cursor: pointer;
+  transition: all 0.3s;
+  border-radius: 5px;
+  font-size: 1rem;
+  flex: 1 1 auto;
+  max-width: 200px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+  font-size: 45px;
+  align-items: center;
+  justify-content: center;
+}
+.faq-button:hover {
+  opacity: 0.9;
+}
+.faq-button.active {
+  background-color: #3498db;
+  color: white;
+  border: 2px solid #3498db;
+}
+
+
+.faq-item {
+  margin-bottom: 15px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.faq-question {
+  font-weight: bold;
+  color: #fff;
+  padding: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 1.1rem;
+}
+.faq-question::after {
+  content: '\25BC';
+  float: right;
+  transform: rotate(0deg);
+  transition: transform 0.3s ease;
+}
+.faq-question.active::after {
+  transform: rotate(180deg);
+}
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out, padding 0.3s ease;
+  padding: 0 15px;
+  font-size: 1rem;
+}
+.faq-answer.show {
+  max-height: 500px;
+  padding: 15px;
 }
