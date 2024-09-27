@@ -52,6 +52,10 @@
   .elemento_grafico_L_line_curved {
     top: -250%;
   }
+
+  .title_main_answer_section  h1{
+    font-size: 70px !important;
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1500px and up) */
@@ -122,6 +126,9 @@
 
   .light_blue_bg .vantagens h1 {
     font-size: 35px !important;
+  }
+  .title_main_answer_section  h1{
+    font-size: 55px !important;
   }
 }
 
@@ -207,6 +214,15 @@
   .rec p {
     background-color: rgba(255, 255, 255, 0);
   }
+  .title_main_answer_section  h1{
+    font-size: 50px !important;
+  }
+
+  .faq-button {
+    font-size: 40px;
+    max-width: 200px;
+    justify-content: space-between;
+  }
 }
 
 /* New layout for screens smaller than 1050px */
@@ -235,6 +251,13 @@
   .father .center_blendy_img img {
     left: 35%;
     top: 25%;
+  }
+  .title_main_answer_section  h1{
+    font-size: 45px !important;
+  }
+
+  .faq-button {
+    font-size: 35px;
   }
 }
 
@@ -288,7 +311,32 @@
     width: 200% !important;
   }
 
+  .faq-button {
+    font-size: 25px;
+    justify-content: center;
+  }
 
+
+  .black_bg  .columns_about_us{
+    display: grid;
+  }
+  .black_bg  .column_about_us{
+    width: 100%;
+    font-size: 20px;
+    margin-top: 50px;
+  }
+
+  .black_bg  .context_area{
+    width: 100%;
+    top: 0;
+  }
+
+  .title_main_answer_section{
+    display: none;
+  }
+  .faq-container{
+    width: 100%;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -304,6 +352,10 @@
     transition: all 0.5s ease;
     box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
     opacity: 0;
+  }
+
+  .FAQ_title h1{
+    font-size: 50px;
   }
 
   .nav-menu.active {
@@ -447,9 +499,6 @@
     text-align: center;
   }
 
-  .vantagens{
-  }
-
   .yellow_bg .columns{
     display: flex;
   }
@@ -459,20 +508,6 @@
     width: 40%;
   }
 
-  .black_bg  .columns_about_us{
-    display: grid;
-  }
-  .black_bg  .column_about_us{
-    width: 100%;
-    font-size: 20px;
-    margin-top: 50px;
-  }
-
-  .black_bg  .context_area{
-    width: 100%;
-    font-size: 20px;
-    top: 0;
-  }
   
   .context_area_footer{
     text-align: center;
@@ -506,7 +541,18 @@
     position: static;
   }
 
+  .button-container{
+    display: grid;
+  }
 
+  .button-container button{
+  margin-top: 0;
+  width: 100%;
+  }
+
+  .faq-button{
+    max-width: 300px;
+  } 
   
   /* Reorder vantagens by applying order */
   .context_area .vantagens {
@@ -535,6 +581,16 @@
   .father .center_blendy_img img {
     left: 30%;
     top: 25%;
+  }
+
+  .black_bg .column_about_us {
+    font-size: 15px;
+  }
+
+  .about_us_title h1{
+    border: red 2px solid;
+    font-size: 35px;
+    margin-top: 50px;
   }
 }
 

@@ -1223,9 +1223,6 @@ navbar .container-fluid {
   z-index: 0;
 }
 
-.elemento_grafico_B_faqs{
-  top:-20%;
-}
 
 
 .faqs_blandy_list a:hover{
@@ -1233,7 +1230,7 @@ navbar .container-fluid {
 }
 
 .context_area_footer {
-  margin-top: 250px;
+  margin-top: 50px;
   display: flex;
 }
 
@@ -1273,7 +1270,6 @@ navbar .container-fluid {
   margin: auto;
   width: 50%;
   text-align: center;
-  font-size: 80px;
 }
 
 
@@ -1315,6 +1311,9 @@ navbar .container-fluid {
   border: 2px solid #3498db;
 }
 
+.faq-container{
+  width: 65%;
+}
 
 .faq-item {
   margin-bottom: 15px;
