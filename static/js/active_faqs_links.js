@@ -171,10 +171,9 @@ let currentColor = "#3498db"; // Initial color
 const colorMap = {
   "before-party": "#68ba7e",
   "after-party": "#1f2448",
-  focus: "#22b8c6",
-  collagen: "#eec6d5",
-  power: "#ffce01",
-  black: "#0a0a0a",
+  "focus": "#22b8c6",
+  "collagen": "#eec6d5",
+  "power": "#ffce01",
 };
 
 buttons.forEach((button) => {
@@ -200,19 +199,67 @@ buttons.forEach((button) => {
   });
 });
 
+
 function updateFAQContent(category) {
   const faqItems = faqData[category];
   let html = "";
   faqItems.forEach((item, index) => {
     const questionColor = currentColor;
+    const answerColor = getLighterColor(questionColor); // Lighter color for the answer
     html += `
     <div class="faq-item">
-        <div class="faq-question" style="border: 2px solid black; background-color: ${questionColor};" onclick="toggleAnswer(${index})">${item.question}</div>
-        <div class="faq-answer">${item.answer}</div>
+        <div class="faq-question" style="background-color: ${questionColor};" onclick="toggleAnswer(${index})">${item.question}</div>      
+        <div class="faq-answer" style="background-color: ${answerColor};">${item.answer}</div>
     </div>
 `;
   });
   faqContainer.innerHTML = html;
+}
+
+function getLighterColor(color) {
+  // Convert the color to HSL and make it lighter for the answer
+  const hsl = hexToHSL(color);
+  return `hsl(${hsl.h}, ${hsl.s}%, ${Math.min(hsl.l + 30, 100)}%)`; // Increase lightness by 30%
+}
+
+function hexToHSL(hex) {
+  // Convert hex color to HSL
+  let r = 0,
+    g = 0,
+    b = 0;
+  if (hex.length == 4) {
+    r = "0x" + hex[1] + hex[1];
+    g = "0x" + hex[2] + hex[2];
+    b = "0x" + hex[3] + hex[3];
+  } else if (hex.length == 7) {
+    r = "0x" + hex[1] + hex[2];
+    g = "0x" + hex[3] + hex[4];
+    b = "0x" + hex[5] + hex[6];
+  }
+  r /= 255;
+  g /= 255;
+  b /= 255;
+  let cmin = Math.min(r, g, b),
+    cmax = Math.max(r, g, b),
+    delta = cmax - cmin,
+    h = 0,
+    s = 0,
+    l = 0;
+
+  if (delta == 0) h = 0;
+  else if (cmax == r) h = ((g - b) / delta) % 6;
+  else if (cmax == g) h = (b - r) / delta + 2;
+  else h = (r - g) / delta + 4;
+
+  h = Math.round(h * 60);
+  if (h < 0) h += 360;
+
+  l = (cmax + cmin) / 2;
+  s = delta == 0 ? 0 : delta / (1 - Math.abs(2 * l - 1));
+  s = +(s * 100).toFixed(1);
+  l = +(l * 100).toFixed(1);
+
+  return { h, s, l };
 }
 
 function toggleAnswer(index) {

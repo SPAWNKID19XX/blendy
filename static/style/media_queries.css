@@ -263,12 +263,16 @@
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (max-width: 992px) {
+  
   .columns_white_curved_line {
     display: block;
     margin-top: 100px;
     z-index: 5;
   }
 
+  .curved_line_context_content {
+    margin-top: -55%;
+  }
   .light_blue_bg .context_area {
     position: relative;
     top: 50px;
@@ -292,6 +296,7 @@
   .right_letters_curved_line {
     display: none;
   }
+
   .girls_yellow_bg {
     position: relative;
     width: 100%;
@@ -416,6 +421,20 @@
   .father div img {
     width: 350px;
   }
+  .why_text{
+    position: static;
+    border: 2px solid red ;
+    width: 100%;
+    margin-top: -150px;
+  }
+
+  .letter {
+    display: none;
+  }
+
+  .rec {
+    margin-top: 25px;
+  }
 
   .father .left1 img {
     left: 2%;
@@ -436,6 +455,10 @@
   .father .center_blendy_img img {
     left: 33%;
     top: 25%;
+  }
+
+  .curved_line_context_content {
+    margin-top: -75%;
   }
 
   .foto_image_after_party,
@@ -588,7 +611,6 @@
   }
 
   .about_us_title h1{
-    border: red 2px solid;
     font-size: 35px;
     margin-top: 50px;
   }
