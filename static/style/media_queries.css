@@ -52,6 +52,10 @@
   .elemento_grafico_L_line_curved {
     top: -250%;
   }
+
+  .title_main_answer_section  h1{
+    font-size: 70px !important;
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1500px and up) */
@@ -122,6 +126,9 @@
 
   .light_blue_bg .vantagens h1 {
     font-size: 35px !important;
+  }
+  .title_main_answer_section  h1{
+    font-size: 55px !important;
   }
 }
 
@@ -198,7 +205,7 @@
   }
 
   .foto_person_power {
-    top: -300px;
+    bottom: 30%;
   }
 
   .foto_person_collagen {
@@ -206,6 +213,15 @@
   }
   .rec p {
     background-color: rgba(255, 255, 255, 0);
+  }
+  .title_main_answer_section  h1{
+    font-size: 50px !important;
+  }
+
+  .faq-button {
+    font-size: 40px;
+    max-width: 200px;
+    justify-content: space-between;
   }
 }
 
@@ -236,6 +252,13 @@
     left: 35%;
     top: 25%;
   }
+  .title_main_answer_section  h1{
+    font-size: 45px !important;
+  }
+
+  .faq-button {
+    font-size: 35px;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -245,10 +268,23 @@
     margin-top: 100px;
     z-index: 5;
   }
+
+  .light_blue_bg .context_area {
+    position: relative;
+    top: 50px;
+  }
   .main_columns {
     width: 100%;
   }
 
+  .elemento_grafico_E_light_blue_bg {
+
+    top: -100px;
+    right: -150px;
+  }
+  .pink_bg .table_aria h1{
+    font-size: 40px;
+  }
   .left_column .white_line_icon {
     order: -1;
   }
@@ -262,9 +298,45 @@
     margin-top: -200px;
   }
 
-  /*MOBILE VERSION*/
+  /*tablet VERSION*/
+  .bottle_img{
+    display: none;
+  }
 
-  
+  .context_area{
+    justify-content: space-between;
+  }
+
+  .foto_person_focus{
+    width: 200% !important;
+  }
+
+  .faq-button {
+    font-size: 25px;
+    justify-content: center;
+  }
+
+
+  .black_bg  .columns_about_us{
+    display: grid;
+  }
+  .black_bg  .column_about_us{
+    width: 100%;
+    font-size: 20px;
+    margin-top: 50px;
+  }
+
+  .black_bg  .context_area{
+    width: 100%;
+    top: 0;
+  }
+
+  .title_main_answer_section{
+    display: none;
+  }
+  .faq-container{
+    width: 100%;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -280,6 +352,10 @@
     transition: all 0.5s ease;
     box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
     opacity: 0;
+  }
+
+  .FAQ_title h1{
+    font-size: 50px;
   }
 
   .nav-menu.active {
@@ -361,6 +437,127 @@
     left: 33%;
     top: 25%;
   }
+
+  .foto_image_after_party,
+  .foto_image_img{
+    display: none;
+  }
+
+  .my_custom_container{
+    min-height: 700px;
+  }
+  .context_area{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .green_bg .context_area{
+    padding-bottom: 150px;
+    padding-top: 150px;
+  }
+
+  .blue_dark_bg .my_custom_container{
+    height: 800px;
+  }
+
+  .blue_dark_bg .context_area{
+    padding-bottom: 200px;
+    padding-top: 300px;
+  }
+
+  .light_blue_bg .columns{
+    display: flex;
+  }
+
+  .light_blue_bg .column{
+    width: 40%;
+  }
+
+  .light_blue_bg .context_area{
+    height: auto;
+  }
+
+  .elemento_grafico_J_light_blue_bg{
+    display: none;
+  }
+
+  .pink_bg .my_custom_container {
+    position: relative;
+    top: 0px;
+  }
+
+  .elemento_grafico_Y_pink_bg{
+    display: none;
+  }
+
+  .yellow_bg .context_area{
+    top: 0;
+  }
+
+  .yellow_bg h1{
+    text-align: center;
+  }
+
+  .yellow_bg .columns{
+    display: flex;
+  }
+
+
+  .yellow_bg .column{
+    width: 40%;
+  }
+
+  
+  .context_area_footer{
+    text-align: center;
+    display: grid;
+  }
+
+  .context_area_footer .footer_logo{
+    width: 100%;
+  }
+
+  .context_area_footer .footer_contact_title{
+    margin-top: 0;
+  }
+
+
+  .vantagens,
+  .table_aria{
+    width: 100%;
+    height: auto;
+  } 
+
+  .table_aria{
+    height: auto;
+    top: -100px;
+  } 
+  .vantagens{
+    text-align: center;
+  }
+
+  .my_custom_container{
+    position: static;
+  }
+
+  .button-container{
+    display: grid;
+  }
+
+  .button-container button{
+  margin-top: 0;
+  width: 100%;
+  }
+
+  .faq-button{
+    max-width: 300px;
+  } 
+  
+  /* Reorder vantagens by applying order */
+  .context_area .vantagens {
+    order: -1;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -384,6 +581,16 @@
   .father .center_blendy_img img {
     left: 30%;
     top: 25%;
+  }
+
+  .black_bg .column_about_us {
+    font-size: 15px;
+  }
+
+  .about_us_title h1{
+    border: red 2px solid;
+    font-size: 35px;
+    margin-top: 50px;
   }
 }
 
