@@ -42,8 +42,6 @@
   }
 
 
-}
-
 /* Extra large devices (large laptops and desktops, 1500px and up) */
 @media only screen and (max-width: 1500px) {
   .father div img {
@@ -101,6 +99,12 @@
 
   .title_main_answer_section  h1{
     font-size: 55px !important;
+  }
+
+
+  .columns_about_us{
+    position: absolute;
+    width: 100% !important;
   }
 }
 
