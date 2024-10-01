@@ -208,7 +208,7 @@ function updateFAQContent(category) {
     const answerColor = getLighterColor(questionColor); // Lighter color for the answer
     html += `
     <div class="faq-item">
-        <div class="faq-question" style="background-color: ${questionColor}; padding: 30px 25px;" onclick="toggleAnswer(${index})">${item.question}</div>      
+        <div class="faq-question" style="border: 2px solid black;background-color: ${questionColor}; padding: 30px 25px;" onclick="toggleAnswer(${index})">${item.question}</div>      
         <div class="faq-answer" style="background-color: ${answerColor};">${item.answer}</div>
     </div>
 `;
