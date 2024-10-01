@@ -286,7 +286,7 @@ body {
 .father {
   position: relative;
   width: 100%;
-  height: 100vh;
+  height: 900px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -826,10 +826,24 @@ html {
 }
 
 .yellow_bg .foto_person_container img {
-  width: 300%;
+  width: 400%;
 }
 
 /*DARk BG*/
+.my_custom_container_about_us{
+  position: relative;
+}
+
+.my_custom_container_about_us .context_area{
+  position: relative;
+  margin-top: 0px;
+}
+
+.context_aria_about_us_letters{
+  position: relative;
+}
+
+
 .black_bg {
   background-color: #000000;
   position: relative;
@@ -842,11 +856,11 @@ html {
   z-index: 1;
 }
 
-.black_bg .context_area {
+context_area_ab_us {
   font-size: 25px;
   line-height: 1.7;
   color: white;
-  position: relative;
+  position: absolute;
   top: 250px;
   display: inline-block;
 }
@@ -864,9 +878,10 @@ html {
 }
 
 .columns_about_us {
+  position: absolute;  
   display: flex;
   justify-content: space-between;
-  width: 70%;
+  width: 100%;
 }
 
 .context_aria_about_us_letters {
@@ -883,9 +898,9 @@ html {
 }
 .elemento_grafico_D_black_bg {
   position: absolute;
-  width: 20% !important;
+  width: 200px !important;
   top: -70%;
-  right: 15%;
+  right: -155%;
   z-index: 1;
 }
 
@@ -909,23 +924,16 @@ html {
 }
 
 .elemento_grafico_Y_black_bg {
-  width: 500px !important;
+  width: 300px !important;
   height: 500px;
   position: absolute;
   z-index: 0;
   top: 50px;
-  right: -350px;
+  right: -1000px;
   transform: rotate(-45grad);
 }
 
-.elemento_grafico_J_black_bg {
-  width: 300px !important;
-  height: 300px;
-  position: absolute;
-  z-index: 0;
-  top: 350px;
-  right: -150px;
-}
+
 
 .footer_yellow_bg {
   background-color: #ffd007;

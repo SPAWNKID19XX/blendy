@@ -1,7 +1,45 @@
 /* Extra large devices (large laptops and desktops, 1700px and up) */
 @media only screen and (max-width: 1700px) {
+  
+  .father .left1 img {
+    left: 7%;
+    top: 5%;
+  }
+  .father .left2 img {
+    left: 16%;
+    top: 10%;
+  }
+  
+  .father .left3 img {
+    left: 25%;
+    top: 15%;
+  }
+  
+  .father .left4 img {
+    left: 34%;
+    top: 20%;
+  }
+  
+  .father .right1 img {
+    right: 2%;
+    top: 5%;
+  }
+  .father .right2 img {
+    right: 11%;
+    top: 10%;
+  }
+  .father .right3 img {
+    right: 20%;
+    top: 15%;
+  }
+  .father .right4 img {
+    right: 29%;
+    top: 20%;
+  }
+  
   .father .center_blendy_img img {
     right: 36%;
+    top: 25%;
   }
 
   .why_text {
@@ -37,20 +75,106 @@
     top: -250%;
   }
 
-  .title_main_answer_section  h1{
-    font-size: 70px !important;
-  }
+  /*GREEN SECTION*/
 
-
-/* Extra large devices (large laptops and desktops, 1500px and up) */
-@media only screen and (max-width: 1500px) {
-  .father div img {
+  .green_bg .foto_person_container {
+    bottom: 100px;
     width: 300px;
   }
 
-  .father .center_blendy_img img {
-    right: 37%;
+  /*blue_dark_bg*/
+  .blue_dark_bg .foto_person_container {
+    bottom: 200px;
   }
+
+  /*light_blue_section*/
+  .light_blue_bg .foto_person_container {
+    bottom: 100px;
+  }
+
+  /*PINK BG*/
+
+  .pink_bg .foto_person_container {
+    bottom: 100px;
+  }
+
+  .pink_bg .foto_person_container img {
+    width: 300%;
+  }
+
+  .title_main_answer_section h1 {
+    font-size: 70px !important;
+  }
+
+  .left_bottle_section {
+    left: -50px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1500px and up) */
+@media only screen and (max-width: 1500px) {
+
+
+  .father div img {
+    width: 400px;
+  }
+
+
+  .father .left1 img {
+    left: 7%;
+    top: 5%;
+  }
+  .father .left2 img {
+    left: 16%;
+    top: 10%;
+  }
+  
+  .father .left3 img {
+    left: 25%;
+    top: 15%;
+  }
+  
+  .father .left4 img {
+    left: 34%;
+    top: 20%;
+  }
+  
+  .father .right1 img {
+    right: 2%;
+    top: 5%;
+  }
+  .father .right2 img {
+    right: 11%;
+    top: 10%;
+  }
+  .father .right3 img {
+    right: 20%;
+    top: 15%;
+  }
+  .father .right4 img {
+    right: 29%;
+    top: 20%;
+  }
+  
+  .father .center_blendy_img img {
+    right: 33%;
+    top:25%
+  }
+
+
+  .green_bg,
+  .blue_dark_bg,
+  .light_blue_bg,
+  .pink_bg,
+  .yellow_bg {
+    height: 500px !important;
+    position: relative;
+  }
+
+  .context_area {
+    margin-top: 50px;
+  }
+
 
   .girls_yellow_bg {
     position: relative;
@@ -62,7 +186,7 @@
   .vantagens h1 {
     font-size: 45px !important;
   }
-
+  /*
   .yellow_bg .columns,
   .light_blue_bg .columns {
     display: inline;
@@ -72,6 +196,7 @@
   .light_blue_bg .column {
     width: 100%;
   }
+*/
 
   .left_second_rec {
     margin-top: 0%;
@@ -93,16 +218,19 @@
     margin-top: 0;
   }
 
+  .right_bottle_section {
+    right: 150px !important;
+  }
+
   .rec p {
     background-color: rgba(255, 255, 255, 0.5);
   }
 
-  .title_main_answer_section  h1{
+  .title_main_answer_section h1 {
     font-size: 55px !important;
   }
 
-
-  .columns_about_us{
+  .columns_about_us {
     position: absolute;
     width: 100% !important;
   }
@@ -113,8 +241,36 @@
   .blendy_bg {
     top: -50px;
   }
+
+  .father div img {
+    width: 500px;
+  }
+
+
+  .father .left1 img {
+    left: 7%;
+    top: 10%;
+  }
+  .father .left2 img {
+    left: 23%;
+    top: 15%;
+  }
+  
+  .father .left3 img {
+    left: 65%;
+    top: 10%;
+  }
+  
+  .father .left4 img {
+    left: 48%;
+    top: 15%;
+  }
+ 
+  .right_blendy_img{
+    display: none;
+  }
   .father .center_blendy_img img {
-    right: 35%;
+    right: 24%;
   }
   .columns_white_curved_line {
     position: static;
@@ -143,6 +299,12 @@
     margin: auto;
     text-align: center;
   }
+
+  .my_custom_container_products {
+    width: 80%;
+    margin: auto;
+  }
+
   .girls_yellow_bg {
     position: relative;
     width: 100%;
@@ -162,40 +324,178 @@
     background-color: rgba(255, 255, 255, 0);
   }
 
-  .vantagens{
-    width: 100%;
-    height: auto;
+  .bottle_img img {
+    width: 300%;
   }
-  
-  .title_section_area{
+
+  .vantagens {
+    width: 70%;
+    height: auto;
+    text-align: center;
+  }
+
+  .title_section_area {
     display: block;
     width: 100%;
   }
 
-  .title_section_area h1{
+  .title_section_area h1 {
     font-size: 80px !important;
   }
 
-  .vantagens_h1{
+  .vantagens_h1 {
     font-size: 40px !important;
     text-align: center;
     margin-top: 50px;
   }
-  
-  
-  .table_aria{
+
+  .table_aria {
     display: none;
   }
 
-  
-  .title_main_answer_section  h1{
+  .blue_dark_bg .foto_person_container {
+    bottom: 150px;
+  }
+
+  .blue_dark_bg .foto_person_container img {
+    width: 500px;
+  }
+
+  .light_blue_bg .foto_person_container {
+    bottom: 150px;
+  }
+
+  .light_blue_bg .foto_person_container img {
+    width: 500px;
+  }
+
+  .pink_bg .foto_person_container {
+    bottom: 50px;
+  }
+
+  .pink_bg .foto_person_container img {
+    width: 500px;
+  }
+
+  .yellow_bg .foto_person_container {
+    bottom: 50px;
+  }
+
+  .yellow_bg .foto_person_container img {
+    width: 500% !important;
+  }
+
+  .columns_about_us {
+    display: block;
+  }
+
+  .column_about_us {
+    width: 100%;
+    margin-top: 50px;
+  }
+
+  .context_area_ab_us {
+    width: 90% !important;
+    top: 50px;
+  }
+
+  .elemento_grafico_B_black_bg {
+    width: 300px !important;
+    height: 300px;
+    position: absolute;
+    z-index: 0;
+    top: 350px;
+    right: -500px;
+    transform: rotate(90grad);
+  }
+
+  .title_main_answer_section h1 {
     font-size: 50px !important;
   }
-  
+
   .faq-button {
     font-size: 40px;
-    max-width: 200px;
+    max-width: 300px;
     justify-content: space-between;
   }
 }
 
+
+@media only screen and (max-width: 1050px){
+
+
+  .father .center_blendy_img img {
+    right: 20%;
+  }
+
+}
+
+
+@media only screen and (max-width: 992px) {
+
+  .father .center_blendy_img img {
+    right: 18%;
+  }
+  .green_bg .foto_person_container {
+    right: 50px;
+  }
+
+  .pink_bg .foto_person_container {
+    bottom: 0px;
+    left: -100px;
+  }
+
+  .pink_bg .foto_person_container img {
+    width: 400px;
+  }
+
+  .green_bg .context_area,
+  .light_blue_bg .context_area {
+    margin-top: 0px;
+  }
+
+  .green_bg .vantagens h1 .light_blue_bg .vantagens h1 {
+    font-size: 20px !important;
+  }
+
+  .light_blue_bg .vantagens h1 {
+    font-size: 40px !important;
+  }
+
+  .yellow_bg .foto_person_container {
+    bottom: 200px;
+    right: -200px;
+  }
+
+  .yellow_bg .foto_person_container img {
+    width: 800px !important;
+  }
+
+  .FAQ_section .button-container {
+    display: grid;
+  }
+
+  .FAQ_section .faq-button {
+    margin: 0;
+    padding: 0px 0px;
+    text-align: center;
+
+    justify-content: center;
+  }
+
+}
+
+@media only screen and (max-width: 768px) {
+  .green_bg .bottle_img img {
+    width: 700%;
+  }
+
+  .bottle_img img {
+    width: 500%;
+  }
+
+  .left_bottle_section {
+    border: green 2px solid;
+    left: -150px;
+  }
+}
