@@ -706,7 +706,6 @@ html {
 
 .context_area {
   margin-top: 150px;
-
   width: 70% !important;
   display: flex;
   position: relative;
@@ -715,18 +714,19 @@ html {
 
 .table_aria {
   width: 50%;
-}
-
-.vantagens {
-  width: 50%;
+  position: relative;
+  z-index: 1;
 }
 
 .foto_person_container {
   width: 15%;
+  position: relative;
 }
 
 .foto_person_container img {
   width: 250%;
+  position: relative;
+  z-index: 0;
 }
 
 .columns {
@@ -757,15 +757,21 @@ html {
 .vantagens {
   width: 50%;
   height: auto;
+  position: relative;
+  z-index: 1;
+
 }
 
 .vantagens h1 {
   font-size: 50px;
   font-weight: bold;
-  position: relative;
-  z-index: 0;
   font-optical-sizing: auto;
   font-style: normal;
+
+  position: relative;
+  z-index: 1;
+  font-size: 50px;
+  font-weight: bold;
 }
 
 /*GREEN SECTION*/
@@ -777,16 +783,39 @@ html {
 
 .green_bg .foto_person_container {
   bottom: 100px;
+  
+}
+
+.elemento_grafico_B_green_bg{
+  position: absolute;
+  width: 400px;
+  top: -250px;
+  z-index: -1;
+}
+.elemento_grafico_E_green_bg{
+  position: relative;
+  width: 200px;
+  top: 100px;
+  left: -500px;
+  z-index: -1;
 }
 
 /*blue_dark_bg*/
 .blue_dark_bg {
   background-color: #18204a;
+  position: relative;
   color: white;
 }
 
 .blue_dark_bg .foto_person_container {
   bottom: 300px;
+}
+
+.elemento_grafico_E_blue_dark_bg{
+  position: relative;
+  width: 350px;
+  top: -100px;
+  z-index: -1;
 }
 
 /*light_blue_section*/
@@ -800,6 +829,35 @@ html {
   bottom: 100px;
 }
 
+.elemento_grafico_J_light_blue_bg,
+.elemento_grafico_E_light_blue_bg,
+.elemento_grafico_D_light_blue_bg {
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  opacity: 0.5; 
+}
+
+.elemento_grafico_J_light_blue_bg {
+  top: 150px; 
+  left: -500px;
+  width: 350px;
+}
+
+.elemento_grafico_E_light_blue_bg {
+  top:  -200px !important; 
+  left: -150px;
+  width: 300px;
+
+}
+
+.elemento_grafico_D_light_blue_bg {
+  top: 50px; 
+  left: 100px;
+  width: 500px;
+}
+
 /*PINK BG*/
 .pink_bg {
   background-color: #eec7d6;
@@ -811,6 +869,27 @@ html {
   bottom: 50px;
 }
 
+
+.elemento_grafico_D_pink_bg{
+  position: absolute;
+  width: 350px;
+  right: -500px;
+  top: -150px;
+}
+
+.elemento_grafico_Y_pink_bg{
+  position: absolute;
+  width: 350px;
+  left: 250px;
+  top: -150px;
+}
+
+.elemento_grafico_B_pink_bg{
+  position: absolute;
+  width: 350px;
+  left: 500px;
+  bottom: 150px;
+}
 /* yellow BG POWER*/
 
 .yellow_bg {
@@ -829,6 +908,31 @@ html {
   width: 400%;
 }
 
+.elemento_grafico_D_yellow_bg{
+  position: absolute;
+  width: 250px;
+  top:-150px;
+  left: -500px;
+  z-index: -1;
+  opacity: 0.8; 
+}
+
+.elemento_grafico_Y_yellow_bg{
+  position: absolute;
+  width: 250px;
+  top: 150px;
+  left: -500px;
+}
+
+.elemento_grafico_J_yellow_bg{
+  position: absolute;
+  width: 250px;
+}
+
+.elemento_grafico_L_yellow_bg{
+  position: absolute;
+  width: 350px;
+}
 /*DARk BG*/
 .my_custom_container_about_us{
   position: relative;
@@ -856,7 +960,7 @@ html {
   z-index: 1;
 }
 
-context_area_ab_us {
+.context_area_ab_us {
   font-size: 25px;
   line-height: 1.7;
   color: white;
