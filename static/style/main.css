@@ -1,6 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 :root {
   --color-bg: #ffffff;
   --color-text: #333333;
@@ -17,8 +16,97 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
-  background-color: rgb(238, 238, 27);
+  font-family: "Poppins", sans-serif;
+  background-color: #f5f5f5;
+  line-height: 1.6;
+}
+
+nav {
+  background-color: var(--color-bg);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: var(--nav-height);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  display: block;
+  margin-top: 10px;
+  height: auto;
+  max-width: 100%;
+  max-height: 60px;
+}
+
+.logo:hover {
+  color: var(--color-accent);
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+
+.nav-links li {
+  position: relative;
+}
+
+.nav-links a {
+  color: var(--color-text);
+  text-decoration: none;
+  font-weight: 500;
+  padding: 10px 15px;
+  transition: var(--transition);
+}
+
+.nav-links a:hover {
+  color: var(--color-accent);
+  background-color: var(--color-hover);
+  border-radius: 5px;
+}
+
+.nav-links a::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background-color: var(--color-accent);
+  transition: var(--transition);
+  transform: translateX(-50%);
+}
+
+.nav-links a:hover::after {
+  width: 100%;
+}
+
+.burger {
+  display: none;
+  cursor: pointer;
+}
+
+.burger div {
+  width: 25px;
+  height: 3px;
+  background-color: var(--color-text);
+  margin: 5px;
+  transition: var(--transition);
 }
 
 /* Navbar Styles */
@@ -655,7 +743,7 @@ html {
   position: relative;
 }
 
-.title_section_area{
+.title_section_area {
   text-align: center;
 }
 
@@ -759,7 +847,6 @@ html {
   height: auto;
   position: relative;
   z-index: 1;
-
 }
 
 .vantagens h1 {
@@ -783,16 +870,15 @@ html {
 
 .green_bg .foto_person_container {
   bottom: 100px;
-  
 }
 
-.elemento_grafico_B_green_bg{
+.elemento_grafico_B_green_bg {
   position: absolute;
   width: 400px;
   top: -250px;
   z-index: -1;
 }
-.elemento_grafico_E_green_bg{
+.elemento_grafico_E_green_bg {
   position: relative;
   width: 200px;
   top: 100px;
@@ -811,7 +897,7 @@ html {
   bottom: 300px;
 }
 
-.elemento_grafico_E_blue_dark_bg{
+.elemento_grafico_E_blue_dark_bg {
   position: relative;
   width: 350px;
   top: -100px;
@@ -836,24 +922,23 @@ html {
   z-index: 0;
   top: 0;
   left: 0;
-  opacity: 0.5; 
+  opacity: 0.5;
 }
 
 .elemento_grafico_J_light_blue_bg {
-  top: 150px; 
+  top: 150px;
   left: -500px;
   width: 350px;
 }
 
 .elemento_grafico_E_light_blue_bg {
-  top:  -200px !important; 
+  top: -200px !important;
   left: -150px;
   width: 300px;
-
 }
 
 .elemento_grafico_D_light_blue_bg {
-  top: 50px; 
+  top: 50px;
   left: 100px;
   width: 500px;
 }
@@ -869,22 +954,21 @@ html {
   bottom: 50px;
 }
 
-
-.elemento_grafico_D_pink_bg{
+.elemento_grafico_D_pink_bg {
   position: absolute;
   width: 350px;
   right: -500px;
   top: -150px;
 }
 
-.elemento_grafico_Y_pink_bg{
+.elemento_grafico_Y_pink_bg {
   position: absolute;
   width: 350px;
   left: 250px;
   top: -150px;
 }
 
-.elemento_grafico_B_pink_bg{
+.elemento_grafico_B_pink_bg {
   position: absolute;
   width: 350px;
   left: 500px;
@@ -908,45 +992,44 @@ html {
   width: 400%;
 }
 
-.elemento_grafico_D_yellow_bg{
+.elemento_grafico_D_yellow_bg {
   position: absolute;
   width: 250px;
-  top:-150px;
+  top: -150px;
   left: -500px;
   z-index: -1;
-  opacity: 0.8; 
+  opacity: 0.8;
 }
 
-.elemento_grafico_Y_yellow_bg{
+.elemento_grafico_Y_yellow_bg {
   position: absolute;
   width: 250px;
   top: 150px;
   left: -500px;
 }
 
-.elemento_grafico_J_yellow_bg{
+.elemento_grafico_J_yellow_bg {
   position: absolute;
   width: 250px;
 }
 
-.elemento_grafico_L_yellow_bg{
+.elemento_grafico_L_yellow_bg {
   position: absolute;
   width: 350px;
 }
 /*DARk BG*/
-.my_custom_container_about_us{
+.my_custom_container_about_us {
   position: relative;
 }
 
-.my_custom_container_about_us .context_area{
+.my_custom_container_about_us .context_area {
   position: relative;
   margin-top: 0px;
 }
 
-.context_aria_about_us_letters{
+.context_aria_about_us_letters {
   position: relative;
 }
-
 
 .black_bg {
   background-color: #000000;
@@ -982,7 +1065,7 @@ html {
 }
 
 .columns_about_us {
-  position: absolute;  
+  position: absolute;
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -1036,8 +1119,6 @@ html {
   right: -1000px;
   transform: rotate(-45grad);
 }
-
-
 
 .footer_yellow_bg {
   background-color: #ffd007;

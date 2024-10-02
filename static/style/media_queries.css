@@ -269,6 +269,8 @@
   .right_blendy_img{
     display: none;
   }
+
+
   .father .center_blendy_img img {
     right: 24%;
   }
@@ -418,8 +420,14 @@
     max-width: 300px;
     justify-content: space-between;
   }
-}
 
+  .elemento_grafico_B_green_bg{
+    top: 100px !important;
+    left: 50px;
+    width: 300px;
+  }
+
+}
 
 @media only screen and (max-width: 1050px){
 
@@ -429,7 +437,6 @@
   }
 
 }
-
 
 @media only screen and (max-width: 992px) {
 
@@ -486,6 +493,61 @@
 }
 
 @media only screen and (max-width: 768px) {
+  .nav-links {
+    position: fixed;
+    right: -100%;
+    top: var(--nav-height);
+    height: calc(100vh - var(--nav-height));
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--color-bg);
+    transition: var(--transition);
+    overflow-y: auto;
+  }
+
+  .nav-links li {
+    opacity: 0;
+    margin: 20px 0;
+  }
+
+  .burger {
+    display: block;
+  }
+
+  .nav-active {
+    right: 0;
+  }
+
+  .toggle .line1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+  }
+
+  .toggle .line2 {
+    opacity: 0;
+  }
+
+  .toggle .line3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+  }
+}
+
+@keyframes navLinkFade {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+
+
+
+
+
   .green_bg .bottle_img img {
     width: 700%;
   }
@@ -498,4 +560,88 @@
     border: green 2px solid;
     left: -150px;
   }
+  .left1 img{
+    left: -70px !important;
+  }
+
+  .left2 img{
+    left: 75px !important;
+  }
+
+  .center_blendy_img img{
+    left: 225px !important;
+  }
+
+  .columns_white_curved_line{
+    margin-top: 150px;
+  }
+
+  .elemento_grafico_L_yellow_bg{
+    top:-150px;
+    left: -100px;
+  }
+
+  .title_main_answer_section{
+    display: none;
+  }
+
+  .FAQ_title h1 {
+    font-size: 60px;
+  }
+
+  .context_area_footer{
+    display: grid;
+  }
+
+  .footer_logo{
+    width: 100%;
+  }
+
+  .footer_yellow_bg{
+    height: auto;
+  }
+
+  .footer_contact_title{
+    text-align: center;
+    margin-top: 0px;
+  }
+
+  .columns_about_us{
+    width: 90% !important; 
+    margin: 0 auto !important;
+    margin-bottom: 100px;
+    text-align: center;
+  }
+
+  .context_area_ab_us {
+    width: 100% !important;
+  }
+
+
+  .foto_person_before_party{
+    bottom: -50px;
+    width: 500% !important;
+    right: 200px;  
+  }
+
+  .bottle_img{
+    display: none;
+  }
+  .context_aria_about_us{
+    margin: auto;
+  }
+  .footer_column_contacts{
+    display: flex;
+    justify-content: space-around;
+  }
 }
+
+
+@media only screen and (max-width: 600px) {
+  
+}
+
+
+
+
+
