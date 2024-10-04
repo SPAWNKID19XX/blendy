@@ -169,9 +169,9 @@ let currentColor = "#3498db"; // Initial color
 
 // Color map for each category
 const colorMap = {
-  "before-party": "#68ba7e",
-  "after-party": "#1f2448",
-  "focus": "#22b8c6",
+  "before-party": "#68BA7E",
+  "after-party": "#1F2448",
+  "focus": "#2288C6",
   "collagen": "#eec6d5",
   "power": "#ffce01",
 };

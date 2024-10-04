@@ -1,6 +1,5 @@
 /* Extra large devices (large laptops and desktops, 1700px and up) */
 @media only screen and (max-width: 1700px) {
-  
   .father .left1 img {
     left: 7%;
     top: 5%;
@@ -9,17 +8,17 @@
     left: 16%;
     top: 10%;
   }
-  
+
   .father .left3 img {
     left: 25%;
     top: 15%;
   }
-  
+
   .father .left4 img {
     left: 34%;
     top: 20%;
   }
-  
+
   .father .right1 img {
     right: 2%;
     top: 5%;
@@ -36,7 +35,7 @@
     right: 29%;
     top: 20%;
   }
-  
+
   .father .center_blendy_img img {
     right: 36%;
     top: 25%;
@@ -113,12 +112,9 @@
 
 /* Extra large devices (large laptops and desktops, 1500px and up) */
 @media only screen and (max-width: 1500px) {
-
-
   .father div img {
     width: 400px;
   }
-
 
   .father .left1 img {
     left: 7%;
@@ -128,17 +124,17 @@
     left: 16%;
     top: 10%;
   }
-  
+
   .father .left3 img {
     left: 25%;
     top: 15%;
   }
-  
+
   .father .left4 img {
     left: 34%;
     top: 20%;
   }
-  
+
   .father .right1 img {
     right: 2%;
     top: 5%;
@@ -155,12 +151,11 @@
     right: 29%;
     top: 20%;
   }
-  
+
   .father .center_blendy_img img {
     right: 33%;
-    top:25%
+    top: 25%;
   }
-
 
   .green_bg,
   .blue_dark_bg,
@@ -174,7 +169,6 @@
   .context_area {
     margin-top: 50px;
   }
-
 
   .girls_yellow_bg {
     position: relative;
@@ -246,7 +240,6 @@
     width: 500px;
   }
 
-
   .father .left1 img {
     left: 7%;
     top: 10%;
@@ -255,20 +248,21 @@
     left: 23%;
     top: 15%;
   }
-  
+
   .father .left3 img {
     left: 65%;
     top: 10%;
   }
-  
+
   .father .left4 img {
     left: 48%;
     top: 15%;
   }
- 
-  .right_blendy_img{
+
+  .right_blendy_img {
     display: none;
   }
+
   .father .center_blendy_img img {
     right: 24%;
   }
@@ -418,21 +412,21 @@
     max-width: 300px;
     justify-content: space-between;
   }
+
+  .elemento_grafico_B_green_bg {
+    top: 100px !important;
+    left: 50px;
+    width: 300px;
+  }
 }
 
-
-@media only screen and (max-width: 1050px){
-
-
+@media only screen and (max-width: 1050px) {
   .father .center_blendy_img img {
     right: 20%;
   }
-
 }
 
-
 @media only screen and (max-width: 992px) {
-
   .father .center_blendy_img img {
     right: 18%;
   }
@@ -473,29 +467,271 @@
 
   .FAQ_section .button-container {
     display: grid;
+    margin-top: 25px;
   }
 
   .FAQ_section .faq-button {
-    margin: 0;
+    margin: 0px;
     padding: 0px 0px;
     text-align: center;
 
     justify-content: center;
   }
-
 }
 
 @media only screen and (max-width: 768px) {
-  .green_bg .bottle_img img {
-    width: 700%;
+  .nav-links {
+    position: fixed;
+    right: -100%;
+    top: var(--nav-height);
+    height: calc(100vh - var(--nav-height));
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--color-bg);
+    transition: var(--transition);
+    overflow-y: auto;
   }
 
-  .bottle_img img {
-    width: 500%;
+  .nav-links li {
+    opacity: 0;
+    margin: 20px 0;
   }
 
-  .left_bottle_section {
-    border: green 2px solid;
-    left: -150px;
+  .burger {
+    display: block;
+  }
+
+  .nav-active {
+    right: 0;
+  }
+
+  .toggle .line1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+  }
+
+  .toggle .line2 {
+    opacity: 0;
+  }
+
+  .toggle .line3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+  }
+
+  @keyframes navLinkFade {
+    from {
+      opacity: 0;
+      transform: translateX(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  .father {
+    display: none;
+  }
+  
+  .elemento_grafico_Y_slider_bottels,
+  .elemento_grafico_B_slider_bottels{
+    position: absolute;
+    
+  }
+
+  .elemento_grafico_Y_slider_bottels{
+    width: 450px;
+    bottom:100px;
+    transform: rotate(90grad);
+  }
+
+  .elemento_grafico_B_slider_bottels{
+    bottom:200px;
+    width: 250px;
+    transform: rotate(90grad);
+    right: 0;
+  }
+
+  .product-slider {
+    max-width: 100%;
+    overflow: hidden;
+    position: relative;
+    padding: 40px 0;
+    display: block; /* Default visibility for mobile */
+  }
+
+  .slider-container {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+
+  .slide {
+    flex: 0 0 60%;
+    max-width: 50%;
+    transition: all 0.5s ease;
+    opacity: 0.7;
+    transform: scale(0.8);
+  }
+
+  .slide.active {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  .slide img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  .desktop-message {
+    display: none; /* Hidden by default */
+  }
+
+  .elemento_grafico_Y {
+    display: none;
+  }
+
+  .elemento_grafico_E {
+    display: none;
+  }
+
+  .elemento_grafico_L {
+    display: none;
+  }
+
+  .curved_line_context_content {
+    margin-top: 100px;
+  }
+
+  .left_first_rec{
+    margin-top: 150px;
+  }
+
+  .columns_white_curved_line {
+    margin-top: 150px;
+    display: grid;
+  }
+
+  .main_columns {
+    width: 95%;
+  }
+
+  .left_column .left__recs__line .white_line_icon {
+    order: -1;
+  }
+
+  .elemento_grafico_L_yellow_bg {
+    top: -50px;
+    left: -50px;
+    opacity: 100%;
+    width: 300px;
+    z-index: -1;
+  }
+
+  .elemento_grafico_L_line_curved {
+    display: none;
+  }
+
+  .title_main_answer_section {
+    display: none;
+  }
+
+  .FAQ_title h1 {
+    font-size: 60px;
+  }
+
+  .context_area_footer {
+    display: grid;
+  }
+
+  .footer_logo {
+    width: 100%;
+  }
+
+  .footer_yellow_bg {
+    height: auto;
+  }
+
+  .green_bg .foto_person_container img {
+    width: 500px !important;
+    right: 0;
+  }
+
+  .pink_bg .my_custom_container_products,
+  .blue_dark_bg .my_custom_container_products {
+    width: 110% !important;
+  }
+
+  .pink_bg .context_area,
+  .blue_dark_bg .context_area {
+    width: 1100%;
+  }
+
+
+
+  .pink_bg .vantagens,
+  .blue_dark_bg .vantagens {
+    width: 100% !important;
+    float: right !important;
+  }
+
+  .light_blue_bg .foto_person_container{
+    right: 100px;
+  }
+
+  .light_blue_bg .context_area{
+    width: 100%;
+  }
+
+  .light_blue_bg .vantagens{
+    width: 100%;
+  }
+
+  .elemento_grafico_E_blue_dark_bg{
+    opacity: 50%;
+  }
+
+  .elemento_grafico_E_light_blue_bg{
+    display: none;
+  }
+
+  .footer_contact_title {
+    text-align: center;
+    margin-top: 0px;
+  }
+
+  .columns_about_us {
+    width: 90% !important;
+    margin: 0 auto !important;
+    margin-bottom: 100px;
+    text-align: center;
+  }
+
+  .context_area_ab_us {
+    width: 100% !important;
+  }
+
+  .foto_person_before_party {
+    bottom: -50px;
+    width: 500% !important;
+    right: 200px;
+  }
+
+  .bottle_img {
+    display: none;
+  }
+  .context_aria_about_us {
+    margin: auto;
+  }
+  .footer_column_contacts {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .elemento_grafico_E_blue_dark_bg{
+    display: none;
   }
 }

@@ -19,22 +19,24 @@
     />
   </head>
   <body>
-    <nav class="navbar fixed-top">
-      <div class="navbar-container">
-        <div class="logo">
+    <nav>
+      <div class="nav-container">
+        <a href="#" class="logo">
           <img src="/static/img/logo/Blendy-logo-biale.png" alt="Blendy Logo" />
-        </div>
-        <div class="menu-toggle" id="mobile-menu">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
-        </div>
-        <ul class="nav-menu">
-          <li><a href="#why-blendy">Why Blendy</a></li>
-          <li><a href="#our-products">Our Products</a></li>
-          <li><a href="#about-us">About Us</a></li>
-          <li><a href="#footer_contact_title">Contact</a></li>
+        </a>
+
+        <ul class="nav-links">
+          <li><a href="#">Why Blendy?</a></li>
+          <li><a href="#">Our products</a></li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Contact</a></li>
         </ul>
+
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
       </div>
     </nav>
 
@@ -99,6 +101,57 @@
               src="/static/img/bottles/Blendy-100ml-wizualizacja-FS-Power-v1-2024-09-19.png"
               alt="Power"
             />
+          </div>
+        </div>
+        <div class="product-slider">
+          <img
+            src="./static/img/background_letters/Blendy-elementgraficzny-2-b.png"
+            alt=""
+            class="elemento_grafico_Y_slider_bottels"
+          />
+          <img
+            src="./static/img/background_letters/Blendy-elementgraficzny-1-b.png"
+            alt=""
+            class="elemento_grafico_B_slider_bottels"
+          />
+          <div class="slider-container">
+            <div class="slide">
+              <img
+                src="./static/img/bottles/before_party_centred.png"
+                alt="Blendy 1"
+                style="display: none"
+              />
+            </div>
+            <div class="slide">
+              <img
+                src="./static/img/bottles/before_party_centred.png"
+                alt="Blendy 1"
+              />
+            </div>
+            <div class="slide">
+              <img
+                src="./static/img/bottles/after_party_centred.png"
+                alt="Blendy 2"
+              />
+            </div>
+            <div class="slide">
+              <img
+                src="./static/img/bottles/focus_centred.png"
+                alt="Blendy 3"
+              />
+            </div>
+            <div class="slide">
+              <img
+                src="./static/img/bottles/collagen_centred.png"
+                alt="Blendy 4"
+              />
+            </div>
+            <div class="slide">
+              <img
+                src="./static/img/bottles/power_centred.png"
+                alt="Blendy 5"
+              />
+            </div>
           </div>
         </div>
       </div>
@@ -443,11 +496,6 @@
               <span class="black_color_white_bg">NEGATIVE</span> EFFECTS OF
               <span class="black_color_white_bg">ALCOHOL CONSUMPTION</span>
             </h1>
-            <img
-              src="/static/img/background_letters/Blendy-elementgraficzny-5-b.png"
-              alt="E"
-              class="elemento_grafico_E_blue_dark_bg"
-            />
           </div>
           <div class="table_aria">
             <div class="title_section_area">
@@ -618,11 +666,6 @@
           </div>
           <div class="vantagens">
             <img
-              src="/static/img/background_letters/Blendy-elementgraficzny-0-b.png"
-              alt="E"
-              class="elemento_grafico_J_light_blue_bg"
-            />
-            <img
               src="/static/img/background_letters/Blendy-elementgraficzny-5-b.png"
               alt="E"
               class="elemento_grafico_E_light_blue_bg"
@@ -680,11 +723,7 @@
               alt="E"
               class="elemento_grafico_D_pink_bg"
             />
-            <img
-              src="/static/img/background_letters/Blendy-elementgraficzny-2-b.png"
-              alt="E"
-              class="elemento_grafico_Y_pink_bg"
-            />
+
             <img
               src="/static/img/background_letters/Blendy-elementgraficzny-1-b.png"
               alt="E"
@@ -843,7 +882,10 @@
               class="elemento_grafico_L_yellow_bg"
             />
             <h1>
-              BOOSTS THE <span class="white_color_dark_bg">ENERGY</span> LEVELS
+              BOOSTS THE
+              <span class="white_color_dark_bg">ENERGY</span> LEVELS. UNLOCK THE
+              <span class="white_color_dark_bg">POWER</span> TO TAKE ON ANY
+              CHALLENGE.
             </h1>
           </div>
         </div>
@@ -1026,12 +1068,16 @@
         </div>
       </div>
     </div>
+    <!--Bootstrap-->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
       crossorigin="anonymous"
     ></script>
+
+    <script src="./static/js/top_slider_mobile_version.js"></script>
     <script src="./static/js/script.js"></script>
+    <!--FAQ script-->
     <script src="./static/js/active_faqs_links.js"></script>
   </body>
 </html>
