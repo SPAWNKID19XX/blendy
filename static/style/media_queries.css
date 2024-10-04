@@ -760,7 +760,15 @@
   }
 
   .vantagens {
-    width: 100% !important;
+    width: 85% !important;
+  }
+
+  .blue_dark_bg .vantagens{
+    right: 50px;
+  }
+
+  .yellow_bg .vantagens{ 
+    left: 30px;
   }
 
   .vantagens h1 {
