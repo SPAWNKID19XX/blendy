@@ -728,6 +728,21 @@
   .yellow_top_bg_section {
     margin-bottom: 250px;
   }
+
+  .yellow_bg .vantagens {
+    margin-top: 0px;
+
+  }
+
+  .yellow_bg .vantagens h1{
+    font-size: 35px !important;
+    
+  }
+  .black_arrow{
+    position: relative;
+    left: 35%;
+    width: 25%;
+  }
 }
 
 @media only screen and (max-width: 500px) {
@@ -833,5 +848,9 @@
     font-size: 20px;
     line-height: 1.7;
     color: white;
+  }
+
+  .footer_yellow_bg .FAQ_title{
+    width: 90%; 
   }
 }
