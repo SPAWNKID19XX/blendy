@@ -19,6 +19,9 @@ body {
   font-family: "Poppins", sans-serif;
   background-color: #f5f5f5;
   line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
 }
 
 nav {
@@ -371,6 +374,18 @@ nav {
 /*FINISH WAVES*/
 
 /* Main Content Styles */
+.elemento_grafico_Y_slider_bottles{
+display: none;}
+
+.elemento_grafico_B_slider_bottles{
+display: none;
+}
+
+
+.product-slider{
+  display: none;
+}
+
 .father {
   position: relative;
   width: 100%;
@@ -536,6 +551,7 @@ html {
   right: -5%;
   top: -5%;
   width: 25%;
+  z-index: 0;
 }
 
 .elemento_grafico_E {
@@ -956,9 +972,10 @@ html {
 
 .elemento_grafico_D_pink_bg {
   position: absolute;
+  opacity: 75;
   width: 350px;
-  right: -500px;
-  top: -150px;
+  right: 00px;
+  top: 50px;
 }
 
 .elemento_grafico_Y_pink_bg {
@@ -973,6 +990,7 @@ html {
   width: 350px;
   left: 500px;
   bottom: 150px;
+  opacity: 0.5;
 }
 /* yellow BG POWER*/
 
@@ -1041,6 +1059,7 @@ html {
   font-size: 100px;
   position: relative;
   z-index: 1;
+  text-align: center;
 }
 
 .context_area_ab_us {
@@ -1050,12 +1069,14 @@ html {
   position: absolute;
   top: 250px;
   display: inline-block;
+  width: 100%;
 }
 
 .column_about_us {
   width: 30%;
   position: relative;
   z-index: 2;
+
 }
 
 .context_aria_about_us {
@@ -1067,9 +1088,10 @@ html {
 .columns_about_us {
   position: absolute;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   width: 100%;
 }
+
 
 .context_aria_about_us_letters {
   width: 30%;
