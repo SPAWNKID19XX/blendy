@@ -44,3 +44,4 @@ setInterval(nextSlide, 3000); // Change slide every 3 seconds
 
 window.addEventListener("resize", () => updateSlider(true));
 updateSlider(true); // Initial setup
+
