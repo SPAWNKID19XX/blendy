@@ -723,6 +723,36 @@ html {
   z-index: -1;
 }
 
+.elemento_grafico_D_ybg,
+.elemento_grafico_E_ybg
+{
+  position: absolute;
+  width: 300px;
+  z-index: -1;
+  display: none;
+}
+.elemento_grafico_B_ybg{
+  position: absolute;
+  width: 300px;
+  z-index: -1;
+  left: 0;
+
+}
+
+.elemento_grafico_D_ybg{
+  left: 0;
+}
+
+
+.elemento_grafico_E_ybg{
+  left: 250px;
+}
+.elemento_grafico_B_ybg{
+  position: absolute;
+  width: 300px;
+  z-index: -1;
+}
+
 .right_first_rec {
   position: relative;
 }
@@ -907,6 +937,14 @@ html {
   background-color: #18204a;
   position: relative;
   color: white;
+}
+
+.elemento_grafico_B_after_party{
+  width: 300px;
+  position: absolute;
+  top: 50px;
+  left: 250px;
+  opacity: 0.7;
 }
 
 .blue_dark_bg .foto_person_container {

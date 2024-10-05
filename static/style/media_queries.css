@@ -480,6 +480,12 @@
 }
 
 @media only screen and (max-width: 768px) {
+  .elemento_grafico_D_ybg,
+.elemento_grafico_E_ybg
+{
+  display: block;
+}
+
   .nav-links {
     position: fixed;
     right: -100%;
