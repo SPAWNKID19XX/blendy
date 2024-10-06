@@ -867,4 +867,13 @@
   .footer_yellow_bg .FAQ_title{
     width: 90%; 
   }
+
+  .yellow_bg .vantagens h1 {
+    font-size: 30px !important;
+  }
+
+  .context_area_ab_us {
+    font-size: 18px;
+  }
+
 }
