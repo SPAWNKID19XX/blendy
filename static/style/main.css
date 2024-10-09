@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
+/*
+font-family: "scale-variable",sans-serif;
+  font-variation-settings: 'wdth' 100, 'wght' 400;
+
+*/
+
 :root {
   --color-bg: #ffffff;
   --color-text: #333333;
@@ -31,6 +37,7 @@ nav {
   width: 100%;
   top: 0;
   z-index: 1000;
+  align-content: center;
 }
 
 .nav-container {
@@ -63,6 +70,8 @@ nav {
 .nav-links {
   display: flex;
   list-style: none;
+  align-content: center;
+  margin-bottom: 0;
 }
 
 .nav-links li {
@@ -70,6 +79,8 @@ nav {
 }
 
 .nav-links a {
+  font-family: "scale-variable", sans-serif;
+  font-variation-settings: "wdth" 100, "wght" 400;
   color: var(--color-text);
   text-decoration: none;
   font-weight: 500;
@@ -134,7 +145,6 @@ nav {
 }
 
 .logo img {
-  height: 80px;
 }
 
 .nav-menu {
@@ -374,15 +384,15 @@ nav {
 /*FINISH WAVES*/
 
 /* Main Content Styles */
-.elemento_grafico_Y_slider_bottles{
-display: none;}
-
-.elemento_grafico_B_slider_bottles{
-display: none;
+.elemento_grafico_Y_slider_bottles {
+  display: none;
 }
 
+.elemento_grafico_B_slider_bottles {
+  display: none;
+}
 
-.product-slider{
+.product-slider {
   display: none;
 }
 
@@ -723,30 +733,27 @@ html {
 }
 
 .elemento_grafico_D_ybg,
-.elemento_grafico_E_ybg
-{
+.elemento_grafico_E_ybg {
   position: absolute;
   width: 300px;
   z-index: -1;
   display: none;
 }
-.elemento_grafico_B_ybg{
+.elemento_grafico_B_ybg {
   position: absolute;
   width: 300px;
   z-index: -1;
   left: 0;
-
 }
 
-.elemento_grafico_D_ybg{
+.elemento_grafico_D_ybg {
   left: 0;
 }
 
-
-.elemento_grafico_E_ybg{
+.elemento_grafico_E_ybg {
   left: 250px;
 }
-.elemento_grafico_B_ybg{
+.elemento_grafico_B_ybg {
   position: absolute;
   width: 300px;
   z-index: -1;
@@ -938,7 +945,7 @@ html {
   color: white;
 }
 
-.elemento_grafico_B_after_party{
+.elemento_grafico_B_after_party {
   width: 300px;
   position: absolute;
   top: 50px;
@@ -1113,7 +1120,6 @@ html {
   width: 30%;
   position: relative;
   z-index: 2;
-
 }
 
 .context_aria_about_us {
@@ -1128,7 +1134,6 @@ html {
   justify-content: space-around;
   width: 100%;
 }
-
 
 .context_aria_about_us_letters {
   width: 30%;
