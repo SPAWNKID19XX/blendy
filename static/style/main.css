@@ -406,7 +406,6 @@ nav {
   justify-content: center;
   align-items: center;
   padding-top: 60px; /* Add space for the navbar */
-  border: red 2px solid;
   z-index: 1;
 }
 
@@ -562,7 +561,6 @@ html {
   position: relative;
   transform: rotate(-45grad);
   right: -5%;
-  top: -5%;
   width: 25%;
   z-index: 0;
 }
@@ -577,8 +575,9 @@ html {
 }
 
 .elemento_grafico_L {
+  display: none;
   position: relative;
-  top: -5%;
+  top:100% !important;
   right: -5%;
   width: 20%;
   height: 20%;
@@ -635,7 +634,7 @@ html {
   position: relative;
   left: -5%;
   width: 110%;
-  margin-top: -15%;
+  margin-top: -10%;
   z-index: 1;
 }
 
@@ -723,8 +722,8 @@ html {
 .elemento_grafico_L_line_curved {
   width: 500%;
   position: relative;
-  top: -200%;
-  right: -700%;
+  top: -150% !important;
+  right: 00%;
   z-index: -1;
 }
 .elemento_grafico_B_line_curved {

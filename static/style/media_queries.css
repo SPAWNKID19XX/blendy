@@ -1,44 +1,26 @@
 /* Extra large devices (large laptops and desktops, 1700px and up) */
 @media only screen and (max-width: 1700px) {
   .father .left1 img {
-    left: 7%;
-    top: 5%;
   }
   .father .left2 img {
-    left: 16%;
-    top: 10%;
   }
 
   .father .left3 img {
-    left: 25%;
-    top: 15%;
   }
 
   .father .left4 img {
-    left: 34%;
-    top: 20%;
   }
 
   .father .right1 img {
-    right: 2%;
-    top: 5%;
   }
   .father .right2 img {
-    right: 11%;
-    top: 10%;
   }
   .father .right3 img {
-    right: 20%;
-    top: 15%;
   }
   .father .right4 img {
-    right: 29%;
-    top: 20%;
   }
 
   .father .center_blendy_img img {
-    right: 36%;
-    top: 25%;
   }
 
   .why_text {
@@ -69,9 +51,6 @@
 
   .left_fourth_rec {
     margin-top: 0%;
-  }
-  .elemento_grafico_L_line_curved {
-    top: -250%;
   }
 
   /*GREEN SECTION*/
@@ -113,48 +92,29 @@
 /* Extra large devices (large laptops and desktops, 1500px and up) */
 @media only screen and (max-width: 1500px) {
   .father div img {
-    width: 400px;
   }
 
   .father .left1 img {
-    left: 7%;
-    top: 5%;
   }
   .father .left2 img {
-    left: 16%;
-    top: 10%;
   }
 
   .father .left3 img {
-    left: 25%;
-    top: 15%;
   }
 
   .father .left4 img {
-    left: 34%;
-    top: 20%;
   }
 
   .father .right1 img {
-    right: 2%;
-    top: 5%;
   }
   .father .right2 img {
-    right: 11%;
-    top: 10%;
   }
   .father .right3 img {
-    right: 20%;
-    top: 15%;
   }
   .father .right4 img {
-    right: 29%;
-    top: 20%;
   }
 
   .father .center_blendy_img img {
-    right: 33%;
-    top: 25%;
   }
 
   .green_bg,
@@ -236,35 +196,61 @@
     top: -50px;
   }
 
+  .father {
+    width: 90%;
+  }
   .father div img {
-    width: 500px;
+    width: 250px;
+  }
+
+  .left_blendy_img {
+    width: 100%;
   }
 
   .father .left1 img {
-    left: 7%;
-    top: 10%;
   }
   .father .left2 img {
-    left: 23%;
+    left: 20%;
+  }
+
+  .father .left3 img {
+    z-index: 2;
+    top: 25%;
+    left: 57%;
+  }
+
+  .father .left4 img {
+    left: 77%;
     top: 15%;
   }
 
   .father .left3 img {
-    left: 65%;
-    top: 10%;
+    z-index: 2;
+    top: 25%;
+    left: 57%;
   }
 
   .father .left4 img {
-    left: 48%;
+    left: 77%;
     top: 15%;
+  }
+
+  .father .left3:hover img,
+  .father .left4:hover img {
+    transform: scale(1.1) rotate(2deg);
   }
 
   .right_blendy_img {
     display: none;
   }
 
+  .father .center_blendy_img {
+    margin: auto;
+  }
   .father .center_blendy_img img {
-    right: 24%;
+    z-index: 3;
+    top: 35%;
+    left: 38%;
   }
   .columns_white_curved_line {
     position: static;
@@ -305,9 +291,13 @@
     margin-top: -300px;
   }
 
+  .why_content{
+    margin-top: 170px;
+  }
+
   .why_text {
     position: absolute;
-    top: 1%;
+    top: 10%;
   }
 
   .curved_line_desktop {
@@ -421,8 +411,8 @@
 }
 
 @media only screen and (max-width: 1050px) {
-  .father .center_blendy_img img {
-    right: 20%;
+  .father img {
+    width: 200px !important;
   }
 }
 
@@ -481,10 +471,9 @@
 
 @media only screen and (max-width: 768px) {
   .elemento_grafico_D_ybg,
-.elemento_grafico_E_ybg
-{
-  display: block;
-}
+  .elemento_grafico_E_ybg {
+    display: block;
+  }
 
   .nav-links {
     position: fixed;
@@ -737,14 +726,12 @@
 
   .yellow_bg .vantagens {
     margin-top: 0px;
-
   }
 
-  .yellow_bg .vantagens h1{
+  .yellow_bg .vantagens h1 {
     font-size: 35px !important;
-    
   }
-  .black_arrow{
+  .black_arrow {
     position: relative;
     left: 35%;
     width: 25%;
@@ -769,11 +756,11 @@
     width: 85% !important;
   }
 
-  .blue_dark_bg .vantagens{
+  .blue_dark_bg .vantagens {
     right: 50px;
   }
 
-  .yellow_bg .vantagens{ 
+  .yellow_bg .vantagens {
     left: 30px;
   }
 
@@ -825,7 +812,7 @@
     font-weight: bold;
   }
 
-  .elemento_grafico_B_pink_bg{
+  .elemento_grafico_B_pink_bg {
     left: 150px;
     top: -250px;
     opacity: 1;
@@ -864,8 +851,8 @@
     color: white;
   }
 
-  .footer_yellow_bg .FAQ_title{
-    width: 90%; 
+  .footer_yellow_bg .FAQ_title {
+    width: 90%;
   }
 
   .yellow_bg .vantagens h1 {
@@ -875,5 +862,4 @@
   .context_area_ab_us {
     font-size: 18px;
   }
-
 }
