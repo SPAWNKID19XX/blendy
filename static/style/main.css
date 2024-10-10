@@ -715,17 +715,20 @@ html {
   text-align: left;
   align-content: space-around;
 }
+
 .right_letters_curved_line {
   position: relative;
   width: 10%;
 }
+
 .elemento_grafico_L_line_curved {
   width: 500%;
   position: relative;
   top: -150% !important;
-  right: 00%;
+  right: -500%;
   z-index: -1;
 }
+
 .elemento_grafico_B_line_curved {
   width: 500px;
   right: -500px;

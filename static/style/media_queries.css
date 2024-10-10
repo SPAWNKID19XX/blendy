@@ -152,6 +152,10 @@
   }
 */
 
+.elemento_grafico_L_line_curved{
+  display: none;
+}
+
   .left_second_rec {
     margin-top: 0%;
   }
@@ -174,10 +178,6 @@
 
   .right_bottle_section {
     right: 150px !important;
-  }
-
-  .rec p {
-    background-color: rgba(255, 255, 255, 0.5);
   }
 
   .title_main_answer_section h1 {
