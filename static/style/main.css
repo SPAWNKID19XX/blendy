@@ -577,7 +577,7 @@ html {
 .elemento_grafico_L {
   display: none;
   position: relative;
-  top:100% !important;
+  top: 100% !important;
   right: -5%;
   width: 20%;
   height: 20%;
@@ -597,39 +597,37 @@ html {
 .elemento_grafico_d {
   width: 30%;
   height: 30%;
-  position: relative;
+  position: absolute;
   left: -5%;
   top: 100px;
+  opacity: 0.7;
+}
+
+.why_bg_section{
+
+  position: static;
+  width: auto;
+  margin: 0 auto;
 }
 
 .elemento_grafico_b {
-  width: 30%;
-  height: 30%;
+  opacity: 0.7;
+  width: 15%;
+  height: 15%;
   transform: scaleX(-1);
   transform: rotate(-120grad);
-  position: relative;
-  right: -10%;
+  position: absolute;
+  right: 10%;
+  margin-top: 3%;
 }
 
 .elemento_grafico_why {
-  position: static;
+  position: relative;
   width: 90%;
-  height: 90%;
-  left: 5%; /*5% to center it but a picture wil stay a litlebit lefter*/
-  top: -100px;
+  height: 500px;
+  left: 5%;
+  top: -40px;
 }
-
-@media not all and (min-resolution: 0.001dpcm) {
-  @supports (-webkit-appearance: none) {
-    .elemento_grafico_why {
-      border: red 3px solid;
-      position: absolute; /* Измени позиционирование для Safari */
-      left: 0; /* Пример нового значения */
-      top: -50px; /* Подстрой положение для Safari */
-    }
-  }
-}
-
 
 .why_text {
   font-family: "Open Sans", sans-serif;
