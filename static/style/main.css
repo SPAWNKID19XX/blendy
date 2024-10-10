@@ -1,10 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+@import url("https://fonts.adobe.com/fonts/scale-variable#fonts-section");
+
+
+
 
 /*
 font-family: "scale-variable",sans-serif;
   font-variation-settings: 'wdth' 100, 'wght' 400;
 
 */
+
+
 
 :root {
   --color-bg: #ffffff;
@@ -22,7 +28,8 @@ font-family: "scale-variable",sans-serif;
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "scale-variable",sans-serif;
+  font-variation-settings: 'wdth' 100, 'wght' 400;
   background-color: #f5f5f5;
   line-height: 1.6;
   margin: 0;
@@ -603,8 +610,7 @@ html {
   opacity: 0.7;
 }
 
-.why_bg_section{
-
+.why_bg_section {
   position: static;
   width: auto;
   margin: 0 auto;
@@ -613,7 +619,6 @@ html {
 .elemento_grafico_b {
   opacity: 0.7;
   width: 15%;
-  height: 15%;
   transform: scaleX(-1);
   transform: rotate(-120grad);
   position: absolute;
@@ -846,6 +851,8 @@ html {
 }
 
 .title_section_area h1 {
+  font-family: "scale-variable",sans-serif;
+  font-variation-settings: 'wdth' 100, 'wght' 800;
   font-optical-sizing: auto;
   font-weight: bold;
   font-size: 70px;
@@ -1116,10 +1123,11 @@ html {
 }
 
 .about_us_title h1 {
+  margin-left: 25px;
   font-size: 100px;
   position: relative;
   z-index: 1;
-  text-align: center;
+
 }
 
 .context_area_ab_us {
@@ -1279,10 +1287,10 @@ html {
 
 .footer_contact_title {
   margin-top: 150px;
-  font-size: 150px !important;
 }
 .footer_contact_title h1 {
   font-size: 50px !important;
+  font-weight: 700;
 }
 .footer_column p {
   font-size: 20px !important;
@@ -1329,10 +1337,12 @@ html {
   font-size: 1rem;
   flex: 1 1 auto;
   max-width: 200px;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+
   font-size: 45px;
   align-items: center;
   justify-content: center;
+  font-family: "scale-variable",sans-serif;
+  font-variation-settings: 'wdth' 100, 'wght' 400;
 }
 .faq-button:hover {
   opacity: 0.9;

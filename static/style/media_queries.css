@@ -524,6 +524,7 @@
 
   .nav-active {
     right: 0;
+    height: 275px;
   }
 
   .toggle .line1 {
@@ -570,25 +571,45 @@
     right: 0;
   }
 
+  .slider-wrapper {
+
+    transition: opacity 0.3s ease;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .slider-wrapper.loaded {
+    opacity: 1;
+  }
+
   .product-slider {
-    max-width: 100%;
-    overflow: hidden;
+    width: 100%;
+    height: 90vh;
     position: relative;
-    padding: 40px 0;
-    display: block; /* Default visibility for mobile */
+    display: block;
+    overflow: hidden;
   }
 
   .slider-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
     display: flex;
+    align-items: center;
     transition: transform 0.5s ease;
   }
 
   .slide {
-    flex: 0 0 60%;
-    max-width: 50%;
+    flex: 0 0 70%; /* Reduce the width of each slide to 80% */
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     transition: all 0.5s ease;
-    opacity: 0.7;
-    transform: scale(0.8);
   }
 
   .slide.active {
@@ -597,9 +618,12 @@
   }
 
   .slide img {
-    width: 100%;
-    height: auto;
+    max-width: 90%;
+
+    max-height: 90%;
+    object-fit: contain;
     border-radius: 10px;
+    transition: all 0.5s ease;
   }
 
   .desktop-message {
@@ -765,14 +789,16 @@
     font-size: 35px !important;
   }
   .black_arrow {
-    position: relative;
+    position: absolute;
     left: 35%;
     width: 25%;
+    top: -14%;
+    height: 14%;
   }
 }
 
 @media only screen and (max-width: 500px) {
-  .elemento_grafico_b{
+  .elemento_grafico_b {
     display: none;
   }
 
