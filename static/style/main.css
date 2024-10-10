@@ -612,12 +612,24 @@ html {
 }
 
 .elemento_grafico_why {
-  position: relative;
+  position: static;
   width: 90%;
   height: 90%;
-  left: 2%; /*5% to center it but a picture wil stay a litlebit lefter*/
+  left: 5%; /*5% to center it but a picture wil stay a litlebit lefter*/
   top: -100px;
 }
+
+@media not all and (min-resolution: 0.001dpcm) {
+  @supports (-webkit-appearance: none) {
+    .elemento_grafico_why {
+      border: red 3px solid;
+      position: absolute; /* Измени позиционирование для Safari */
+      left: 0; /* Пример нового значения */
+      top: -50px; /* Подстрой положение для Safari */
+    }
+  }
+}
+
 
 .why_text {
   font-family: "Open Sans", sans-serif;
