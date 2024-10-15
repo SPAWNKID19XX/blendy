@@ -502,6 +502,12 @@ html {
   background-color: white;
 }
 
+.right_letters_section{
+  position: relative;
+  left: -1.5% !important;
+  z-index: 0;
+}
+
 .why_text h1 {
   font-weight: bold;
   font-size: 80px !important;
@@ -825,14 +831,12 @@ html {
   position: relative;
   right: 55%;
   transform: rotate(45grad);
-  width: 80% !important;
 }
 
 .e_letter {
   position: relative;
   transform: rotate(-45grad);
   right: 15%;
-  width: 100% !important;
 }
 
 .bottle_section img {
@@ -850,6 +854,8 @@ html {
   width: 40%;
   margin: 50px 0px 0px 150px;
   height: auto;
+  position: relative;
+  z-index: 2;
 }
 .columns {
   display: flex;
@@ -885,8 +891,9 @@ html {
 .vantagens {
   position: relative;
   margin: 0 auto;
-  margin-top: 350px;
+  margin-top: 12%;
   width: 25%;
+  z-index: 2;
 }
 
 .vantagens h1 {
@@ -908,25 +915,26 @@ html {
 }
 
 .bottle_tilted_area {
-  bottom: -350px;
-  width: 50%;
+  width: 40%;
   position: absolute;
 }
 
 .right_bottle_tilted_area {
-  right: -100px;
-}
+    right: -100px;
+    bottom: -300px;
+  }
 
 .left_bottle_tilted_area {
   left: 100px;
+  bottom: -175px;
 }
 
 .title_section_area h1 {
   font-family: "scale-variable", sans-serif;
-  font-variation-settings: "wdth" 100, "wght" 700;
+  font-variation-settings: "wdth" 175, "wght" 689;
   font-optical-sizing: auto;
   font-weight: bold;
-  font-size: 70px;
+  font-size: 50px;
   font-style: normal;
 }
 
@@ -996,7 +1004,7 @@ html {
 
 .blue_dark_bg .person_img_area {
   width: 40%;
-  bottom: -100px;
+  bottom: -150px;
   margin-right: -250px !important;
 }
 
@@ -1045,7 +1053,7 @@ html {
 
 .light_blue_bg .vantagens {
   position: relative;
-  top: -200px;
+  top: -100px;
 }
 
 .light_blue_bg .vantagens h1 {
@@ -1068,7 +1076,7 @@ html {
   position: absolute;
   bottom: 0;
   width: 40%;
-  left: 0px !important;
+  left: -50px !important;
 }
 
 .light_blue_bg .person_img_area img {
@@ -1091,13 +1099,14 @@ html {
   position: absolute;
   width: 250px;
   transform: rotate(180grad);
+  left: 45%;
 }
 
 .l_letter_pink_bg{
-  position: relative;
-  z-index: 0;
+  position: absolute;
+  z-index: -1;
   left: -175%;
-  top: -300px;
+  top: 300px;
   width: 350px !important;
 }
 
@@ -1114,7 +1123,7 @@ html {
 }
 
 .b_letter_pink_bg {
-  position: relative;
+  position: absolute;
   width: 350px !important;
   right: 100px;
 }
@@ -1126,8 +1135,12 @@ html {
 
 .pink_bg .person_img_area{
   left: 0% !important;
-  width: 50%;
+  width: 60% !important;
   transform: scaleX(-1);
+}
+
+.pink_bg .person_img_area img{
+  width: 100%;
 }
 
 /* yellow BG POWER*/
@@ -1144,9 +1157,9 @@ html {
 .yellow_bg .left_person_img_area{
   transform: scaleX(-1);
   position: relative;
-  width: 80% !important;
+  width: 60% !important;
   left: -200px !important;
-  margin-bottom: -500px;
+  margin-bottom: -200px;
 }
 
 .left_person_img_area img{
@@ -1239,7 +1252,6 @@ html {
 
 .elemento_grafico_E_black_bg {
   width: 50% !important;
-  height: 50%;
   position: relative;
   right: 0%;
   top: -45%;
