@@ -929,6 +929,7 @@ html {
   bottom: -175px;
 }
 
+
 .title_section_area h1 {
   font-family: "scale-variable", sans-serif;
   font-variation-settings: "wdth" 175, "wght" 689;
@@ -1152,6 +1153,21 @@ html {
 
 .d_letter_focus_top_flor{
   left: -200px;
+}
+
+.mobile_title_section_area{
+  display: none;
+  text-align: center;
+
+}
+
+.mobile_title_section_area h1{
+  font-size: 30px;
+  font-family: "scale-variable", sans-serif;
+  font-variation-settings: "wdth" 175, "wght" 689;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
 }
 
 .yellow_bg .left_person_img_area{

@@ -53,14 +53,14 @@
     margin-top: 0%;
   }
 
-  .left_bottle_tilted_area{
+  .left_bottle_tilted_area {
     left: 0;
   }
 
   /*GREEN SECTION*/
 
   .bottle_section {
-    width: 100%;
+    width: 70%;
   }
 
   .green_bg .foto_person_container {
@@ -123,6 +123,10 @@
   .father .center_blendy_img img {
   }
 
+  .bottle_tilted_area {
+    width: 50%;
+  }
+
   .context_area {
     margin-top: 50px;
   }
@@ -135,8 +139,7 @@
   }
 
   .light_blue_bg .vantagens {
-    border: 2px solid ;
-    margin-top:100px;
+    margin-top: 20%;
     font-size: 40px !important;
     width: 40%;
   }
@@ -160,7 +163,7 @@
     display: none;
   }
 
-  .ingredients_area{
+  .ingredients_area {
     margin: 0 0 0 0;
   }
 
@@ -197,8 +200,13 @@
     width: 100% !important;
   }
 
+  .pink_bg .vantagens {
+    margin-left: 300px !important;
+    left: 10%;
+  }
+
   .yellow_bg .left_person_img_area {
-    margin-bottom: -250px;
+    bottom: 50px;
   }
 
   .blue_dark_bg .person_img_area {
@@ -215,9 +223,30 @@
 @media only screen and (max-width: 1200px) {
   .blendy_bg {
     top: -50px;
-  }  
+  }
 
-  .pink_bg .bottle_section img{
+  .left_bottle_section {
+    left: 0;
+  }
+  .letters_section {
+    left: 0%;
+  }
+
+  .before_party_L_letter {
+    width: 50%;
+    left: -50%;
+  }
+
+  .blue_dark_bg .bottle_section {
+    position: relative;
+    right: -500px !important;
+  }
+
+  .j_letter {
+    right: 0%;
+  }
+
+  .pink_bg .bottle_section img {
     width: 125% !important;
     right: 150px !important;
   }
@@ -279,6 +308,27 @@
   .columns_white_curved_line {
     position: static;
     margin-top: 50px;
+  }
+
+  .bottle_section {
+    width: 100%;
+  }
+
+  .left_bottle_tilted_area {
+    bottom: -75px;
+  }
+
+  .blue_dark_bg .person_img_area {
+    bottom: -400px;
+  }
+
+  .right_bottle_tilted_area {
+    right: -15%;
+    bottom: -120px;
+  }
+
+  .yellow_bg .vantagens {
+    left: -25% !important;
   }
 
   .yellow_bg .vantagens h1 {
@@ -345,16 +395,12 @@
     width: 30%;
     height: auto;
     text-align: center;
-    margin-top: 15%;
+    margin-top: 0;
   }
 
   .title_section_area {
     display: block;
     width: 100%;
-  }
-
-  .title_section_area h1 {
-    font-size: 80px !important;
   }
 
   .vantagens_h1 {
@@ -382,12 +428,12 @@
     width: 500px;
   }
 
-  .pink_bg .vantagens{
+  .pink_bg .vantagens {
     left: 5%;
-    top:-150px;
+    top: -150px;
   }
-  
-  .top_flor{
+
+  .top_flor {
     position: relative;
     top: 50px;
   }
@@ -466,6 +512,10 @@
   .elemento_grafico_b {
     margin: 450px 150px 0px 0px;
   }
+
+  .b_letter_pink_bg {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 992px) {
@@ -474,6 +524,14 @@
   }
   .green_bg .foto_person_container {
     right: 50px;
+  }
+
+  .ingredients_area {
+    right: 9%;
+  }
+
+  .left_bottle_section {
+    left: -10%;
   }
 
   .elemento_grafico_d {
@@ -501,8 +559,6 @@
     font-size: 20px !important;
   }
 
-
-
   .light_blue_bg .vantagens h1 {
     font-size: 40px !important;
   }
@@ -514,6 +570,39 @@
 
   .yellow_bg .foto_person_container img {
     width: 800px !important;
+  }
+
+  .blue_dark_bg .person_img_area {
+    bottom: -600px;
+  }
+
+  .pink_bg .person_img_area {
+    width: 500% !important;
+    bottom: -200px;
+  }
+
+  .pink_bg .vantagens,
+  .blue_dark_bg .vantagens {
+    width: 50% !important;
+  }
+
+  .vantagens {
+    margin-top: -100px;
+  }
+
+  .collagen_person {
+    width: 200% !important;
+    position: relative;
+    bottom: 100px;
+    right: 100px;
+  }
+
+  .after_party_person {
+    width: 200%;
+    transform: scaleX(-1);
+    right: 100px;
+    bottom: 400px;
+    position: relative;
   }
 
   .FAQ_section .button-container {
@@ -670,6 +759,57 @@
     display: none;
   }
 
+  .ingredients_area {
+    width: 90%;
+    position: static;
+    margin: auto;
+  }
+
+  .bottom_flor {
+    position: static;
+    display: flex;
+    flex-direction: column-reverse; /* or column depending on your layout */
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .vantagens{
+    position: static;
+    width: 80%;
+    margin-top: 100px;
+  }
+
+  .person_img_area{
+    margin: auto;
+    position: static;
+  }
+  
+  .bottle_tilted_area{display: none;}
+
+
+
+  .points_area {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    text-align: center;   
+    margin-top: 0px; 
+  }
+  
+  .points_area_img {
+    margin-bottom: 10px;
+  }
+  
+  .points_area_text {
+    font-size: 16px;
+  }
+
+  .columns {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+
   .elemento_grafico_E {
     display: none;
   }
@@ -800,6 +940,31 @@
     bottom: -50px;
     width: 500% !important;
     right: 200px;
+  }
+
+  .top_flor {
+    display: inline;
+  }
+
+  .letters_section {
+    display: none;
+  }
+
+  .bottle_section {
+    width: 400px;
+    margin: auto;
+  }
+
+  .mobile_title_section_area {
+    display: block;
+  }
+
+  .title_section_area {
+    display: none;
+  }
+
+  .left_bottle_section {
+    left: 10%;
   }
 
   .bottle_img {
