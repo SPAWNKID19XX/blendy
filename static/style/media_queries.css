@@ -1059,10 +1059,18 @@
     width: 100% !important;
   }
 
+
   .foto_person_before_party {
     bottom: -50px;
     width: 500% !important;
     right: 200px;
+  }
+
+  .yellow_bg .bottom_flor .mobile_left_letters_section{
+    left: 450px;
+  }
+  .yellow_bg .bottom_flor .mobile_right_letters_section{
+    right: 400px !important;
   }
 
   .blue_dark_bg .person_img_area {
@@ -1070,6 +1078,11 @@
     width: 30% !important;
     bottom: -720px;
     left: -50% !important;
+  }
+
+  .blue_dark_bg .person_img_area .e_letter {
+    bottom: 200px;
+    right: 300px !important;
   }
 
   .pink_bg .bottle_section img {
