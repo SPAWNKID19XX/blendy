@@ -773,33 +773,33 @@
     align-items: center;
   }
 
-  .vantagens{
+  .vantagens {
     position: static;
     width: 80%;
     margin-top: 100px;
   }
 
-  .person_img_area{
+  .person_img_area {
     margin: auto;
     position: static;
   }
-  
-  .bottle_tilted_area{display: none;}
 
-
+  .bottle_tilted_area {
+    display: none;
+  }
 
   .points_area {
     display: flex;
-    justify-content: center; 
-    align-items: center;     
-    text-align: center;   
-    margin-top: 0px; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 0px;
   }
-  
+
   .points_area_img {
     margin-bottom: 10px;
   }
-  
+
   .points_area_text {
     font-size: 16px;
   }
@@ -884,32 +884,78 @@
     right: 0;
   }
 
-  .pink_bg .my_custom_container_products,
-  .blue_dark_bg .my_custom_container_products {
-    width: 110% !important;
+  .pink_bg .person_img_area {
+    width: 30% !important;
+    bottom: -200px;
   }
 
-  .pink_bg .context_area,
-  .blue_dark_bg .context_area {
-    width: 1100%;
+  .pink_bg .top_flor {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
   }
 
-  .pink_bg .vantagens,
-  .blue_dark_bg .vantagens {
-    width: 100% !important;
-    float: right !important;
+  /* Reorder elements based on desired layout */
+  .pink_bg .mobile_title_section_area {
+    order: 1;
   }
 
-  .light_blue_bg .foto_person_container {
+  .pink_bg .bottle_section {
+    order: 2;
+  }
+
+  .pink_bg .ingredients_area {
+    order: 3;
+  }
+
+  .pink_bg .vantagens {
+    order: 4;
+    width: 90% !important;
+    position: static;
+    margin: auto !important;
+  }
+
+  .pink_bg .person_img_area {
+    order: 5;
+    width: 40% !important;
+  }
+
+  .collagen_person {
+    bottom: 0px !important;
     right: 100px;
+  }
+
+  .pink_bg .bottom_flor {
+    position: static;
+    display: flex;
+    flex-direction: column;
+    margin-top: 300px;
+  }
+
+  .blue_dark_bg {
+    height: auto;
+  }
+
+  .blue_dark_bg .vantagens {
+    width: 90% !important;
+    margin-top: -15% !important;
+    margin-bottom: 85%;
+  }
+
+  .light_blue_bg .person_img_area {
+    position: static;
+    margin: auto;
+    width: 50%;
+    margin: 0 0 -100px -150px;
   }
 
   .light_blue_bg .context_area {
     width: 100%;
   }
 
+  .yellow_bg .vantagens,
   .light_blue_bg .vantagens {
-    width: 100%;
+    width: 90%;
+    position: static;
   }
 
   .elemento_grafico_E_blue_dark_bg {
@@ -918,6 +964,83 @@
 
   .elemento_grafico_E_light_blue_bg {
     display: none;
+  }
+
+  .bottle_section {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .green_bg .bottle_img {
+    position: relative;
+  }
+
+  .mobile_letters_section{
+    display: inline;
+    position: absolute;
+  }
+
+  .mobile_right_letters_section{
+    width: 50%;
+    right: -20%;
+  }
+
+
+  .mobile_left_letters_section{
+    width: 50%;
+    left: -20%;
+  }
+
+  .green_bg .person_img_area .mobile_letters_section{
+    width: 30%;
+  }
+
+  .green_bg .person_img_area .mobile_letters_section .l_letter{
+    top: -200px;
+    position: relative;
+  }
+  .green_bg .person_img_area .mobile_letters_section .b_letter{
+    top: -200px;
+    position: relative;
+    z-index: 0;
+    left: 5% !important;
+  }
+
+  .before_party_person{
+    position: relative;
+    z-index: 5;
+  }
+
+
+  .green_bg .person_img_area .mobile_left_letters_section{
+    left: 0%;
+  }
+
+
+  .bottle_section img {
+    position: relative;
+  }
+
+  .blue_dark_bg .top_flor {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .blue_dark_bg .mobile_title_section_area {
+    order: -1;
+  }
+
+  .before_party_bottle {
+    position: relative;
+  }
+
+  .blue_dark_bg .bottle_section {
+    order: -1;
+  }
+
+  .collagen_person {
+    bottom: 100px;
+    right: 200px;
   }
 
   .footer_contact_title {
@@ -942,6 +1065,35 @@
     right: 200px;
   }
 
+  .blue_dark_bg .person_img_area {
+    position: relative;
+    width: 30% !important;
+    bottom: -720px;
+    left: -50% !important;
+  }
+
+  .pink_bg .bottle_section img {
+    width: 125% !important;
+    right: 0px !important;
+  }
+
+  .pink_bg .bottom_flor .person_img_area .e_letter{
+    left: 150px !important;
+    width: 200px;
+    top: -100px;
+  }
+
+  .pink_bg .bottom_flor .person_img_area .y_letter{
+    right: -150px !important;
+    width: 300px;
+    top: 00px;
+    position: relative;
+  }
+
+  .after_party_person {
+    bottom: 0% !important;
+  }
+
   .top_flor {
     display: inline;
   }
@@ -964,7 +1116,7 @@
   }
 
   .left_bottle_section {
-    left: 10%;
+    left: 9%;
   }
 
   .bottle_img {
@@ -982,12 +1134,14 @@
     margin-bottom: 250px;
   }
 
-  .yellow_bg .vantagens {
-    margin-top: 0px;
-  }
-
   .yellow_bg .vantagens h1 {
     font-size: 35px !important;
+  }
+  .yellow_bg .person_img_area {
+    width: 90% !important;
+    margin: auto;
+    margin-bottom: -150px;
+    position: static;
   }
 }
 

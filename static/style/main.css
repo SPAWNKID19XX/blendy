@@ -191,6 +191,7 @@ nav {
   width: 100%;
   overflow: hidden;
   line-height: 0;
+  margin-bottom: -2px;
 }
 
 .custom-shape-divider-bottom-1727186367 svg {
@@ -213,6 +214,7 @@ nav {
   overflow: hidden;
   line-height: 0;
   transform: rotate(180deg);
+  margin-bottom: -2px;
 }
 
 .custom-shape-divider-bottom-1727186124 svg {
@@ -234,6 +236,7 @@ nav {
   width: 100%;
   overflow: hidden;
   line-height: 0;
+  margin-bottom: -2px;
 }
 
 .custom-shape-divider-bottom-1727186818 svg {
@@ -256,6 +259,7 @@ nav {
   overflow: hidden;
   line-height: 0;
   transform: rotate(180deg);
+  margin-bottom: -2px;
 }
 
 .custom-shape-divider-bottom-1727186927 svg {
@@ -277,6 +281,7 @@ nav {
   width: 100%;
   overflow: hidden;
   line-height: 0;
+  margin-bottom: -2px;
 }
 
 .custom-shape-divider-bottom-1727186983 svg {
@@ -300,6 +305,7 @@ nav {
   overflow: hidden;
   line-height: 0;
   transform: rotate(180deg);
+  margin-bottom: -2px;
 }
 
 .custom-shape-divider-bottom-1727187031 svg {
@@ -807,8 +813,43 @@ html {
   justify-content: space-between;
 }
 
+
+/*
+
+<div class="mobile_letters_section mobile_left_letters_section">
+            <img
+              src="./static/img/background_letters/Blendy-elementgraficzny-5-b.png"
+              alt="E letter"
+              class="e_letter"
+            />
+            <img
+              src="./static/img/background_letters/Blendy-elementgraficzny-2-b.png"
+              alt="J letter"
+              class="y_letter"
+            />
+          </div>
+
+
+          <div class="mobile_letters_section mobile_right_letters_section">
+            <img
+              src="./static/img/background_letters/Blendy-elementgraficzny-1-b.png"
+              alt="B letter"
+              class="mobile_b_letter"
+            />
+          </div>
+
+
+*/
+
+
+
+
 .top_flor {
   height: 550px;
+}
+
+.mobile_letters_section{
+  display: none;
 }
 
 .letters_section {
