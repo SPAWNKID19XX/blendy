@@ -329,6 +329,7 @@ nav {
   overflow: hidden;
   line-height: 0;
   transform: rotate(180deg);
+  margin-bottom: -2px;
 }
 
 .custom-shape-divider-bottom-1727187124 svg {
@@ -669,6 +670,7 @@ html {
 
 .main_columns h4 {
   font-weight: bold;
+  font-size: 23px;
   line-height: 38px;
 }
 
@@ -701,20 +703,30 @@ html {
 }
 
 .white_line_icon img {
-  width: 50px;
-  height: 50px;
+  width: 55px;
+  height: 55px;
+}
+
+.large_icon img{
+  width: 75px;
+  height: 55px;
+}
+
+.higher_icon img{
+  width: 55px;
+  height: 75px;
 }
 
 .left_second_rec {
-  margin-top: 120px;
+  margin-top: 110px !important;
 }
 
 .left_third_rec {
-  margin-top: 175px;
+  margin-top: 130px !important;
 }
 
 .left_fourth_rec {
-  margin-top: 15px;
+  margin-top: 45px !important;
 }
 
 .right_column {
@@ -812,37 +824,6 @@ html {
   display: flex;
   justify-content: space-between;
 }
-
-
-/*
-
-<div class="mobile_letters_section mobile_left_letters_section">
-            <img
-              src="./static/img/background_letters/Blendy-elementgraficzny-5-b.png"
-              alt="E letter"
-              class="e_letter"
-            />
-            <img
-              src="./static/img/background_letters/Blendy-elementgraficzny-2-b.png"
-              alt="J letter"
-              class="y_letter"
-            />
-          </div>
-
-
-          <div class="mobile_letters_section mobile_right_letters_section">
-            <img
-              src="./static/img/background_letters/Blendy-elementgraficzny-1-b.png"
-              alt="B letter"
-              class="mobile_b_letter"
-            />
-          </div>
-
-
-*/
-
-
-
 
 .top_flor {
   height: 550px;
@@ -946,6 +927,7 @@ html {
 .title_section_area {
   text-align: center;
   width: 400px;
+  margin-top: 50px;
 }
 
 .person_img_area {
@@ -956,7 +938,7 @@ html {
 }
 
 .bottle_tilted_area {
-  width: 40%;
+  width: 50%;
   position: absolute;
 }
 
@@ -1025,7 +1007,8 @@ html {
 }
 
 .before_party_L_letter {
-  right: 55%;
+  right: 65%;
+  width: 350px;
 }
 
 .before_party_Y_letter {
@@ -1096,6 +1079,7 @@ html {
 .light_blue_bg .vantagens {
   position: relative;
   top: -100px;
+  width: 488px;
 }
 
 .light_blue_bg .vantagens h1 {
@@ -1139,7 +1123,7 @@ html {
 
 .j1_letter_pink_bg{
   position: absolute;
-  width: 250px;
+  width: 400px;
   transform: rotate(180grad);
   left: 45%;
 }
@@ -1172,7 +1156,7 @@ html {
 
 .pink_bg .vantagens{
   margin-left: 300px !important;
-  left: 300px;
+  left: 200px;
 }
 
 .pink_bg .person_img_area{
@@ -1225,7 +1209,7 @@ html {
 
 .yellow_bg .vantagens{
   position: relative;
-  left: -40% !important;
+  left: -30% !important;
   
 }
 
