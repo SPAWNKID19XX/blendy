@@ -843,9 +843,6 @@
     z-index: -1;
   }
 
-  .why_bg_section {
-  }
-
   .why_bg_section img {
     width: 130%;
     left: -10%;
@@ -940,7 +937,7 @@
 
   .blue_dark_bg .vantagens {
     width: 90% !important;
-    margin-top: -15% !important;
+    margin-top: 10% !important;
     margin-bottom: 85%;
   }
 
@@ -1079,13 +1076,14 @@
   .blue_dark_bg .person_img_area {
     position: relative;
     width: 30% !important;
-    bottom: -720px;
+    bottom: -800px;
     left: -50% !important;
   }
 
   .blue_dark_bg .person_img_area .e_letter {
-    bottom: 200px;
-    right: 300px !important;
+    bottom: 20%;
+    width: 500px;
+    right: 00px !important;
   }
 
   .pink_bg .bottle_section img {
@@ -1201,24 +1199,38 @@
   }
 
   .blue_dark_bg .vantagens{
-    margin-top: 12% !important;
+    margin-top: -50px !important;
     right: 50px;
   }
 
   .blue_dark_bg .person_img_area{
-    bottom: -600px !important;
+    bottom: -800px !important;
     width: 30%;
     right: 10% !important;
   }
 
   .blue_dark_bg .person_img_area .e_letter{
     width: 300px;
-    bottom: 50px;
-    right: 100px !important;
+    bottom: -250px;
+    right: 200px !important;
   }
 
   .yellow_bg .vantagens {
     left: 30px;
+  }
+
+  .blue_dark_bg .person_img_area{
+    width: 60% !important;
+    bottom: -650px !important;
+  }
+
+  .pink_bg .person_img_area{
+    width: 50% !important;  
+  }
+
+
+  .yellow_bg .person_img_area {
+    width: 150% !important;
   }
 
   .vantagens h1 {
