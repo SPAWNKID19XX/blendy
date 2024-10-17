@@ -139,8 +139,6 @@
     margin-left: 0px;
   }
 
-
-
   .light_blue_bg .vantagens {
     margin-top: 20%;
     font-size: 40px !important;
@@ -227,7 +225,6 @@
   .blendy_bg {
     top: -50px;
   }
-
 
   .why_content {
     margin-top: 150px;
@@ -563,7 +560,6 @@
     margin-top: 0px;
   }
 
-
   .yellow_bg .foto_person_container {
     bottom: 200px;
     right: -200px;
@@ -591,22 +587,17 @@
     width: 500% !important;
     left: -25px;
     display: flex;
-  
   }
-
 
   .vantagens {
     margin-top: 0px;
   }
-
-
 
   .collagen_person {
     width: 200% !important;
     position: relative;
     bottom: 100px;
     right: 100px;
-
   }
 
   .after_party_person {
@@ -635,6 +626,14 @@
   .elemento_grafico_D_ybg,
   .elemento_grafico_E_ybg {
     display: block;
+  }
+
+  .why_text {
+    margin-top: 0px !important;
+  }
+
+  .blendy_bg {
+    top: 50px;
   }
 
   .nav-links {
@@ -918,7 +917,7 @@
     z-index: 2;
   }
 
-  .j1_letter_pink_bg{
+  .j1_letter_pink_bg {
     position: relative;
     width: 250px;
     left: 450px !important;
@@ -975,47 +974,44 @@
     position: relative;
   }
 
-  .mobile_letters_section{
+  .mobile_letters_section {
     display: inline;
     position: absolute;
   }
 
-  .mobile_right_letters_section{
+  .mobile_right_letters_section {
     width: 50%;
     right: -20%;
   }
 
-
-  .mobile_left_letters_section{
+  .mobile_left_letters_section {
     width: 50%;
     left: -20%;
   }
 
-  .green_bg .person_img_area .mobile_letters_section{
+  .green_bg .person_img_area .mobile_letters_section {
     width: 30%;
   }
 
-  .green_bg .person_img_area .mobile_letters_section .l_letter{
+  .green_bg .person_img_area .mobile_letters_section .l_letter {
     top: -200px;
     position: relative;
   }
-  .green_bg .person_img_area .mobile_letters_section .b_letter{
+  .green_bg .person_img_area .mobile_letters_section .b_letter {
     top: -200px;
     position: relative;
     z-index: 0;
     left: 5% !important;
   }
 
-  .before_party_person{
+  .before_party_person {
     position: relative;
     z-index: 5;
   }
 
-
-  .green_bg .person_img_area .mobile_left_letters_section{
+  .green_bg .person_img_area .mobile_left_letters_section {
     left: 0%;
   }
-
 
   .bottle_section img {
     position: relative;
@@ -1057,8 +1053,8 @@
 
   .context_area_ab_us {
     width: 100% !important;
+    text-align: center;
   }
-
 
   .foto_person_before_party {
     bottom: -50px;
@@ -1066,10 +1062,10 @@
     right: 200px;
   }
 
-  .yellow_bg .bottom_flor .mobile_left_letters_section{
+  .yellow_bg .bottom_flor .mobile_left_letters_section {
     left: 450px;
   }
-  .yellow_bg .bottom_flor .mobile_right_letters_section{
+  .yellow_bg .bottom_flor .mobile_right_letters_section {
     right: 400px !important;
   }
 
@@ -1091,18 +1087,18 @@
     right: 0px !important;
   }
 
-  .pink_bg .bottom_flor .person_img_area .e_letter{
+  .pink_bg .bottom_flor .person_img_area .e_letter {
     left: 350px !important;
     width: 200px;
     top: -100px;
   }
 
-  .power_person{
+  .power_person {
     position: relative;
     z-index: 5;
   }
 
-  .pink_bg .bottom_flor .person_img_area .y_letter{
+  .pink_bg .bottom_flor .person_img_area .y_letter {
     right: -250px !important;
     width: 300px;
     top: 00px;
@@ -1163,13 +1159,12 @@
     position: static;
   }
 
-
   .context_area_ab_us {
     font-size: 25px;
     line-height: 1.5;
     color: white;
   }
-  
+
   .column_about_us {
     width: 100%;
     margin-top: 25px;
@@ -1179,6 +1174,30 @@
 @media only screen and (max-width: 500px) {
   .elemento_grafico_b {
     display: none;
+  }
+
+  .elemento_grafico_why {
+    top: -25%;
+  }
+
+  .curved_line_context_content {
+    margin-top: -45%;
+  }
+
+  .after_party_bottle,
+  .focus_bottle,
+  .collagen_bottle,
+  .power_bottle,
+  .before_party_bottle {
+    left: 3%;
+  }
+
+  .pink_bg .bottle_section img {
+    width: 100% !important;
+  }
+
+  .focus_person {
+    width: 150% !important;
   }
 
   .elemento_grafico_E_blue_dark_bg {
@@ -1198,18 +1217,18 @@
     width: 95% !important;
   }
 
-  .blue_dark_bg .vantagens{
+  .blue_dark_bg .vantagens {
     margin-top: -50px !important;
     right: 50px;
   }
 
-  .blue_dark_bg .person_img_area{
+  .blue_dark_bg .person_img_area {
     bottom: -800px !important;
     width: 30%;
     right: 10% !important;
   }
 
-  .blue_dark_bg .person_img_area .e_letter{
+  .blue_dark_bg .person_img_area .e_letter {
     width: 300px;
     bottom: -250px;
     right: 200px !important;
@@ -1219,15 +1238,14 @@
     left: 30px;
   }
 
-  .blue_dark_bg .person_img_area{
+  .blue_dark_bg .person_img_area {
     width: 60% !important;
     bottom: -650px !important;
   }
 
-  .pink_bg .person_img_area{
-    width: 50% !important;  
+  .pink_bg .person_img_area {
+    width: 50% !important;
   }
-
 
   .yellow_bg .person_img_area {
     width: 150% !important;
