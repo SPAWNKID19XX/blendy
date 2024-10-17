@@ -817,12 +817,15 @@
     margin-top: 100px;
   }
 
-  .left_first_rec {
-    margin-top: 75px;
+  .left_second_rec,
+  .left_second_rec,
+  .left_third_rec,
+  .left_fourth_rec{
+    margin-top: 0!important;
   }
 
   .columns_white_curved_line {
-    margin-top: 150px;
+    margin-top: 50px;
     display: grid;
   }
 

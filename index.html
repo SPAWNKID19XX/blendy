@@ -32,11 +32,22 @@
           />
         </a>
         <ul class="nav-links">
-          <li><a href="#why-blendy">Why Blendy?</a></li>
-          <li><a href="#our-products">Our products</a></li>
-          <li><a href="#about-us">About us</a></li>
-          <li><a href="#footer_contact_title">Contact</a></li>
+          <li>
+            <a href="#why-blendy" data-translate="why-blendy">Why Blendy?</a>
+          </li>
+          <li>
+            <a href="#our-products" data-translate="our-products"
+              >Our products</a
+            >
+          </li>
+          <li><a href="#about-us" data-translate="about-us">About us</a></li>
+          <li><a href="#contact" data-translate="contact">Contact</a></li>
         </ul>
+
+        <div class="language-switcher">
+          <button class="lang-btn active" data-lang="en">English</button>
+          <button class="lang-btn" data-lang="pt">Portuguẽs</button>
+        </div>
 
         <div class="burger">
           <div class="line1"></div>
@@ -171,8 +182,8 @@
       <div class="curved_line_context_content">
         <div class="why_content">
           <div class="why_text">
-            <h1>Why Blendy?</h1>
-            <h2 style="text-transform: uppercase">
+            <h1 data-translate="title">Why Blendy?</h1>
+            <h2 id="title" data-translate="subtitle" style="text-transform: uppercase">
               Because our shots are
               <span class="white_color_dark_bg">a tasty and efficient</span>
               alternative to traditional tablets or capsules. They are:
@@ -457,9 +468,10 @@
                 <div class="points_area_text">PYRIXIDONE (B6)</div>
               </div>
               <div class="points_area">
-                <div class="points_area_img">
+                <div class="points_area_img"></div>
+                <div class="points_area_text">
+                  NovaSOL.<br /><span style="font-weight: 5">CURCUMIN</span>
                 </div>
-                <div class="points_area_text">NovaSOL.<br><span style="font-weight: 5;">CURCUMIN</span></div>
               </div>
             </div>
           </div>
@@ -694,7 +706,9 @@
         </div>
         <div class="vantagens">
           <h1>
-            <span class="black_color_white_bg">ELIMINATES</span> THE NEGATIVE EFFECTS OF  <span class="black_color_white_bg">ALCOHOL</span> CONSUMPTION 
+            <span class="black_color_white_bg">ELIMINATES</span> THE NEGATIVE
+            EFFECTS OF
+            <span class="black_color_white_bg">ALCOHOL</span> CONSUMPTION
           </h1>
         </div>
         <div class="person_img_area right_person_img_area">
@@ -1123,7 +1137,11 @@
               class="y_letter"
             />
           </div>
-          <img src="./static/img/peaple/czlowiek-7.png" alt="" class="power_person" />
+          <img
+            src="./static/img/peaple/czlowiek-7.png"
+            alt=""
+            class="power_person"
+          />
           <div class="mobile_letters_section mobile_right_letters_section">
             <img
               src="./static/img/background_letters/Blendy-elementgraficzny-1-b.png"
@@ -1332,7 +1350,7 @@
       integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
       crossorigin="anonymous"
     ></script>
-
+    <script src="./static/js/translate_script_main_page.js"></script>
     <script defer src="./static/js/top_slider_mobile_version.js"></script>
     <script defer src="./static/js/navbar.js"></script>
     <!--FAQ script-->
