@@ -222,9 +222,6 @@
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (max-width: 1200px) {
-  .blendy_bg {
-    top: -50px;
-  }
 
   .why_content {
     margin-top: 150px;
@@ -638,7 +635,7 @@
   }
 
   .blendy_bg {
-    top: 50px;
+    top: 35px;
   }
 
   .nav-links {

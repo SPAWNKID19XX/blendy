@@ -569,12 +569,13 @@ html {
   position: relative;
   background-color: #ffd007;
   padding: 0;
+  margin-top: 4%;
 }
 
 .blendy_bg {
   margin: 0;
   position: absolute;
-  top: -200px;
+  top: 0px;
   padding: 0;
   width: 100%;
 }
