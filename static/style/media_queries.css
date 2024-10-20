@@ -222,7 +222,6 @@
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (max-width: 1200px) {
-
   .why_content {
     margin-top: 150px;
   }
@@ -501,6 +500,9 @@
   .columns_white_curved_line {
     position: static;
   }
+  .why_content {
+    margin-top: 70px;
+  }
 
   .why_text {
     width: 80%;
@@ -626,9 +628,12 @@
   }
 
   .add-space {
-    margin-top: 150px; 
-}
+    margin-top: 150px;
+  }
 
+  .why_content {
+    margin-top: -50px;
+  }
 
   .why_text {
     margin-top: 0px !important;
@@ -822,8 +827,8 @@
   .left_second_rec,
   .left_second_rec,
   .left_third_rec,
-  .left_fourth_rec{
-    margin-top: 0!important;
+  .left_fourth_rec {
+    margin-top: 0 !important;
   }
 
   .columns_white_curved_line {
@@ -1179,6 +1184,10 @@
 @media only screen and (max-width: 500px) {
   .elemento_grafico_b {
     display: none;
+  }
+
+  .why_content {
+    margin-top: 150px;
   }
 
   .elemento_grafico_why {
