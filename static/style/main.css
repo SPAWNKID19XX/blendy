@@ -1475,6 +1475,7 @@ html {
 .FAQ_title h1 {
   font-size: 80px;
   font-family: "Open Sans", sans-serif;
+  font-weight: 600;
 }
 
 .button-container {
@@ -1488,7 +1489,7 @@ html {
   padding: 10px 20px;
   border: none;
   background-color: transparent;
-  color: #3498db;
+  color: black;
   cursor: pointer;
   transition: all 0.3s;
   border-radius: 5px;
@@ -1504,12 +1505,16 @@ html {
 }
 .faq-button:hover {
   opacity: 0.9;
+  color: black;
+  text-decoration: underline;
 }
 .faq-button.active {
   background-color: #3498db;
   color: white;
   border: 2px solid #3498db;
 }
+
+
 
 .faq-container {
   width: 65%;
@@ -1522,7 +1527,7 @@ html {
 }
 .faq-question {
   font-weight: bold;
-  color: #fff;
+  color: black;
   padding: 15px;
   cursor: pointer;
   transition: background-color 0.3s;

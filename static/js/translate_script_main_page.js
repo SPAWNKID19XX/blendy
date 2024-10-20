@@ -53,9 +53,9 @@ const translations = {
     "about-us-3":
       "We pay attention to the high quality of ingredients and natural tastes, which are guaranteed by the international Food Safety certificate.",
     "faq-title":
-      'Frequently Asked <span class="white_color_dark_bg"> Questions </span>',
+      'Frequently Asked Questions',
     "faq-side-title":
-      'Frequently Asked <span class="white_color_dark_bg"> Questions </span>',
+      'Frequently Asked Questions',
     "ingredient-curcumin": "CURCUMIN",
     "ingredient-thiamine": "THIAMINE (B1)",
     "ingredient-riboflavin": "RIBOFLAVIN (B2)",
@@ -215,7 +215,7 @@ const translations = {
     "about-us-3":
       "Prestamos atenção à alta qualidade dos ingredientes e sabores naturais, garantidos pelo certificado internacional de Segurança Alimentar.",
     "faq-title":
-      '<span class="white_color_dark_bg"> Perguntas </span> <br> Frequentes',
+      ' Perguntas <br> Frequentes',
     "faq-side-title":
       '<span class="white_color_dark_bg"> Perguntas </span> Frequentes',
     "ingredient-curcumin": "CURCUMINA",

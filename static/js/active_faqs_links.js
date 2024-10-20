@@ -217,15 +217,15 @@ const faqData = {
 
 const buttons = document.querySelectorAll(".faq-button");
 const faqContainer = document.getElementById("faqContainer");
-let currentColor = "#3498db"; // Initial color
+let currentColor = "#3498dbre"; // Initial color
 
 // Color map for each category
 const colorMap = {
-  "before-party": "#68BA7E",
-  "after-party": "#1F2448",
-  "focus": "#2288C6",
-  "collagen": "#eec6d5",
-  "power": "#ffce01",
+  "before-party": 'transparent',
+  "after-party": "transparent",
+  "focus": "transparent",
+  "collagen": "transparent",
+  "power": "transparent",
 };
 
 buttons.forEach((button) => {
@@ -239,14 +239,15 @@ buttons.forEach((button) => {
     button.classList.add("active");
     const category = button.getAttribute("data-category");
     currentColor = colorMap[category];
-    button.style.backgroundColor = currentColor;
-    if (category === "power") {
+    button.style.backgroundColor = 'black';
+    /*
+    if (category === "after_party") {
       button.style.border = `2px solid black`;
-      /*button.style.boxShadow = "2px 2px 5px rgba(0, 0, 0, 0.5)";*/
+      /*button.style.boxShadow = "2px 2px 5px rgba(0, 0, 0, 0.5)";
     } else {
       button.style.border = `2px solid ${currentColor}`;
     }
-
+*/
     updateFAQContent(category);
   });
 });
@@ -260,8 +261,8 @@ function updateFAQContent(category) {
     const answerColor = getLighterColor(questionColor);
     html += `
       <div class="faq-item">
-          <div class="faq-question" data-translate="${item.questionKey}" style="border: 2px solid black;background-color: ${questionColor}; padding: 30px 25px;" onclick="toggleAnswer(${index})">${item.question}</div>      
-          <div class="faq-answer" data-translate="${item.answerKey}" style="background-color: ${answerColor};">${item.answer}</div>
+          <div class="faq-question" data-translate="${item.questionKey}" style="border: none; background-color: ${questionColor}; padding: 30px 25px;" onclick="toggleAnswer(${index})">${item.question}</div>      
+          <div class="faq-answer" data-translate="${item.answerKey}" style="background-color: none;">${item.answer}</div>
       </div>
     `;
   });
