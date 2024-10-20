@@ -215,7 +215,7 @@
 
   .right_bottle_tilted_area {
     right: -200px;
-    bottom: -200px;
+    bottom: -300px;
   }
 }
 
@@ -1253,7 +1253,7 @@
 
   .blue_dark_bg .person_img_area {
     width: 60% !important;
-    bottom: -650px !important;
+    bottom: -500px !important;
   }
 
   .pink_bg .person_img_area {
