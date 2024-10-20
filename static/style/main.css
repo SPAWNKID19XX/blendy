@@ -953,7 +953,7 @@ html {
 .vantagens {
   position: relative;
   margin: 0 auto;
-  margin-top: 12%;
+  margin-top: 23%;
   width: 25%;
   z-index: 2;
 }
@@ -997,7 +997,7 @@ html {
 
 .left_bottle_tilted_area {
   left: 100px;
-  bottom: -175px;
+  bottom: -300px;
 }
 
 .title_section_area h1 {
@@ -1281,13 +1281,16 @@ html {
 
 .about_us_title h1 {
   margin-left: 25px;
-  font-size: 100px;
+  font-family: 'Open sans',sans-serif;
+  font-size: 80px;
   position: relative;
+  text-align: center;
+  font-weight: bolder;
   z-index: 1;
 }
 
 .context_area_ab_us {
-  font-size: 25px;
+  font-size: 20px;
   line-height: 1.7;
   color: white;
   position: absolute;
@@ -1306,13 +1309,14 @@ html {
   display: flex;
   justify-content: space-around;
   position: relative;
+  margin-top: 60px;
 }
 
 .columns_about_us {
   position: absolute;
   display: flex;
   justify-content: space-around;
-  width: 100%;
+  width: 85%;
 }
 
 .context_aria_about_us_letters {

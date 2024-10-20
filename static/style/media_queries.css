@@ -1267,6 +1267,7 @@
 
   .vantagens h1 {
     font-size: 30px !important;
+    margin-top: -100px;
   }
   .black_bg h1 {
     font-size: 55px;
