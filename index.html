@@ -3,13 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="https://use.typekit.net/jvp8fna.css" />
+
     <link rel="stylesheet" type="text/css" href="./static/style/main.css" />
     <link
       rel="stylesheet"
       type="text/css"
       href="./static/style/media_queries.css"
     />
-
+    <link rel="icon" type="image/svg" href="./static/img/logo/favicon.png" />
     <title>Blendy</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
@@ -17,23 +20,36 @@
       integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://use.typekit.net/your-project-id.css" />
   </head>
   <body>
-    <nav>
+    <div id="top"></div>
+    <nav class="fixed-top">
       <div class="nav-container">
-        <a href="#" class="logo">
+        <a href="#top" class="logo">
           <img
             src="./static/img/logo/Blendy-logo-biale.png"
             alt="Blendy Logo"
           />
         </a>
-
         <ul class="nav-links">
-          <li><a href="#why-blendy">Why Blendy?</a></li>
-          <li><a href="#our-products">Our products</a></li>
-          <li><a href="#about-us">About us</a></li>
-          <li><a href="#footer_contact_title">Contact</a></li>
+          <li>
+            <a href="#why-blendy" data-translate="why-blendy">Why Blendy?</a>
+          </li>
+          <li>
+            <a href="#before_party_bottle" data-translate="our-products"
+              >Our products</a
+            >
+          </li>
+          <li><a href="#about-us" data-translate="about-us">About us</a></li>
+          <li><a href="#contact" data-translate="contact">Contact</a></li>
         </ul>
+
+        <div class="language-switcher">
+          <button class="lang-btn active" data-lang="en">EN</button>
+          <span class="divider">/</span>
+          <button class="lang-btn" data-lang="pt">PT</button>
+        </div>
 
         <div class="burger">
           <div class="line1"></div>
@@ -46,7 +62,7 @@
     <div class="yellow_top_bg_section">
       <div class="blendy_and_bottles_sedction">
         <img
-          src="./static/img/logo/my_own_Blendy-logo-biale_1.png"
+          src="./static/img/logo/Blendy-logo-biale_2.png"
           alt="bg_blendy"
           class="blendy_bg"
         />
@@ -54,7 +70,7 @@
           <div class="left1 left_blendy_img">
             <a href="#collagen_bottle">
               <img
-                src="./static/img/bottles/Blendy-100ml-wizualizacja-BS-collagen-v1-2024-09-19.png"
+                src="./static/img/bottles/collagen_centred.png"
                 alt="collagen"
               />
             </a>
@@ -62,17 +78,14 @@
 
           <div class="left2 left_blendy_img">
             <a href="#focus_bottle">
-              <img
-                src="./static/img/bottles/Blendy-100ml-wizualizacja-FS-FOCUS-v1-2024-09-19.png"
-                alt="Focus"
-              />
+              <img src="./static/img/bottles/focus_centred.png" alt="Focus" />
             </a>
           </div>
 
           <div class="left3 left_blendy_img">
             <a href="#before_party_bottle">
               <img
-                src="./static/img/bottles/Blendy-100ml-wizualizacja-FS-before-party-v1-2024-09-19.png"
+                src="./static/img/bottles/before_party_centred.png"
                 alt="Before Party"
               />
             </a>
@@ -80,7 +93,7 @@
           <div class="left4 left_blendy_img">
             <a href="#after_party_bottle">
               <img
-                src="./static/img/bottles/Blendy-100ml-wizualizacja-FS-after-party-v1-2024-09-19.png"
+                src="./static/img/bottles/after_party_centred.png"
                 alt="After Party"
               />
             </a>
@@ -88,23 +101,20 @@
           <div class="right1 right_blendy_img">
             <a href="#collagen_bottle">
               <img
-                src="./static/img/bottles/Blendy-100ml-wizualizacja-BS-collagen-v1-2024-09-19.png"
+                src="./static/img/bottles/collagen_centred.png"
                 alt="collagen"
               />
             </a>
           </div>
           <div class="right2 right_blendy_img">
             <a href="#focus_bottle">
-              <img
-                src="./static/img/bottles/Blendy-100ml-wizualizacja-FS-FOCUS-v1-2024-09-19.png"
-                alt="Focus"
-              />
+              <img src="./static/img/bottles/focus_centred.png" alt="Focus" />
             </a>
           </div>
           <div class="right3 right_blendy_img">
             <a href="#before_party_bottle">
               <img
-                src="./static/img/bottles/Blendy-100ml-wizualizacja-FS-before-party-v1-2024-09-19.png"
+                src="./static/img/bottles/before_party_centred.png"
                 alt="Before Party"
               />
             </a>
@@ -112,78 +122,49 @@
           <div class="right4 right_blendy_img">
             <a href="#after_party_bottle">
               <img
-                src="./static/img/bottles/Blendy-100ml-wizualizacja-FS-after-party-v1-2024-09-19.png"
+                src="./static/img/bottles/after_party_centred.png"
                 alt="After Party"
               />
             </a>
           </div>
           <div class="center_blendy_img">
             <a href="#power_bottle">
-              <img
-                src="./static/img/bottles/Blendy-100ml-wizualizacja-FS-Power-v1-2024-09-19.png"
-                alt="Power"
-              />
+              <img src="./static/img/bottles/power_centred.png" alt="Power" />
             </a>
           </div>
         </div>
-        <div class="product-slider">
-          <img
-            src="./static/img/background_letters/Blendy-elementgraficzny-2-b.png"
-            alt=""
-            class="elemento_grafico_Y_slider_bottels"
-          />
-          <img
-            src="./static/img/background_letters/Blendy-elementgraficzny-1-b.png"
-            alt=""
-            class="elemento_grafico_B_slider_bottels"
-          />
-          <div class="slider-container">
-            <div class="slide">
-              <img
-                src="./static/img/bottles/before_party_centred.png"
-                alt="Blendy 1"
-                style="display: none"
-              />
-            </div>
-            <div class="slide">
-              <img
-                src="./static/img/bottles/before_party_centred.png"
-                alt="Blendy 1"
-              />
-            </div>
-            <div class="slide">
-              <img
-                src="./static/img/bottles/after_party_centred.png"
-                alt="Blendy 2"
-              />
-            </div>
-            <div class="slide">
-              <img
-                src="./static/img/bottles/focus_centred.png"
-                alt="Blendy 3"
-              />
-            </div>
-            <div class="slide">
-              <img
-                src="./static/img/bottles/collagen_centred.png"
-                alt="Blendy 4"
-              />
-            </div>
-            <div class="slide">
-              <img
-                src="./static/img/bottles/power_centred.png"
-                alt="Blendy 5"
-              />
+        <div class="slider-wrapper">
+          <div class="product-slider">
+            <div class="slider-container">
+              <div class="slide">
+                <img
+                  src="./static/img/bottles/before_party_centred.png"
+                  alt="before-party"
+                />
+              </div>
+              <div class="slide">
+                <img
+                  src="./static/img/bottles/after_party_centred.png"
+                  alt="after-party"
+                />
+              </div>
+              <div class="slide">
+                <img src="./static/img/bottles/focus_centred.png" alt="focus" />
+              </div>
+              <div class="slide">
+                <img
+                  src="./static/img/bottles/collagen_centred.png"
+                  alt="collagen"
+                />
+              </div>
+              <div class="slide">
+                <img src="./static/img/bottles/power_centred.png" alt="power" />
+              </div>
             </div>
           </div>
-          <img
-            src="./static/img/background_letters/BA.png"
-            alt=""
-            class="black_arrow"
-          />
         </div>
       </div>
-      <div class="first_row_letter" id="why-blendy">
+      <div class="first_row_letter">
         <img
           src="./static/img/background_letters/Blendy-elementgraficzny-2-b.png"
           alt=""
@@ -201,15 +182,17 @@
         />
       </div>
       <div class="curved_line_context_content">
-        <div class="why_content">
+        <div class="why_content" id="why-blendy">
           <div class="why_text">
-            <h1>Why Blendy?</h1>
-            <h2>
-              BECAUSE OUR SHOTS <br />
-              ARE
-              <span class="white_color_dark_bg">A TASTY AND EFFICIENT</span>
-              ALTERNATIVE TO TRADITIONAL TABLETS OR CAPSULES.<br />
-              THEY:
+            <h1 data-translate="title">Why Blendy?</h1>
+            <h2
+              id="title"
+              data-translate="subtitle"
+              style="text-transform: uppercase"
+            >
+              Because our shots are
+              <span class="white_color_dark_bg">a tasty and efficient</span>
+              alternative to traditional tablets or capsules. They are:
             </h2>
           </div>
           <img
@@ -217,11 +200,14 @@
             alt=""
             class="elemento_grafico_d letter"
           />
-          <img
-            src="./static/img/background_letters/WHYAtivo 1.svg"
-            alt=""
-            class="elemento_grafico_why letter"
-          />
+          <div class="why_bg_section">
+            <img
+              src="./static/img/background_letters/WHYAtivo 1.svg"
+              alt=""
+              class="elemento_grafico_why letter"
+            />
+          </div>
+
           <img
             src="./static/img/background_letters/Blendy-elementgraficzny-1-b.png"
             alt=""
@@ -238,10 +224,10 @@
             <div class="rec left_first_rec left__recs__line">
               <div class="text_columns_yellow_bg">
                 <div class="title_column_context">
-                  <h4>Are better absorbed</h4>
+                  <h4 data-translate="point1">Are better absorbed</h4>
                 </div>
                 <div class="column_text_context">
-                  <p>
+                  <p data-translate="point1-desc">
                     The active ingredients in Blendy are already dissolved,
                     which facilitates their absorption in the digestive tract.
                   </p>
@@ -254,7 +240,7 @@
             <div class="rec left_second_rec left__recs__line">
               <div class="text_columns_yellow_bg">
                 <div class="title_column_context">
-                  <h4>Can be consumed with easy</h4>
+                  <h4 data-translate="point2">Can be consumed with ease</h4>
                 </div>
                 <img
                   src="./static/img/background_letters/Blendy-elementgraficzny-1-b.png"
@@ -262,9 +248,9 @@
                   class="elemento_grafico_B_ybg"
                 />
                 <div class="column_text_context">
-                  <p>
+                  <p data-translate="point2-desc">
                     There is no need to swallow tablets, which may cause
-                    dificulties to some of us.
+                    difficulties to some of us.
                   </p>
                 </div>
               </div>
@@ -275,17 +261,19 @@
             <div class="rec left_third_rec left__recs__line">
               <div class="text_columns_yellow_bg">
                 <div class="title_column_context">
-                  <h4>Have a higher concentration of active ingredients</h4>
+                  <h4 data-translate="point4">
+                    Have higher concentration of active ingredients
+                  </h4>
                 </div>
 
                 <div class="column_text_context">
-                  <p>
+                  <p data-translate="point3-desc">
                     They contain a larger amount of active ingredients, allowing
                     for higher doses in one serving.
                   </p>
                 </div>
               </div>
-              <div class="white_line_icon">
+              <div class="white_line_icon large_icon">
                 <img src="./static/img/icons/icons png/icon 5.png" alt="" />
               </div>
             </div>
@@ -297,16 +285,18 @@
                   class="elemento_grafico_E_ybg"
                 />
                 <div class="title_column_context">
-                  <h4>Can be taken anywhere... and they look splendid</h4>
+                  <h4 data-translate="point4">
+                    Can be taken anywhere… and they look splendid!
+                  </h4>
                 </div>
 
                 <div class="column_text_context">
-                  <p>
+                  <p data-translate="point4-desc">
                     No need to drag a whole pharmacy with you. At work, on
-                    holidays during travels, while driving... you can take a
+                    holidays, during travels, while driving… you can take a
                     Blendy out and instantly provide your body with all the
-                    nutrients it needs. Convenient isn't it? And looks
-                    astonishing
+                    nutrient it needs. Convenient, isn’t it? And looks
+                    astonishing!
                   </p>
                 </div>
                 <img
@@ -315,7 +305,7 @@
                   class="elemento_grafico_D_ybg"
                 />
               </div>
-              <div class="white_line_icon">
+              <div class="white_line_icon large_icon">
                 <img src="./static/img/icons/icons png/icon 7.png" alt="" />
               </div>
             </div>
@@ -327,43 +317,43 @@
               </div>
               <div class="text_columns_yellow_bg">
                 <div class="title_colimn">
-                  <h4>Lack of fillers</h4>
+                  <h4 data-translate="point5">Lack of fillers</h4>
                 </div>
                 <div class="column_text_context">
-                  <p>
-                    Unlike tablets and capsules, our shots contain fewer—or do
-                    not include at all—additional ingredients, such as coating
+                  <p data-translate="point5-desc">
+                    Unlike tablets and capsules, our shots contain fewer - or do
+                    not include at all - additional ingredients, such as coating
                     or fillers. There is simply no need for them.
                   </p>
                 </div>
               </div>
             </div>
             <div class="rec right_second_rec right__recs__line">
-              <div class="white_line_icon">
+              <div class="white_line_icon higher_icon">
                 <img src="./static/img/icons/icons png/icon 4.png" alt="" />
               </div>
               <div class="text_columns_yellow_bg">
                 <div class="title_column_context">
-                  <h4>Act faster</h4>
+                  <h4 data-translate="point6">Act faster</h4>
                 </div>
                 <div class="column_text_context">
-                  <p>
+                  <p data-translate="point6-desc">
                     Due to better absorption, the effects of Blendy are felt
-                    faster than those of pills, powders, or tablets.
+                    faster than those of pills, powder or tablets.
                   </p>
                 </div>
               </div>
             </div>
             <div class="rec right_third_rec right__recs__line">
-              <div class="white_line_icon">
+              <div class="white_line_icon large_icon">
                 <img src="./static/img/icons/icons png/icon 6.png" alt="" />
               </div>
               <div class="text_columns_yellow_bg">
                 <div class="title_column_context">
-                  <h4>Tasty great!</h4>
+                  <h4 data-translate="point7">Taste great!</h4>
                 </div>
                 <div class="column_text_context">
-                  <p>
+                  <p data-translate="point7-desc">
                     Our shots come in a variety of flavors, which makes the
                     consumption experience enjoyable and yummy.
                   </p>
@@ -381,7 +371,7 @@
         </div>
       </div>
     </div>
-    <div class="girls_yellow_bg" id="our-products">
+    <div class="girls_yellow_bg">
       <img src="./static/img/icons/tlo1.jpg" alt="" class="img_girls" />
     </div>
     <div class="green_bg" id="before_party_bottle">
@@ -400,91 +390,204 @@
           </svg>
         </div>
       </div>
-      <div class="my_custom_container_products">
-        <div class="bottle_img left_bottle_section">
+      <div class="top_flor">
+        <div class="mobile_title_section_area">
+          <h1>Before party</h1>
+        </div>
+        <div class="letters_section left_letters_section">
           <img
-            src="./static/img/bottles/Blendy-100ml-wizualizacja-FS-before-party-v1-2024-09-19.png"
-            alt="After party Blendy"
-            class="bottle_before_party"
+            src="./static/img/background_letters/Blendy-elementgraficzny-1-b.png"
+            alt="B letter"
+            class="b_letter"
           />
         </div>
-        <div class="context_area">
-          <div class="table_aria">
-            <div class="title_section_area">
-              <h1>Before party</h1>
-            </div>
-            <div class="columns">
-              <div class="column">
-                <div class="points_area">
-                  <div class="points_area_img">
-                    <img src="./static/img/icons/magnesium1.png" alt="" />
-                  </div>
-                  <div class="points_area_text">CURCUMIN</div>
-                </div>
-                <div class="points_area">
-                  <div class="points_area_img">
-                    <img src="./static/img/icons/riboflav1.png" alt="" />
-                  </div>
-                  <div class="points_area_text">THAIMINE (B1)</div>
-                </div>
-                <div class="points_area">
-                  <div class="points_area_img">
-                    <img src="./static/img/icons/potassium1.png" alt="" />
-                  </div>
-                  <div class="points_area_text">RIBOFLAVIN (B2)</div>
-                </div>
-                <div class="points_area">
-                  <div class="points_area_img">
-                    <img src="./static/img/icons/activered1.png" alt="" />
-                  </div>
-                  <div class="points_area_text">NIACIN (B3)</div>
-                </div>
-              </div>
-              <div class="column">
-                <div class="points_area">
-                  <div class="points_area_img">
-                    <img src="./static/img/icons/glucose1.png" alt="" />
-                  </div>
-                  <div class="points_area_text">GLUCOSE</div>
-                </div>
-                <div class="points_area">
-                  <div class="points_area_img">
-                    <img src="./static/img/icons/ethanine1.png" alt="" />
-                  </div>
-                  <div class="points_area_text">FOLIC ACID (B9)</div>
-                </div>
-                <div class="points_area">
-                  <div class="points_area_img">
-                    <img src="./static/img/icons/choline1.png" alt="" />
-                  </div>
-                  <div class="points_area_text">PYRIXIDONE (B6)</div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="vantagens">
-            <img
-              src="./static/img/background_letters/Blendy-elementgraficzny-1-b.png"
-              alt="B"
-              class="elemento_grafico_B_green_bg"
-            />
-            <h1 class="vantagens_h1">
-              PREVENTS THE
-              <span class="white_color_dark_bg">NEGATIVE</span> EFFECTS OF
-              <span class="white_color_dark_bg">ALCOHOL</span> CONSUMPTION
-            </h1>
+        <div class="bottle_section left_bottle_section">
+          <div class="mobile_letters_section mobile_left_letters_section">
             <img
               src="./static/img/background_letters/Blendy-elementgraficzny-5-b.png"
-              alt="E"
-              class="elemento_grafico_E_green_bg"
+              alt="E letter"
+              class="e_letter"
+            />
+            <img
+              src="./static/img/background_letters/Blendy-elementgraficzny-2-b.png"
+              alt="J letter"
+              class="y_letter"
+            />
+          </div>
+          <img
+            src="./static/img/bottles/Blendy-100ml-wizualizacja-FS-before-party-v1-2024-09-19.png"
+            alt="before_party_bottle"
+            class="before_party_bottle"
+          />
+          <div class="mobile_letters_section mobile_right_letters_section">
+            <img
+              src="./static/img/background_letters/Blendy-elementgraficzny-1-b.png"
+              alt="B letter"
+              class="mobile_b_letter"
             />
           </div>
         </div>
-        <div class="foto_person_container right_person_foto_container">
+        <div class="ingredients_area">
+          <div class="title_section_area">
+            <h1>Before party</h1>
+          </div>
+          <div class="columns">
+            <img
+              src="./static/img/background_letters/Blendy-elementgraficzny-1-b.png"
+              alt=""
+              class="before_party_mobile_b letter"
+            />
+            <div class="column">
+              <div class="points_area">
+                <div class="points_area_img">
+                  <img src="./static/img/icons/magnesium1.png" alt="icon" />
+                </div>
+                <div
+                  class="points_area_text"
+                  data-translate="ingredient-curcumin"
+                >
+                  CURCUMIN
+                </div>
+              </div>
+              <div class="points_area">
+                <div class="points_area_img">
+                  <img src="./static/img/icons/riboflav1.png" alt="" />
+                </div>
+                <div
+                  class="points_area_text"
+                  data-translate="ingredient-thiamine"
+                >
+                  THIAMINE (B1)
+                </div>
+              </div>
+              <div class="points_area">
+                <div class="points_area_img">
+                  <img src="./static/img/icons/potassium1.png" alt="" />
+                </div>
+                <div
+                  class="points_area_text"
+                  data-translate="ingredient-riboflavin"
+                >
+                  RIBOFLAVIN (B2)
+                </div>
+              </div>
+              <div class="points_area">
+                <div class="points_area_img">
+                  <img src="./static/img/icons/activered1.png" alt="" />
+                </div>
+                <div
+                  class="points_area_text"
+                  data-translate="ingredient-niacin"
+                >
+                  NIACIN (B3)
+                </div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="points_area">
+                <div class="points_area_img">
+                  <img src="./static/img/icons/glucose1.png" alt="" />
+                </div>
+                <div
+                  class="points_area_text"
+                  data-translate="ingredient-glucose"
+                >
+                  GLUCOSE
+                </div>
+              </div>
+              <div class="points_area">
+                <div class="points_area_img">
+                  <img src="./static/img/icons/ethanine1.png" alt="" />
+                </div>
+                <div
+                  class="points_area_text"
+                  data-translate="ingredient-folic-acid"
+                >
+                  FOLIC ACID (B9)
+                </div>
+              </div>
+              <div class="points_area">
+                <div class="points_area_img">
+                  <img src="./static/img/icons/choline1.png" alt="" />
+                </div>
+                <div
+                  class="points_area_text"
+                  data-translate="ingredient-pyridoxine"
+                >
+                  PYRIXIDONE (B6)
+                </div>
+              </div>
+              <div class="points_area">
+                <div class="points_area_img"></div>
+                <div class="points_area_text">
+                  NovaSOL.<br /><span style="font-weight: 5">CURCUMIN</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="letters_section right_letters_section">
           <img
-            src="./static/img/bottles/person_blende_before_party.png"
-            alt="Foto"
-            class="foto_person_before_party"
+            src="./static/img/background_letters/Blendy-elementgraficzny-0-b.png"
+            alt="J letter"
+            class="j_letter"
+          />
+          <img
+            src="./static/img/background_letters/Blendy-elementgraficzny-5-b.png"
+            alt="E letter"
+            class="e_letter"
+          />
+        </div>
+      </div>
+      <div class="bottom_flor">
+        <div class="person_img_area left_person_img_area">
+          <div class="mobile_letters_section mobile_left_letters_section">
+            <img
+              src="./static/img/background_letters/Blendy-elementgraficzny-4-b.png"
+              alt="L letter"
+              class="l_letter"
+            />
+            <img
+              src="./static/img/background_letters/Blendy-elementgraficzny-1-b.png"
+              alt="B letter"
+              class="b_letter"
+            />
+          </div>
+          <img
+            src="./static/img/peaple/czlowiek-1.png"
+            alt=""
+            class="before_party_person"
+          />
+          <div class="mobile_letters_section mobile_right_letters_section">
+            <img
+              src="./static/img/background_letters/Blendy-elementgraficzny-5-b.png"
+              alt="E letter"
+              class="e_letter"
+            />
+          </div>
+        </div>
+        <div class="vantagens">
+          <h1 class="vantagens_h1" data-translate="prevents-negative">
+            PREVENTS THE
+            <span class="white_color_dark_bg">NEGATIVE</span> EFFECTS OF
+            <span class="white_color_dark_bg">ALCOHOL</span> CONSUMPTION
+          </h1>
+        </div>
+        <div class="bottle_tilted_area right_bottle_tilted_area">
+          <img
+            src="./static/img/background_letters/Blendy-elementgraficzny-4-b.png"
+            alt="B letter"
+            class="before_party_L_letter"
+          />
+          <img
+            src="./static/img/botelles_rotated/Blendy-100ml-wizualizacja-FS-before-party-v1-2024-09-19-bokiem3.png"
+            alt="bottle"
+            class="before-party_bottle_img"
+          />
+          <img
+            src="./static/img/background_letters/Blendy-elementgraficzny-2-b.png"
+            alt="B letter"
+            class="before_party_Y_letter"
           />
         </div>
       </div>
@@ -505,117 +608,236 @@
           </svg>
         </div>
       </div>
-      <div class="my_custom_container_products">
-        <div class="foto_person_container left_person_foto_container">
+      <div class="top_flor">
+        <div class="mobile_title_section_area">
+          <h1>After party</h1>
+        </div>
+        <div class="letters_section left_letters_section">
           <img
-            src="./static/img/bottles/person_blendy_after_party.png"
-            alt="foto"
-            class="foto_person_after_party"
+            src="./static/img/background_letters/Blendy-elementgraficzny-1-b.png"
+            alt="B letter"
+            class="b_letter"
           />
         </div>
-        <div class="context_area">
-          <div class="vantagens">
-            <img
-              src="./static/img/background_letters/Blendy-elementgraficzny-0-b.png"
-              alt=""
-              class="elemento_grafico_B_after_party"
-            />
-
-            <h1>
-              ELIMINATE THE
-              <span class="black_color_white_bg">NEGATIVE</span> EFFECTS OF
-              <span class="black_color_white_bg">ALCOHOL CONSUMPTION</span>
-            </h1>
+        <div class="ingredients_area">
+          <div class="title_section_area">
+            <h1>After party</h1>
           </div>
-          <div class="table_aria">
-            <div class="title_section_area">
-              <h1>After party</h1>
-            </div>
-            <div class="columns">
-              <div class="column">
-                <div class="points_area">
-                  <div class="points_area_img">
-                    <img src="./static/img/icons/ethanine.png" alt="" />
-                  </div>
-                  <div class="points_area_text">L-THEANIN</div>
+          <img
+            src="./static/img/background_letters/Blendy-elementgraficzny-1-b.png"
+            alt=""
+            class="after_party_mobile_b letter"
+          />
+          <div class="columns">
+            <div class="column">
+              <div class="points_area">
+                <div class="points_area_img">
+                  <img src="./static/img/icons/ethanine.png" alt="" />
                 </div>
-                <div class="points_area">
-                  <div class="points_area_img">
-                    <img src="./static/img/icons/activered.png" alt="" />
-                  </div>
-                  <div class="points_area_text">ACTIV CARBON</div>
-                </div>
-                <div class="points_area">
-                  <div class="points_area_img">
-                    <img src="./static/img/icons/ginseng.png" alt="" />
-                  </div>
-                  <div class="points_area_text">GINSENG</div>
-                </div>
-                <div class="points_area">
-                  <div class="points_area_img">
-                    <img src="./static/img/icons/potassium.png" alt="" />
-                  </div>
-                  <div class="points_area_text">POTASSIUM</div>
-                </div>
-                <div class="points_area">
-                  <div class="points_area_img">
-                    <img src="./static/img/icons/magnesium.png" alt="" />
-                  </div>
-                  <div class="points_area_text">MAGNESIUM</div>
-                </div>
-                <div class="points_area">
-                  <div class="points_area_img">
-                    <img src="./static/img/icons/glucose.png" alt="" />
-                  </div>
-                  <div class="points_area_text">GLUCOSE</div>
+                <div
+                  class="points_area_text"
+                  data-translate="ingredient-ltheanin"
+                >
+                  L-THEANINE
                 </div>
               </div>
-              <div class="column">
-                <div class="points_area">
-                  <div class="points_area_img">
-                    <img src="./static/img/icons/choline.png" alt="" />
-                  </div>
-                  <div class="points_area_text">CHOLINE</div>
+              <div class="points_area">
+                <div class="points_area_img">
+                  <img src="./static/img/icons/activered.png" alt="" />
                 </div>
-                <div class="points_area">
-                  <div class="points_area_img">
-                    <img src="./static/img/icons/thiamine.png" alt="" />
-                  </div>
-                  <div class="points_area_text">THIAMIN(B1)</div>
+                <div
+                  class="points_area_text"
+                  data-translate="ingredient-carbon"
+                >
+                  ACTIV CARBON
                 </div>
-                <div class="points_area">
-                  <div class="points_area_img">
-                    <img src="./static/img/icons/riboflav.png" alt="" />
-                  </div>
-                  <div class="points_area_text">RIBOFLAVIN</div>
+              </div>
+              <div class="points_area">
+                <div class="points_area_img">
+                  <img src="./static/img/icons/ginseng.png" alt="" />
                 </div>
-                <div class="points_area">
-                  <div class="points_area_img">
-                    <img src="./static/img/icons/niacin.png" alt="" />
-                  </div>
-                  <div class="points_area_text">NIACIN</div>
+                <div
+                  class="points_area_text"
+                  data-translate="ingredient-ginseng"
+                >
+                  GINSENG
                 </div>
-                <div class="points_area">
-                  <div class="points_area_img">
-                    <img src="./static/img/icons/pyridox.png" alt="" />
-                  </div>
-                  <div class="points_area_text">PYRIDOXIN</div>
+              </div>
+              <div class="points_area">
+                <div class="points_area_img">
+                  <img src="./static/img/icons/potassium.png" alt="" />
                 </div>
-                <div class="points_area">
-                  <div class="points_area_img">
-                    <img src="./static/img/icons/milk.png" alt="" />
-                  </div>
-                  <div class="points_area_text">MILK THISTLE</div>
+                <div
+                  class="points_area_text"
+                  data-translate="ingredient-potassium"
+                >
+                  POTASSIUM
+                </div>
+              </div>
+              <div class="points_area">
+                <div class="points_area_img">
+                  <img src="./static/img/icons/magnesium.png" alt="" />
+                </div>
+                <div
+                  class="points_area_text"
+                  data-translate="ingredient-magnesium"
+                >
+                  MAGNESIUM
+                </div>
+              </div>
+              <div class="points_area">
+                <div class="points_area_img">
+                  <img src="./static/img/icons/glucose.png" alt="" />
+                </div>
+                <div
+                  class="points_area_text"
+                  data-translate="ingredient-glucose"
+                >
+                  GLUCOSE
+                </div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="points_area">
+                <div class="points_area_img">
+                  <img src="./static/img/icons/choline.png" alt="" />
+                </div>
+                <div
+                  class="points_area_text"
+                  data-translate="ingredient-choline"
+                >
+                  CHOLINE
+                </div>
+              </div>
+              <div class="points_area">
+                <div class="points_area_img">
+                  <img src="./static/img/icons/thiamine.png" alt="" />
+                </div>
+                <div
+                  class="points_area_text"
+                  data-translate="ingredient-thiamin"
+                >
+                  THIAMINE(B1)
+                </div>
+              </div>
+              <div class="points_area">
+                <div class="points_area_img">
+                  <img src="./static/img/icons/riboflav.png" alt="" />
+                </div>
+                <div
+                  class="points_area_text"
+                  data-translate="ingredient-riboflavin"
+                >
+                  RIBOFLAVIN (B2)
+                </div>
+              </div>
+              <div class="points_area">
+                <div class="points_area_img">
+                  <img src="./static/img/icons/niacin.png" alt="" />
+                </div>
+                <div
+                  class="points_area_text"
+                  data-translate="ingredient-niacin"
+                >
+                  NIACIN (B3)
+                </div>
+              </div>
+              <div class="points_area">
+                <div class="points_area_img">
+                  <img src="./static/img/icons/pyridox.png" alt="" />
+                </div>
+                <div
+                  class="points_area_text"
+                  data-translate="ingredient-pyridoxin"
+                >
+                  PYRIDOXIN (B6)
+                </div>
+              </div>
+              <div class="points_area">
+                <div class="points_area_img">
+                  <img src="./static/img/icons/milk.png" alt="" />
+                </div>
+                <div
+                  class="points_area_text"
+                  data-translate="ingredient-milkthistle"
+                >
+                  MILK THISTLE
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="bottle_img right_bottle_section">
+        <div class="bottle_section right_bottle_section">
+          <div class="mobile_letters_section mobile_left_letters_section">
+            <img
+              src="./static/img/background_letters/Blendy-elementgraficzny-5-b.png"
+              alt="E letter"
+              class="e_letter"
+            />
+            <img
+              src="./static/img/background_letters/Blendy-elementgraficzny-2-b.png"
+              alt="J letter"
+              class="y_letter"
+            />
+          </div>
           <img
             src="./static/img/bottles/Blendy-100ml-wizualizacja-FS-after-party-v1-2024-09-19.png"
-            alt="After party Blendy"
-            class="bottle_after_party"
+            alt="after_party_bottle"
+            class="after_party_bottle"
+          />
+          <div class="mobile_letters_section mobile_right_letters_section">
+            <img
+              src="./static/img/background_letters/Blendy-elementgraficzny-1-b.png"
+              alt="B letter"
+              class="mobile_b_letter"
+            />
+          </div>
+        </div>
+        <div class="letters_section right_letters_section">
+          <img
+            src="./static/img/background_letters/Blendy-elementgraficzny-2-b.png"
+            alt="Y letter"
+            class="y_letter"
+          />
+          <img
+            src="./static/img/background_letters/Blendy-elementgraficzny-5-b.png"
+            alt="E letter"
+            class="e_letter"
+          />
+          <img
+            src="./static/img/background_letters/Blendy-elementgraficzny-1-b.png"
+            alt="B letter"
+            class="b_letter"
+          />
+        </div>
+      </div>
+      <div class="bottom_flor">
+        <div class="bottle_tilted_area left_bottle_tilted_area">
+          <img
+            src="./static/img/botelles_rotated/Blendy-100ml-wizualizacja-FS-after-party-v1-2024-09-19-bokiem1.png"
+            alt="bottle"
+            class="after-party_bottle_img"
+          />
+        </div>
+        <div class="vantagens">
+          <h1 data-translate="eliminate-negative">
+            <span class="black_color_white_bg">ELIMINATES</span> THE NEGATIVE
+            EFFECTS OF
+            <span class="black_color_white_bg">ALCOHOL</span> CONSUMPTION
+          </h1>
+        </div>
+        <div class="person_img_area right_person_img_area">
+          <div class="mobile_letters_section mobile_left_letters_section">
+            <img
+              src="./static/img/background_letters/Blendy-elementgraficzny-5-b.png"
+              alt="E letter"
+              class="e_letter"
+            />
+          </div>
+          <img
+            src="./static/img/peaple/czlowiek-2.png"
+            alt=""
+            class="after_party_person"
           />
         </div>
       </div>
@@ -636,76 +858,157 @@
           </svg>
         </div>
       </div>
-      <div class="my_custom_container_products">
-        <div class="bottle_img left_bottle_section">
+      <div class="top_flor">
+        <div class="mobile_title_section_area">
+          <h1>Focus</h1>
+        </div>
+        <div class="letters_section left_letters_section">
           <img
-            src="./static/img/bottles/Blendy-100ml-wizualizacja-FS-FOCUS-v1-2024-09-19.png"
-            alt="Before party Blendy"
-            class="blendy_focus"
+            src="./static/img/background_letters/Blendy-elementgraficzny-4-b.png"
+            alt="L letter"
+            class="L_letter_focus_top_flor"
+          />
+          <img
+            src="./static/img/background_letters/Blendy-elementgraficzny-1-b.png"
+            alt="B letter"
+            class="b_letter_focus_top_flor"
           />
         </div>
-        <div class="context_area">
-          <div class="table_aria">
-            <div class="title_section_area">
-              <h1>Focus</h1>
-            </div>
-            <div class="columns">
-              <div class="column">
-                <div class="points_area">
-                  <div class="points_area_img">
-                    <img src="./static/img/icons/choline1.png" alt="" />
-                  </div>
-                  <div class="points_area_text">THEANINE</div>
-                </div>
-                <div class="points_area">
-                  <div class="points_area_img">
-                    <img src="./static/img/icons/magnesium1.png" alt="" />
-                  </div>
-                  <div class="points_area_text">THIROSINE</div>
-                </div>
-              </div>
-              <div class="column">
-                <div class="points_area">
-                  <div class="points_area_img">
-                    <img src="./static/img/icons/milk1.png" alt="" />
-                  </div>
-                  <div class="points_area_text">ASHWAGANDHA ROOT EXTRACT</div>
-                </div>
-                <div class="points_area">
-                  <div class="points_area_img">
-                    <img src="./static/img/icons/ginseng1.png" alt="" />
-                  </div>
-                  <div class="points_area_text">
-                    RODEAOL ROSEIA ROOT EXTRACT
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="vantagens">
+        <div class="bottle_section left_bottle_section">
+          <div class="mobile_letters_section mobile_left_letters_section">
             <img
               src="./static/img/background_letters/Blendy-elementgraficzny-5-b.png"
-              alt="E"
-              class="elemento_grafico_E_light_blue_bg"
+              alt="E letter"
+              class="e_letter"
             />
             <img
-              src="./static/img/background_letters/Blendy-elementgraficzny-3-b.png"
-              alt="E"
-              class="elemento_grafico_D_light_blue_bg"
+              src="./static/img/background_letters/Blendy-elementgraficzny-2-b.png"
+              alt="J letter"
+              class="y_letter"
             />
-            <h1>
-              HELPS IMPROVE
-              <span class="white_color_dark_bg">FOCUS</span>-LOWERS CORTISOL,
-              SUPORT THE INCREASE of
-              <span class="white_color_dark_bg">DOPAMINE</span> AND SEROTANIN
-            </h1>
+          </div>
+
+          <img
+            src="./static/img/bottles//Blendy-100ml-wizualizacja-FS-FOCUS-v1-2024-09-19.png"
+            alt="before_party_bottle"
+            class="focus_bottle"
+          />
+
+          <div class="mobile_letters_section mobile_right_letters_section">
+            <img
+              src="./static/img/background_letters/Blendy-elementgraficzny-1-b.png"
+              alt="B letter"
+              class="mobile_b_letter"
+            />
           </div>
         </div>
-        <div class="foto_person_container right_person_foto_container">
+        <div class="ingredients_area">
+          <div class="title_section_area">
+            <h1>Focus</h1>
+          </div>
+          <div class="columns">
+            <img
+              src="./static/img/background_letters/Blendy-elementgraficzny-1-b.png"
+              alt=""
+              class="focus_mobile_b letter"
+            />
+            <div class="column">
+              <div class="points_area">
+                <div class="points_area_img">
+                  <img src="./static/img/icons/choline1.png" alt="" />
+                </div>
+                <div
+                  class="points_area_text"
+                  data-translate="ingredient-theanine"
+                >
+                  L-THEANINE
+                </div>
+              </div>
+              <div class="points_area">
+                <div class="points_area_img">
+                  <img src="./static/img/icons/magnesium1.png" alt="" />
+                </div>
+                <div
+                  class="points_area_text"
+                  data-translate="ingredient-thirosine"
+                >
+                  L-TYROSINE
+                </div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="points_area">
+                <div class="points_area_img">
+                  <img src="./static/img/icons/milk1.png" alt="" />
+                </div>
+                <div
+                  class="points_area_text"
+                  data-translate="ingredient-aswagandha"
+                >
+                  ASHWAGANDHA ROOT EXTRACT
+                </div>
+              </div>
+              <div class="points_area">
+                <div class="points_area_img">
+                  <img src="./static/img/icons/ginseng1.png" alt="" />
+                </div>
+                <div
+                  class="points_area_text"
+                  data-translate="ingredient-rodeaol"
+                >
+                  RHODIOLA ROSEA ROOT EXTRACT
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="letters_section right_letters_section">
           <img
-            src="./static/img/bottles/person_blendy_focus.png"
-            alt="Foto"
-            class="foto_person_focus"
+            src="./static/img/background_letters/Blendy-elementgraficzny-5-b.png"
+            alt="E letter"
+            class="e_letter"
+          />
+          <img
+            src="./static/img/background_letters/Blendy-elementgraficzny-2-b.png"
+            alt="Y letter"
+            class="y_letter"
+          />
+
+          <img
+            src="./static/img/background_letters/Blendy-elementgraficzny-1-b.png"
+            alt="B letter"
+            class="b_letter"
+          />
+        </div>
+      </div>
+      <div class="bottom_flor">
+        <div class="person_img_area left_person_img_area">
+          <img
+            src="./static/img/peaple/czlowiek-4.png"
+            alt=""
+            class="focus_person"
+          />
+          <div class="mobile_letters_section mobile_right_letters_section">
+            <img
+              src="./static/img/background_letters/Blendy-elementgraficzny-1-b.png"
+              alt="B letter"
+              class="mobile_b_letter"
+            />
+          </div>
+        </div>
+        <div class="vantagens">
+          <h1 data-translate="helps-improve">
+            HELPS IMPROVE
+            <span class="white_color_dark_bg">FOCUS</span>-LOWERS CORTISOL,
+            SUPORT THE INCREASE of
+            <span class="white_color_dark_bg">DOPAMINE</span> AND SEROTONIN
+          </h1>
+        </div>
+        <div class="bottle_tilted_area right_bottle_tilted_area">
+          <img
+            src="./static/img/botelles_rotated/Blendy-100ml-wizualizacja-FS-FOCUS-v1-2024-09-19-bokiem1.png"
+            alt="bottle"
+            class="focus-party_bottle_img"
           />
         </div>
       </div>
@@ -726,74 +1029,156 @@
           </svg>
         </div>
       </div>
-      <div class="my_custom_container_products">
-        <div class="foto_person_container left_person_foto_container">
+      <div class="top_flor">
+        <div class="mobile_title_section_area">
+          <h1>Collagen</h1>
+        </div>
+        <div class="letters_section left_letters_section">
           <img
-            src="./static/img/bottles/person_blendy_collagen.png"
-            alt="Foto"
-            class="foto_person_container foto_person_collagen"
+            src="./static/img/background_letters/Blendy-elementgraficzny-0-b.png"
+            alt="J letter"
+            class="j_letter_pink_bg"
           />
         </div>
-        <div class="context_area">
-          <div class="vantagens">
-            <img
-              src="./static/img/background_letters/Blendy-elementgraficzny-5-b.png"
-              alt="E"
-              class="elemento_grafico_D_pink_bg"
-            />
-
+        <div class="ingredients_area">
+          <div class="title_section_area">
+            <h1>Collagen</h1>
+          </div>
+          <div class="columns">
             <img
               src="./static/img/background_letters/Blendy-elementgraficzny-1-b.png"
-              alt="E"
-              class="elemento_grafico_B_pink_bg"
+              alt=""
+              class="focus_mobile_b letter"
             />
-            <h1>
-              HELPS KEEP THE SKIN
-              <span class="white_color_dark_bg">YOUNG</span> &
-              <span class="white_color_dark_bg">BEAUTIFUL</span>
-            </h1>
-          </div>
-          <div class="table_aria">
-            <div class="title_section_area">
-              <h1>Collagen</h1>
-            </div>
-            <div class="columns">
-              <div class="column">
-                <div class="points_area">
-                  <div class="points_area_img">
-                    <img src="./static/img/icons/collagen1.png" alt="" />
-                  </div>
-                  <div class="points_area_text">COLAGEN</div>
+            <div class="column">
+              <div class="points_area">
+                <div class="points_area_img">
+                  <img src="./static/img/icons/collagen1.png" alt="" />
                 </div>
-                <div class="points_area">
-                  <div class="points_area_img">
-                    <img src="./static/img/icons/choline1.png" alt="" />
-                  </div>
-                  <div class="points_area_text">ACEROLA</div>
+                <div
+                  class="points_area_text"
+                  data-translate="ingredient-colagen"
+                >
+                  COLLAGEN
                 </div>
               </div>
-              <div class="column">
-                <div class="points_area">
-                  <div class="points_area_img">
-                    <img src="./static/img/icons/magnesium1.png" alt="" />
-                  </div>
-                  <div class="points_area_text">HIBISCUS</div>
+              <div class="points_area">
+                <div class="points_area_img">
+                  <img src="./static/img/icons/choline1.png" alt="" />
                 </div>
-                <div class="points_area">
-                  <div class="points_area_img">
-                    <img src="./static/img/icons/activered1.png" alt="" />
-                  </div>
-                  <div class="points_area_text">VITAMIN C</div>
+                <div
+                  class="points_area_text"
+                  data-translate="ingredient-acerola"
+                >
+                  ACEROLA
                 </div>
               </div>
             </div>
+            <div class="column">
+              <div class="points_area">
+                <div class="points_area_img">
+                  <img src="./static/img/icons/magnesium1.png" alt="" />
+                </div>
+                <div
+                  class="points_area_text"
+                  data-translate="ingredient-hibiscus"
+                >
+                  HIBISCUS FLOWER
+                </div>
+              </div>
+              <div class="points_area">
+                <div class="points_area_img">
+                  <img src="./static/img/icons/activered1.png" alt="" />
+                </div>
+                <div class="points_area_text" data-translate="vitaminc">
+                  VITAMIN C
+                </div>
+              </div>
+            </div>
           </div>
+          <img
+            src="./static/img/background_letters/Blendy-elementgraficzny-0-b.png"
+            alt="L letter"
+            class="j1_letter_pink_bg"
+          />
         </div>
-        <div class="bottle_img right_bottle_section">
+        <div class="bottle_section right_bottle_section">
+          <div class="mobile_letters_section mobile_left_letters_section">
+            <img
+              src="./static/img/background_letters/Blendy-elementgraficzny-5-b.png"
+              alt="E letter"
+              class="e_letter"
+            />
+            <img
+              src="./static/img/background_letters/Blendy-elementgraficzny-2-b.png"
+              alt="J letter"
+              class="y_letter"
+            />
+          </div>
           <img
             src="./static/img/bottles/Blendy-100ml-wizualizacja-BS-collagen-v1-2024-09-19.png"
-            alt="After party Blendy"
-            class="bottle_collagen"
+            alt="collagen_bottle"
+            class="collagen_bottle"
+          />
+          <div class="mobile_letters_section mobile_right_letters_section">
+            <img
+              src="./static/img/background_letters/Blendy-elementgraficzny-1-b.png"
+              alt="B letter"
+              class="mobile_b_letter"
+            />
+          </div>
+        </div>
+        <div class="letters_section right_letters_section">
+          <img
+            src="./static/img/background_letters/Blendy-elementgraficzny-1-b.png"
+            alt="B letter"
+            class="b_letter_pink_bg"
+          />
+          <img
+            src="./static/img/background_letters/Blendy-elementgraficzny-4-b.png"
+            alt="L letter"
+            class="l_letter_pink_bg"
+          />
+        </div>
+      </div>
+      <div class="bottom_flor">
+        <div class="bottle_tilted_area left_bottle_tilted_area">
+          <img
+            src="./static/img/background_letters/Blendy-elementgraficzny-3-b.png"
+            alt="L letter"
+            class="d_letter_pink_bg"
+          />
+          <img
+            src="./static/img/botelles_rotated/Blendy-100ml-wizualizacja-BS-collagen-v1-2024-09-19-bokiem1.png"
+            alt="bottle"
+            class="collagen_bottle_img"
+          />
+        </div>
+        <div class="vantagens">
+          <h1 data-translate="keeps-skin-young">
+            HELPS KEEP THE SKIN
+            <span class="white_color_dark_bg">YOUNG</span> &
+            <span class="white_color_dark_bg">BEAUTIFUL</span>
+          </h1>
+        </div>
+        <div class="person_img_area right_person_img_area">
+          <div class="mobile_letters_section mobile_left_letters_section">
+            <img
+              src="./static/img/background_letters/Blendy-elementgraficzny-5-b.png"
+              alt="E letter"
+              class="e_letter"
+            />
+            <img
+              src="./static/img/background_letters/Blendy-elementgraficzny-2-b.png"
+              alt="J letter"
+              class="y_letter"
+            />
+          </div>
+
+          <img
+            src="./static/img/peaple/czlowiek-6.png"
+            alt=""
+            class="collagen_person"
           />
         </div>
       </div>
@@ -814,91 +1199,173 @@
           </svg>
         </div>
       </div>
-      <div class="my_custom_container_products">
-        <div class="bottle_img left_bottle_section">
+      <div class="top_flor">
+        <div class="mobile_title_section_area">
+          <h1>Power</h1>
+        </div>
+        <div class="letters_section left_letters_section">
           <img
-            src="./static/img/bottles/Blendy-100ml-wizualizacja-FS-Power-v1-2024-09-19.png"
-            alt="Before party Blendy"
-            class="blendy_pawer"
+            src="./static/img/background_letters/Blendy-elementgraficzny-3-b.png"
+            alt="D letter"
+            class="d_letter_focus_top_flor"
           />
         </div>
-        <div class="context_area">
-          <div class="table_aria">
-            <div class="title_section_area">
-              <h1>Power</h1>
-            </div>
-            <div class="columns">
-              <div class="column">
-                <div class="points_area">
-                  <div class="points_area_img">
-                    <img src="./static/img/icons/magnesium1.png" alt="" />
-                  </div>
-                  <div class="points_area_text">L-CARNITIN</div>
-                </div>
-                <div class="points_area">
-                  <div class="points_area_img">
-                    <img src="./static/img/icons/riboflav1.png" alt="" />
-                  </div>
-                  <div class="points_area_text">L-TYROSINE</div>
-                </div>
-              </div>
-              <div class="column">
-                <div class="points_area">
-                  <div class="points_area_img">
-                    <img src="./static/img/icons/activered1.png" alt="" />
-                  </div>
-                  <div class="points_area_text">GREEN CAFFEE CAFFEINE</div>
-                </div>
-                <div class="points_area">
-                  <div class="points_area_img">
-                    <img src="./static/img/icons/choline1.png" alt="" />
-                  </div>
-                  <div class="points_area_text">GINSENG ROOT EXTRACT</div>
-                </div>
-              </div>
-            </div>
-            <div class="points_area" style="width: 60%; margin: auto">
-              <div class="points_area_img">
-                <img src="./static/img/icons/potassium1.png" alt="" />
-              </div>
-              <div class="points_area_text">GUARANA SEED EXTRACT</div>
-            </div>
-          </div>
-
-          <div class="vantagens">
+        <div class="bottle_section left_bottle_section">
+          <div class="mobile_letters_section mobile_left_letters_section">
             <img
-              src="./static/img/background_letters/Blendy-elementgraficzny-3-b.png"
-              alt="E"
-              class="elemento_grafico_D_yellow_bg"
+              src="./static/img/background_letters/Blendy-elementgraficzny-5-b.png"
+              alt="E letter"
+              class="e_letter"
             />
             <img
               src="./static/img/background_letters/Blendy-elementgraficzny-2-b.png"
-              alt="E"
-              class="elemento_grafico_Y_yellow_bg"
+              alt="J letter"
+              class="y_letter"
             />
+          </div>
+          <img
+            src="./static/img/bottles/Blendy-100ml-wizualizacja-FS-Power-v1-2024-09-19.png"
+            alt="power_bottle"
+            class="power_bottle"
+          />
+          <div class="mobile_letters_section mobile_right_letters_section">
             <img
-              src="./static/img/background_letters/Blendy-elementgraficzny-4-b.png"
-              alt="E"
-              class="elemento_grafico_L_yellow_bg"
+              src="./static/img/background_letters/Blendy-elementgraficzny-1-b.png"
+              alt="B letter"
+              class="mobile_b_letter"
             />
-            <h1 id="about-us">
-              BOOSTS THE
-              <span class="white_color_dark_bg">ENERGY</span> LEVELS. UNLOCK THE
-              <span class="white_color_dark_bg">POWER</span> TO TAKE ON ANY
-              CHALLENGE.
-            </h1>
           </div>
         </div>
-        <div class="foto_person_container right_person_foto_container">
+        <div class="ingredients_area">
+          <div class="title_section_area">
+            <h1>Power</h1>
+          </div>
+          <div class="columns">
+            <img
+              src="./static/img/background_letters/Blendy-elementgraficzny-1-b.png"
+              alt=""
+              class="focus_mobile_b letter"
+            />
+            <div class="column">
+              <div class="points_area">
+                <div class="points_area_img">
+                  <img src="./static/img/icons/magnesium1.png" alt="" />
+                </div>
+                <div
+                  class="points_area_text"
+                  data-translate="ingredient-carnitin"
+                >
+                  L-CARNITINE
+                </div>
+              </div>
+              <div class="points_area">
+                <div class="points_area_img">
+                  <img src="./static/img/icons/riboflav1.png" alt="" />
+                </div>
+                <div
+                  class="points_area_text"
+                  data-translate="ingredient-tyrosine"
+                >
+                  L-TYROSINE
+                </div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="points_area">
+                <div class="points_area_img">
+                  <img src="./static/img/icons/activered1.png" alt="" />
+                </div>
+                <div
+                  class="points_area_text"
+                  data-translate="ingredient-caffeine"
+                >
+                  GREEN COFFEE CAFFEINE
+                </div>
+              </div>
+              <div class="points_area">
+                <div class="points_area_img">
+                  <img src="./static/img/icons/choline1.png" alt="" />
+                </div>
+                <div
+                  class="points_area_text"
+                  data-translate="ingredient-ginseng"
+                >
+                  GINSENG ROOT EXTRACT
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="points_area" style="width: 60%; margin: auto">
+            <div class="points_area_img">
+              <img src="./static/img/icons/potassium1.png" alt="" />
+            </div>
+            <div class="points_area_text" data-translate="ingredient-guarana">
+              GUARANA SEED EXTRACT
+            </div>
+          </div>
+        </div>
+        <div class="letters_section right_letters_section">
           <img
-            src="./static/img/bottles/person_blendy_power.png"
-            alt="Foto"
-            class="foto_person_power"
+            src="./static/img/background_letters/Blendy-elementgraficzny-5-b.png"
+            alt="E letter"
+            class="e_letter"
+          />
+        </div>
+      </div>
+      <div class="bottom_flor">
+        <div class="person_img_area left_person_img_area">
+          <div class="mobile_letters_section mobile_left_letters_section">
+            <img
+              src="./static/img/background_letters/Blendy-elementgraficzny-5-b.png"
+              alt="E letter"
+              class="e_letter"
+            />
+            <img
+              src="./static/img/background_letters/Blendy-elementgraficzny-2-b.png"
+              alt="J letter"
+              class="y_letter"
+            />
+          </div>
+          <img
+            src="./static/img/peaple/czlowiek-7.png"
+            alt=""
+            class="power_person"
+          />
+          <div class="mobile_letters_section mobile_right_letters_section">
+            <img
+              src="./static/img/background_letters/Blendy-elementgraficzny-1-b.png"
+              alt="B letter"
+              class="mobile_b_letter"
+            />
+          </div>
+        </div>
+        <div class="vantagens">
+          <h1 data-translate="boosts-energy">
+            BOOSTS THE
+            <span class="white_color_dark_bg">ENERGY</span> LEVELS.
+          </h1>
+        </div>
+        <div class="bottle_tilted_area right_bottle_tilted_area">
+          <img
+            src="./static/img/background_letters/Blendy-elementgraficzny-4-b.png"
+            alt="B letter"
+            class="before_party_L_letter"
+          />
+          <img
+            src="./static/img/botelles_rotated/Blendy-100ml-wizualizacja-FS-Power-v1-2024-09-19-bokiem1.png"
+            alt="bottle"
+            class="before-party_bottle_img"
+          />
+          <img
+            src="./static/img/background_letters/Blendy-elementgraficzny-2-b.png"
+            alt="B letter"
+            class="before_party_Y_letter"
           />
         </div>
       </div>
     </div>
-    <div class="black_bg">
+
+    <div class="black_bg" id="about-us">
       <div class="black_bg_wave_section">
         <div class="custom-shape-divider-bottom-1727187031">
           <svg
@@ -917,28 +1384,28 @@
       <div class="my_custom_container_about_us">
         <div class="context_area_ab_us">
           <div class="about_us_title">
-            <h1>About us</h1>
+            <h1 data-translate="about-us-title">About us</h1>
           </div>
           <div class="context_aria_about_us">
             <div class="columns_about_us">
               <div class="column_about_us">
-                <p>
+                <p data-translate="about-us-1">
                   We create functional products that answer all your needs:
-                  support health by providing the body with necessary vitamins
-                  and minerals in optimal amounts; boost energy; help maintain
-                  young and beautiful skin; and many more.
+                  support health providing the body with necessary vitamins and
+                  minerals in optimal amounts; boost energy; help maintain young
+                  and beautiful skin; and many more.
                 </p>
               </div>
               <div class="column_about_us">
-                <p>
+                <p data-translate="about-us-2">
                   Our products are easily digestible, and small bottles make
                   them not only eco-friendly but also very convenient to use.
                   You can basically take them anywhere, and they come in very
-                  handy in many occasions.
+                  handy in many occasions!
                 </p>
               </div>
               <div class="column_about_us">
-                <p>
+                <p data-translate="about-us-3">
                   We pay attention to the high quality of ingredients and
                   natural taste, which are guaranteed by the International Food
                   Safety certificate.
@@ -977,7 +1444,6 @@
         </div>
       </div>
     </div>
-
     <div class="footer_yellow_bg">
       <div class="black_bg_wave_section">
         <div class="custom-shape-divider-bottom-1727187124">
@@ -998,10 +1464,7 @@
         <div class="context_area_faqs">
           <div class="FAQ_section">
             <div class="FAQ_title">
-              <h1>
-                Frequently Asked
-                <span class="white_color_dark_bg"><br />Questions</span>
-              </h1>
+              <h1 data-translate="faq-title">Frequently Asked Questions</h1>
             </div>
             <div class="button-container">
               <button class="faq-button" data-category="before-party">
@@ -1018,22 +1481,25 @@
             </div>
 
             <div class="main_answer_section">
+              <!--
               <div class="title_main_answer_section">
                 <img
                   src="./static/img/background_letters/QUEAtivo_1.svg"
                   alt=""
                   class="elemento_grafico_quest_simbol_faqs"
                 />
-                <h1>
+                <h1 style="border: 2px solid;" data-translate="faq-side-title">
                   Frequently Asked
-                  <span class="white_color_dark_bg"><br />Questions</span>
-                </h1>
+                  <span class="white_color_dark_bg"><br /> Questions </span>
+                </h1>                
                 <img
                   src="./static/img/background_letters/Blendy-elementgraficzny-3-b.png"
                   alt="elemento_grafico_J_green_bg"
                   class="elemento_grafico_D_faqs"
                 />
               </div>
+              -->
+
               <div id="faqContainer" class="faq-container">
                 <!-- FAQ items will be dynamically added here -->
               </div>
@@ -1047,9 +1513,9 @@
             </div>
             <div class="footer-contacts">
               <div class="footer_contact_title" id="footer_contact_title">
-                <h1>Contacts</h1>
+                <h1 data-translate="cont">Contact</h1>
               </div>
-              <div class="footer_column_contacts">
+              <div class="footer_column_contacts" id="contact">
                 <div class="footer_column">
                   <p>Blendy™</p>
                   <p>contact@blendy.pt</p>
@@ -1073,22 +1539,10 @@
       integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
       crossorigin="anonymous"
     ></script>
-
+    <script src="./static/js/translate_script_main_page.js"></script>
     <script defer src="./static/js/top_slider_mobile_version.js"></script>
-    <script defer src="./static/js/script.js"></script>
+    <script defer src="./static/js/navbar.js"></script>
     <!--FAQ script-->
     <script defer src="./static/js/active_faqs_links.js"></script>
   </body>
 </html>
-
-<!--
-
-
-
-
-    
-    
-    
-    
-    
--->

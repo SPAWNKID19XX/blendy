@@ -1,55 +1,37 @@
 /* Extra large devices (large laptops and desktops, 1700px and up) */
 @media only screen and (max-width: 1700px) {
   .father .left1 img {
-    left: 7%;
-    top: 5%;
   }
   .father .left2 img {
-    left: 16%;
-    top: 10%;
   }
 
   .father .left3 img {
-    left: 25%;
-    top: 15%;
   }
 
   .father .left4 img {
-    left: 34%;
-    top: 20%;
   }
 
   .father .right1 img {
-    right: 2%;
-    top: 5%;
   }
   .father .right2 img {
-    right: 11%;
-    top: 10%;
   }
   .father .right3 img {
-    right: 20%;
-    top: 15%;
   }
   .father .right4 img {
-    right: 29%;
-    top: 20%;
   }
 
   .father .center_blendy_img img {
-    right: 36%;
-    top: 25%;
   }
 
   .why_text {
-    width: 80%;
-    left: 10%;
+    width: 50%;
+    left: 25%;
   }
 
   .why_text h2 {
     margin-top: 10%;
     font-weight: bold;
-    font-size: 30px !important;
+    font-size: 40px !important;
   }
 
   .columns_white_curved_line {
@@ -68,13 +50,18 @@
   }
 
   .left_fourth_rec {
-    margin-top: 0%;
+    margin-top: 90px !important;
   }
-  .elemento_grafico_L_line_curved {
-    top: -250%;
+
+  .left_bottle_tilted_area {
+    left: 0;
   }
 
   /*GREEN SECTION*/
+
+  .bottle_section {
+    width: 70%;
+  }
 
   .green_bg .foto_person_container {
     bottom: 100px;
@@ -90,7 +77,10 @@
   .light_blue_bg .foto_person_container {
     bottom: 100px;
   }
-
+  .light_blue_bg .vantagens {
+    top: -100px;
+    right: 2%;
+  }
   /*PINK BG*/
 
   .pink_bg .foto_person_container {
@@ -104,66 +94,38 @@
   .title_main_answer_section h1 {
     font-size: 70px !important;
   }
-
-  .left_bottle_section {
-    left: -50px;
-  }
 }
 
 /* Extra large devices (large laptops and desktops, 1500px and up) */
 @media only screen and (max-width: 1500px) {
   .father div img {
-    width: 400px;
   }
 
   .father .left1 img {
-    left: 7%;
-    top: 5%;
   }
   .father .left2 img {
-    left: 16%;
-    top: 10%;
   }
 
   .father .left3 img {
-    left: 25%;
-    top: 15%;
   }
 
   .father .left4 img {
-    left: 34%;
-    top: 20%;
   }
 
   .father .right1 img {
-    right: 2%;
-    top: 5%;
   }
   .father .right2 img {
-    right: 11%;
-    top: 10%;
   }
   .father .right3 img {
-    right: 20%;
-    top: 15%;
   }
   .father .right4 img {
-    right: 29%;
-    top: 20%;
   }
 
   .father .center_blendy_img img {
-    right: 33%;
-    top: 25%;
   }
 
-  .green_bg,
-  .blue_dark_bg,
-  .light_blue_bg,
-  .pink_bg,
-  .yellow_bg {
-    height: 500px !important;
-    position: relative;
+  .bottle_tilted_area {
+    width: 50%;
   }
 
   .context_area {
@@ -173,8 +135,14 @@
   .girls_yellow_bg {
     position: relative;
     width: 100%;
-    margin-top: -500px;
+    margin-top: 0px;
     margin-left: 0px;
+  }
+
+  .light_blue_bg .vantagens {
+    margin-top: 20%;
+    font-size: 40px !important;
+    width: 40%;
   }
 
   .vantagens h1 {
@@ -191,6 +159,14 @@
     width: 100%;
   }
 */
+
+  .elemento_grafico_L_line_curved {
+    display: none;
+  }
+
+  .ingredients_area {
+    margin: 0 0 0 0;
+  }
 
   .left_second_rec {
     margin-top: 0%;
@@ -216,65 +192,150 @@
     right: 150px !important;
   }
 
-  .rec p {
-    background-color: rgba(255, 255, 255, 0.5);
-  }
-
   .title_main_answer_section h1 {
     font-size: 55px !important;
   }
 
   .columns_about_us {
     position: absolute;
-    width: 100% !important;
+  }
+
+  .pink_bg .vantagens {
+    margin-left: 300px !important;
+    left: 10%;
+  }
+
+  .yellow_bg .left_person_img_area {
+    bottom: 50px;
+  }
+
+  .blue_dark_bg .person_img_area {
+    bottom: -300px;
+  }
+
+  .right_bottle_tilted_area {
+    right: -200px;
+    bottom: -300px;
   }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (max-width: 1200px) {
-  .blendy_bg {
-    top: -50px;
+  .why_content {
+    margin-top: 150px;
   }
 
+  .left_bottle_section {
+    left: 0;
+  }
+  .letters_section {
+    left: 0%;
+  }
+
+  .before_party_L_letter {
+    width: 50%;
+    left: -50%;
+  }
+
+  .letters_section img {
+    width: 350%;
+  }
+
+  .blue_dark_bg .bottle_section {
+    position: relative;
+    right: -500px !important;
+  }
+
+  .j_letter {
+    right: 0%;
+  }
+
+  .pink_bg .bottle_section img {
+    width: 150% !important;
+    right: 150px !important;
+  }
+
+  .father {
+    width: 90%;
+  }
   .father div img {
-    width: 500px;
+    width: 250px;
   }
 
-  .father .left1 img {
-    left: 7%;
-    top: 10%;
+  .left_blendy_img {
+    width: 100%;
   }
+
   .father .left2 img {
-    left: 23%;
+    left: 20%;
+  }
+
+  .father .left3 img {
+    z-index: 2;
+    top: 25%;
+    left: 57%;
+  }
+
+  .father .left4 img {
+    left: 77%;
     top: 15%;
   }
 
   .father .left3 img {
-    left: 65%;
-    top: 10%;
+    z-index: 2;
+    top: 25%;
+    left: 57%;
   }
 
   .father .left4 img {
-    left: 48%;
+    left: 77%;
     top: 15%;
+  }
+
+  .father .left3:hover img,
+  .father .left4:hover img {
+    transform: scale(1.1) rotate(2deg);
   }
 
   .right_blendy_img {
     display: none;
   }
 
+  .father .center_blendy_img {
+    margin: auto;
+  }
   .father .center_blendy_img img {
-    right: 24%;
+    z-index: 3;
+    top: 35%;
+    left: 38%;
   }
   .columns_white_curved_line {
     position: static;
+    margin-top: 50px;
   }
 
-  .yellow_bg .vantagens h1 {
-    font-size: 40px;
+  .bottle_section {
+    width: 100%;
   }
 
-  .blue_dark_bg .vantagens h1 {
+  .left_bottle_tilted_area {
+    bottom: -75px;
+  }
+
+  .blue_dark_bg .person_img_area {
+    bottom: -400px;
+  }
+
+  .right_bottle_tilted_area {
+    right: -15%;
+    bottom: -120px;
+  }
+
+  .yellow_bg .vantagens {
+    left: -25% !important;
+  }
+
+  .vantagens h1 {
     font-size: 40px;
   }
 
@@ -290,7 +351,7 @@
 
   .main_columns {
     width: 50%;
-    margin: auto;
+
     text-align: center;
   }
 
@@ -307,7 +368,8 @@
 
   .why_text {
     position: absolute;
-    top: 1%;
+    top: 0%;
+    margin-top: 110px;
   }
 
   .curved_line_desktop {
@@ -322,10 +384,18 @@
     width: 300%;
   }
 
-  .vantagens {
-    width: 70%;
+  .blue_dark_bg .vantagens {
+    width: 30%;
     height: auto;
     text-align: center;
+    margin-top: 25%;
+  }
+
+  .vantagens {
+    width: 30%;
+    height: auto;
+    text-align: center;
+    margin-top: 0;
   }
 
   .title_section_area {
@@ -333,14 +403,9 @@
     width: 100%;
   }
 
-  .title_section_area h1 {
-    font-size: 80px !important;
-  }
-
   .vantagens_h1 {
     font-size: 40px !important;
     text-align: center;
-    margin-top: 50px;
   }
 
   .table_aria {
@@ -363,12 +428,19 @@
     width: 500px;
   }
 
-  .pink_bg .foto_person_container {
-    bottom: 50px;
+  .pink_bg .vantagens {
+    left: 5%;
+    top: -150px;
   }
 
-  .pink_bg .foto_person_container img {
-    width: 500px;
+  .top_flor {
+    position: relative;
+    top: 50px;
+  }
+
+  .pink_bg .person_img_area {
+    right: 0% !important;
+    width: 50%;
   }
 
   .yellow_bg .foto_person_container {
@@ -408,7 +480,7 @@
   }
 
   .faq-button {
-    font-size: 40px;
+    font-size: 35px;
     max-width: 300px;
     justify-content: space-between;
   }
@@ -421,8 +493,31 @@
 }
 
 @media only screen and (max-width: 1050px) {
-  .father .center_blendy_img img {
-    right: 20%;
+  .father img {
+    width: 200px !important;
+  }
+  .columns_white_curved_line {
+    position: static;
+  }
+  .why_content {
+    margin-top: 70px;
+  }
+
+  .why_text {
+    width: 80%;
+    left: 10%;
+  }
+
+  .elemento_grafico_d {
+    margin: -300px 0px 0px 0px;
+  }
+
+  .elemento_grafico_b {
+    margin: 450px 150px 0px 0px;
+  }
+
+  .b_letter_pink_bg {
+    display: none;
   }
 }
 
@@ -434,6 +529,21 @@
     right: 50px;
   }
 
+  .ingredients_area {
+    right: 9%;
+  }
+
+  .left_bottle_section {
+    left: -10%;
+  }
+
+  .elemento_grafico_d {
+    display: none;
+  }
+  .columns_white_curved_line {
+    position: static;
+    margin-top: 100px;
+  }
   .pink_bg .foto_person_container {
     bottom: 0px;
     left: -100px;
@@ -448,14 +558,6 @@
     margin-top: 0px;
   }
 
-  .green_bg .vantagens h1 .light_blue_bg .vantagens h1 {
-    font-size: 20px !important;
-  }
-
-  .light_blue_bg .vantagens h1 {
-    font-size: 40px !important;
-  }
-
   .yellow_bg .foto_person_container {
     bottom: 200px;
     right: -200px;
@@ -463,6 +565,45 @@
 
   .yellow_bg .foto_person_container img {
     width: 800px !important;
+  }
+
+  .blue_dark_bg .person_img_area {
+    bottom: -600px;
+  }
+
+  .pink_bg .person_img_area {
+    width: 500% !important;
+    bottom: -200px;
+  }
+
+  .blue_dark_bg .vantagens {
+    width: 50% !important;
+    left: -25px;
+  }
+
+  .pink_bg .vantagens {
+    width: 500% !important;
+    left: -25px;
+    display: flex;
+  }
+
+  .vantagens {
+    margin-top: 0px;
+  }
+
+  .collagen_person {
+    width: 200% !important;
+    position: relative;
+    bottom: 100px;
+    right: 100px;
+  }
+
+  .after_party_person {
+    width: 200%;
+    transform: scaleX(-1);
+    right: 100px;
+    bottom: 400px;
+    position: relative;
   }
 
   .FAQ_section .button-container {
@@ -481,10 +622,33 @@
 
 @media only screen and (max-width: 768px) {
   .elemento_grafico_D_ybg,
-.elemento_grafico_E_ybg
-{
-  display: block;
-}
+  .elemento_grafico_E_ybg {
+    display: block;
+  }
+
+  .before_party_mobile_b{
+    display: block;
+    position: absolute;
+    width: 350px;
+    top:500px;
+    right: -400px;
+  }
+
+  .add-space {
+    margin-top: 150px;
+  }
+
+  .why_content {
+    margin-top: -50px;
+  }
+
+  .why_text {
+    margin-top: 0px !important;
+  }
+
+  .blendy_bg {
+    top: 35px;
+  }
 
   .nav-links {
     position: fixed;
@@ -510,6 +674,7 @@
 
   .nav-active {
     right: 0;
+    height: 275px;
   }
 
   .toggle .line1 {
@@ -556,25 +721,45 @@
     right: 0;
   }
 
-  .product-slider {
-    max-width: 100%;
-    overflow: hidden;
+  .slider-wrapper {
     position: relative;
-    padding: 40px 0;
-    display: block; /* Default visibility for mobile */
+    transition: opacity 0.3s ease;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .slider-wrapper.loaded {
+    opacity: 1;
+  }
+
+  .product-slider {
+    width: 100%;
+    height: 90vh;
+    position: relative;
+    display: block;
+    overflow: hidden;
   }
 
   .slider-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
     display: flex;
+    align-items: center;
     transition: transform 0.5s ease;
   }
 
   .slide {
-    flex: 0 0 60%;
-    max-width: 50%;
+    flex: 0 0 70%; /* Reduce the width of each slide to 80% */
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     transition: all 0.5s ease;
-    opacity: 0.7;
-    transform: scale(0.8);
   }
 
   .slide.active {
@@ -583,9 +768,12 @@
   }
 
   .slide img {
-    width: 100%;
-    height: auto;
+    max-width: 90%;
+
+    max-height: 90%;
+    object-fit: contain;
     border-radius: 10px;
+    transition: all 0.5s ease;
   }
 
   .desktop-message {
@@ -594,6 +782,41 @@
 
   .elemento_grafico_Y {
     display: none;
+  }
+
+  .ingredients_area {
+    width: 90%;
+    position: static;
+    margin: auto;
+  }
+
+  .bottom_flor {
+    position: static;
+    display: flex;
+    flex-direction: column-reverse; /* or column depending on your layout */
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .vantagens {
+    position: static;
+    width: 80%;
+    margin-top: 100px;
+  }
+
+  .person_img_area {
+    margin: auto;
+    position: static;
+  }
+
+  .bottle_tilted_area {
+    display: none;
+  }
+
+  .columns {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
   }
 
   .elemento_grafico_E {
@@ -608,12 +831,15 @@
     margin-top: 100px;
   }
 
-  .left_first_rec {
-    margin-top: 75px;
+  .left_second_rec,
+  .left_second_rec,
+  .left_third_rec,
+  .left_fourth_rec {
+    margin-top: 0 !important;
   }
 
   .columns_white_curved_line {
-    margin-top: 150px;
+    margin-top: 50px;
     display: grid;
   }
 
@@ -631,6 +857,11 @@
     opacity: 100%;
     width: 300px;
     z-index: -1;
+  }
+
+  .why_bg_section img {
+    width: 130%;
+    left: -10%;
   }
 
   .elemento_grafico_L_line_curved {
@@ -662,32 +893,85 @@
     right: 0;
   }
 
-  .pink_bg .my_custom_container_products,
-  .blue_dark_bg .my_custom_container_products {
-    width: 110% !important;
+  .pink_bg .person_img_area {
+    width: 30% !important;
+    bottom: -200px;
   }
 
-  .pink_bg .context_area,
-  .blue_dark_bg .context_area {
-    width: 1100%;
+  .pink_bg .top_flor {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
   }
 
-  .pink_bg .vantagens,
-  .blue_dark_bg .vantagens {
-    width: 100% !important;
-    float: right !important;
+  /* Reorder elements based on desired layout */
+  .pink_bg .mobile_title_section_area {
+    order: 1;
   }
 
-  .light_blue_bg .foto_person_container {
+  .pink_bg .bottle_section {
+    order: 2;
+  }
+
+  .pink_bg .ingredients_area {
+    order: 3;
+  }
+
+  .pink_bg .vantagens {
+    order: 4;
+    width: 90% !important;
+    position: static;
+    margin: auto !important;
+  }
+
+  .pink_bg .person_img_area {
+    order: 5;
+    width: 40% !important;
+  }
+
+  .collagen_person {
+    bottom: 0px !important;
     right: 100px;
+    z-index: 2;
+  }
+
+  .j1_letter_pink_bg {
+    position: relative;
+    width: 250px;
+    left: 450px !important;
+  }
+
+  .pink_bg .bottom_flor {
+    position: static;
+    display: flex;
+    flex-direction: column;
+    margin-top: 300px;
+  }
+
+  .blue_dark_bg {
+    height: auto;
+  }
+
+  .blue_dark_bg .vantagens {
+    width: 90% !important;
+    margin-top: 10% !important;
+    margin-bottom: 85%;
+  }
+
+  .light_blue_bg .person_img_area {
+    position: static;
+    margin: auto;
+    width: 50%;
+    margin: 0 0 -100px -150px;
   }
 
   .light_blue_bg .context_area {
     width: 100%;
   }
 
+  .yellow_bg .vantagens,
   .light_blue_bg .vantagens {
-    width: 100%;
+    width: 90%;
+    position: static;
   }
 
   .elemento_grafico_E_blue_dark_bg {
@@ -696,6 +980,94 @@
 
   .elemento_grafico_E_light_blue_bg {
     display: none;
+  }
+
+  .bottle_section {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .green_bg .bottle_img {
+    position: relative;
+  }
+
+  .mobile_letters_section {
+    display: inline;
+    position: absolute;
+  }
+
+  .mobile_right_letters_section {
+    width: 50%;
+    right: -20%;
+  }
+
+  .mobile_left_letters_section {
+    width: 50%;
+    left: 0%;
+  }
+
+  .after_party_mobile_b{
+    display: block;
+    position: absolute;
+    width: 300px;
+    opacity: 0.5;
+    right: 0;
+  }
+  
+
+  .green_bg .person_img_area .mobile_letters_section {
+    width: 30%;
+  }
+
+  .green_bg .person_img_area .mobile_letters_section .l_letter {
+    top: -200px;
+    position: relative;
+  }
+  .green_bg .person_img_area .mobile_letters_section .b_letter {
+    top: -200px;
+    position: relative;
+    z-index: 0;
+    left: 5% !important;
+  }
+
+  .before_party_person {
+    position: relative;
+    z-index: 5;
+  }
+
+  .green_bg .person_img_area .mobile_left_letters_section {
+    left: 0%;
+  }
+
+  .bottle_section img {
+    position: relative;
+  }
+
+  .blue_dark_bg .top_flor {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .blue_dark_bg .mobile_title_section_area {
+    order: -1;
+  }
+
+  .blue_dark_bg .columns {
+    position: relative;
+    z-index: 1;    
+  }
+
+  .before_party_bottle {
+    position: relative;
+  }
+
+  .blue_dark_bg .bottle_section {
+    order: -1;
+  }
+
+  .collagen_person {
+    bottom: 100px;
+    right: 200px;
   }
 
   .footer_contact_title {
@@ -712,12 +1084,94 @@
 
   .context_area_ab_us {
     width: 100% !important;
+    text-align: center;
   }
 
   .foto_person_before_party {
     bottom: -50px;
     width: 500% !important;
     right: 200px;
+  }
+
+  .yellow_bg .bottom_flor .mobile_left_letters_section {
+    left: 450px;
+  }
+  .yellow_bg .bottom_flor .mobile_right_letters_section {
+    right: 400px !important;
+  }
+
+  .blue_dark_bg .person_img_area {
+    position: relative;
+    width: 30% !important;
+    bottom: -800px;
+    left: -50% !important;
+  }
+
+  .blue_dark_bg .person_img_area .e_letter {
+    bottom: 50% !important;
+    width: 500px;
+    opacity: 0.5;
+    right:400px !important;
+  }
+
+  .pink_bg .bottle_section img {
+    width: 125% !important;
+    right: 0px !important;
+  }
+
+  .pink_bg .bottom_flor .person_img_area .e_letter {
+    left: 350px !important;
+    width: 200px;
+    top: -100px;
+  }
+
+  .power_person {
+    position: relative;
+    z-index: 5;
+  }
+
+  .focus_mobile_b{
+    position: absolute;
+    display: block;
+    width: 300px;
+    top: 600px;
+    left: 150px;
+  }
+
+  .pink_bg .bottom_flor .person_img_area .y_letter {
+    right: -250px !important;
+    width: 300px;
+    top: 00px;
+    position: relative;
+  }
+
+  .after_party_person {
+    bottom: 0% !important;
+  }
+
+  .top_flor {
+    display: inline;
+  }
+
+  .letters_section {
+    display: none;
+  }
+
+  .bottle_section {
+    width: 400px;
+    margin: auto;
+  }
+
+  .mobile_title_section_area {
+    display: block;
+  }
+
+  .title_section_area {
+    display: none;
+  }
+
+  .left_bottle_section {
+    left: 9%;
   }
 
   .bottle_img {
@@ -735,23 +1189,61 @@
     margin-bottom: 250px;
   }
 
-  .yellow_bg .vantagens {
-    margin-top: 0px;
-
-  }
-
-  .yellow_bg .vantagens h1{
+  .vantagens h1 {
     font-size: 35px !important;
-    
   }
-  .black_arrow{
-    position: relative;
-    left: 35%;
-    width: 25%;
+  .yellow_bg .person_img_area {
+    width: 90% !important;
+    margin: auto;
+    margin-bottom: -150px;
+    position: static;
+  }
+
+  .context_area_ab_us {
+    font-size: 25px;
+    line-height: 1.5;
+    color: white;
+  }
+
+  .column_about_us {
+    width: 100%;
+    margin-top: 25px;
   }
 }
 
 @media only screen and (max-width: 500px) {
+  .elemento_grafico_b {
+    display: none;
+  }
+
+  .why_content {
+    margin-top: 150px;
+  }
+
+  .elemento_grafico_why {
+    top: -25%;
+  }
+
+  .curved_line_context_content {
+    margin-top: -45%;
+  }
+
+  .after_party_bottle,
+  .focus_bottle,
+  .collagen_bottle,
+  .power_bottle,
+  .before_party_bottle {
+    left: 3%;
+  }
+
+  .pink_bg .bottle_section img {
+    width: 100% !important;
+  }
+
+  .focus_person {
+    width: 150% !important;
+  }
+
   .elemento_grafico_E_blue_dark_bg {
     display: none;
   }
@@ -762,93 +1254,55 @@
   }
 
   .left_column {
-    margin-top: 150px;
+    margin-top: 50px;
   }
 
   .vantagens {
-    width: 85% !important;
+    width: 95% !important;
   }
 
-  .blue_dark_bg .vantagens{
+  .blue_dark_bg .vantagens {
+    margin-top: -50px !important;
     right: 50px;
   }
 
-  .yellow_bg .vantagens{ 
+  .blue_dark_bg .person_img_area {
+    bottom: -800px !important;
+    width: 30%;
+    right: 10% !important;
+  }
+
+  .blue_dark_bg .person_img_area .e_letter {
+    width: 300px;
+    bottom: -250px;
+    right: 200px !important;
+  }
+
+  .yellow_bg .vantagens {
     left: 30px;
+  }
+
+  .blue_dark_bg .person_img_area {
+    width: 60% !important;
+    bottom: -500px !important;
+  }
+
+  .pink_bg .person_img_area {
+    width: 50% !important;
+  }
+
+  .yellow_bg .person_img_area {
+    width: 150% !important;
   }
 
   .vantagens h1 {
     font-size: 30px !important;
   }
 
-  .green_bg .context_area,
-  .blue_dark_bg .context_area,
-  .light_blue_bg .context_area,
-  .pink_bg .context_area,
-  .yellow_bg .context_area {
-    width: 100% !important;
-    margin-top: 100px;
+  .blue_dark_bg .vantagens h1 {
+    margin-top: -150px !important;
   }
 
-  .green_bg .foto_person_container {
-    left: -250px;
-  }
-
-  .light_blue_bg .foto_person_container {
-    left: -250px;
-  }
-
-  .light_blue_bg .vantagens {
-    margin-top: -100px;
-    color: white;
-    font-size: 30px !important;
-  }
-
-  .light_blue_bg .vantagens h1 {
-    font-size: 30px !important;
-  }
-  .elemento_grafico_B_green_bg {
-    opacity: 0.5;
-  }
-
-  .pink_bg .foto_person_container {
-    left: -50px;
-    opacity: 0.9;
-  }
-
-  .pink_bg .context_area {
-    left: -50px;
-    top: 150px;
-  }
-
-  .pink_bg .context_area h1 {
-    font-weight: bold;
-  }
-
-  .elemento_grafico_B_pink_bg{
-    left: 150px;
-    top: -250px;
-    opacity: 1;
-  }
-
-  .elemento_grafico_D_pink_bg {
-    opacity: 0.5;
-  }
-
-  .yellow_bg .foto_person_container {
-    border: green 2px solid;
-    opacity: 1;
-    right: -250px;
-  }
-
-  .yellow_bg .context_area {
-    left: -50px;
-    color: white;
-  }
-
-  .elemento_grafico_L_yellow_bg {
-    display: none;
-  }
 
   .black_bg h1 {
     font-size: 55px;
@@ -864,8 +1318,8 @@
     color: white;
   }
 
-  .footer_yellow_bg .FAQ_title{
-    width: 90%; 
+  .footer_yellow_bg .FAQ_title {
+    width: 90%;
   }
 
   .yellow_bg .vantagens h1 {
@@ -873,7 +1327,6 @@
   }
 
   .context_area_ab_us {
-    font-size: 18px;
+    font-size: 22px;
   }
-
 }
