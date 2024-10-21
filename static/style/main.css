@@ -1038,6 +1038,19 @@ html {
   bottom: 0;
 }
 
+.before_party_mobile_b{
+  display: none;
+}
+
+
+.after_party_mobile_b{
+  display: none;
+}
+
+.focus_mobile_b{
+  display: none;
+}
+
 .focus-party_bottle_img {
   position: relative;
   width: 100%;
