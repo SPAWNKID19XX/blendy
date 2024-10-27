@@ -1,28 +1,5 @@
 /* Extra large devices (large laptops and desktops, 1700px and up) */
 @media only screen and (max-width: 1700px) {
-  .father .left1 img {
-  }
-  .father .left2 img {
-  }
-
-  .father .left3 img {
-  }
-
-  .father .left4 img {
-  }
-
-  .father .right1 img {
-  }
-  .father .right2 img {
-  }
-  .father .right3 img {
-  }
-  .father .right4 img {
-  }
-
-  .father .center_blendy_img img {
-  }
-
   .why_text {
     width: 50%;
     left: 25%;
@@ -126,10 +103,7 @@
 
   .columns_white_curved_line {
     margin-top: 5rem;
-    
   }
-
-  
 
   .bottle_tilted_area {
     width: 50%;
@@ -226,26 +200,16 @@
   }
 }
 
-@media only screen and (max-width: 390px){
-  #why-blendy {
-    margin-top: 7rem;
-    margin-bottom: 11rem;
-  }
-
-  
-}
-
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (max-width: 1200px) {
   .why_content {
     margin-top: 150px;
   }
 
-  
-
   .left_bottle_section {
     left: 0;
   }
+
   .letters_section {
     left: 0%;
   }
@@ -416,9 +380,6 @@
     margin-top: 0;
   }
 
-  
-  
-
   .title_section_area {
     display: block;
     width: 100%;
@@ -464,8 +425,19 @@
     width: 50%;
   }
 
+  .yellow_bg .bottom_flor {
+    margin-top: 0px;
+  }
   .yellow_bg .foto_person_container {
     bottom: 50px;
+  }
+
+  .yellow_bg .left_person_img_area {
+    margin-bottom: -200px;
+  }
+
+  .yellow_bg .vantagens {
+    margin-top: 00px;
   }
 
   .yellow_bg .foto_person_container img {
@@ -487,13 +459,11 @@
     top: 50px;
   }
 
-
   .elemento_grafico_B_ybg {
     width: 500px;
     z-index: -1;
     left: 50%;
   }
-
 
   .elemento_grafico_B_black_bg {
     width: 300px !important;
@@ -527,7 +497,6 @@
     width: 200px !important;
   }
 
-  
   .columns_white_curved_line {
     position: static;
   }
@@ -558,7 +527,10 @@
     right: 18%;
   }
 
-  
+  .pink_bg .vantagens {
+    margin-top: 25%;
+  }
+
   .green_bg .foto_person_container {
     right: 50px;
   }
@@ -605,9 +577,18 @@
     bottom: -600px;
   }
 
+  .light_blue_bg .vantagens h1 {
+    position: relative;
+    top: -40%;
+  }
+
   .pink_bg .person_img_area {
     width: 500% !important;
     bottom: -200px;
+  }
+
+  .yellow_bg .left_person_img_area {
+    width: 700% !important;
   }
 
   .blue_dark_bg .vantagens {
@@ -619,6 +600,14 @@
     width: 500% !important;
     left: -25px;
     display: flex;
+  }
+
+  .blue_dark_bg .left_letters_section {
+    left: -200px;
+  }
+
+  .blue_dark_bg .e_letter {
+    right: 432px !important;
   }
 
   .vantagens {
@@ -654,15 +643,18 @@
   }
 }
 
-
-
 @media only screen and (max-width: 768px) {
   .elemento_grafico_D_ybg,
   .elemento_grafico_E_ybg {
     display: block;
   }
 
-  #bp_2{
+  .elemento_grafico_B_ybg {
+    width: 350px;
+    top: 10px;
+  }
+
+  #bp_2 {
     margin-left: 4rem;
   }
 
@@ -671,22 +663,21 @@
     justify-content: space-around; /* Spreads columns across the container */
     width: fit-content;
     margin: 0 auto;
-     
   }
 
-  #ap_column2{
+  #ap_column2 {
     margin-left: 2rem;
   }
-  
+
   #ap_ing {
     display: flex;
     justify-content: space-between; /* Spreads columns across the container */
     width: 40vh;
     margin: 0 auto;
-    margin-top: -3rem;  
+    margin-top: -3rem;
   }
 
-  #focus_ing{
+  #focus_ing {
     display: flex;
     justify-content: space-around; /* Spreads columns across the container */
     width: 40vh;
@@ -716,7 +707,7 @@
     text-align: center; /* Centers the text inside the h1 */
     padding: 1rem; /* Optional: Add some padding inside the h1 */
     margin-top: 5rem;
-}
+  }
 
   #bp_eliminate {
     margin-top: -160px;
@@ -744,11 +735,11 @@
     margin-bottom: 13rem;
   }
 
-  .before_party_mobile_b{
+  .before_party_mobile_b {
     display: block;
     position: absolute;
     width: 350px;
-    top:500px;
+    top: 500px;
     right: -400px;
   }
 
@@ -938,27 +929,80 @@
   }
 
   #collagen_list {
-      display: flex;
-      width: fit-content;
-      margin: 0 auto;
-      justify-content: space-between;
-      gap: 30px; /* Adjust the value to increase/decrease the space */
+    display: flex;
+    width: fit-content;
+    margin: 0 auto;
+    justify-content: space-between;
+    gap: 30px; /* Adjust the value to increase/decrease the space */
   }
 
-  
   #columns_afterparty {
     display: flex;
-    max-width: 1200px;    /* This restricts the content from becoming too wide on large screens */
+    max-width: 1200px; /* This restricts the content from becoming too wide on large screens */
     margin-left: auto;
-    margin-right: auto;   /* Auto margins center the element */
-    padding-left: 2rem;   /* Add padding for smaller screens */
+    margin-right: auto; /* Auto margins center the element */
+    padding-left: 2rem; /* Add padding for smaller screens */
     padding-right: -19rem;
     gap: 1rem;
-}
+  }
 
+  .green_bg .top_flor .mobile_left_letters_section {
+    position: absolute;
+    left: -200px !important;
+  }
 
+  .green_bg .top_flor .e_letter {
+    position: absolute;
+    transform: rotate(180grad);
+    top: -200px;
+    left: 30% !important;
+  }
 
+  .green_bg .top_flor .y_letter {
+    position: relative;
+    transform: rotate(-50grad);
+    top: 00px;
+    left: -30% !important;
+  }
 
+  .green_bg .top_flor .before_party_mobile_b {
+    display: none;
+  }
+
+  .green_bg .bottom_flor .mobile_left_letters_section {
+    position: absolute;
+    left: 00px !important;
+  }
+
+  .blue_dark_bg .top_flor .mobile_left_letters_section {
+    position: absolute;
+    left: -200px !important;
+  }
+
+  .blue_dark_bg .top_flor .y_letter {
+    transform: rotate(90grad);
+    width: 150%;
+    position: absolute;
+    margin-top: 65% !important;
+  }
+
+  .blue_dark_bg .top_flor .mobile_b_letter {
+    transform: rotate(190grad);
+    width: 150%;
+    position: relative;
+    margin-top: -50% !important;
+  }
+
+  .blue_dark_bg .right_person_img_area .after_party_person {
+    bottom: -50px !important;
+  }
+
+  .blue_dark_bg .j_letter {
+    position: relative;
+    bottom: -700px !important;
+    transform: rotate(-10grad);
+    left: -50%;
+  }
 
   .elemento_grafico_E {
     display: none;
@@ -1147,14 +1191,13 @@
     left: 0%;
   }
 
-  .after_party_mobile_b{
+  .after_party_mobile_b {
     display: block;
     position: absolute;
-    width: 300px;
-    opacity: 0.5;
-    right: 0;
+    width: 30%;
+    opacity: 1;
+    right: -100px;
   }
-  
 
   .green_bg .person_img_area .mobile_letters_section {
     width: 30%;
@@ -1200,7 +1243,7 @@
 
   .blue_dark_bg .columns {
     position: relative;
-    z-index: 1;    
+    z-index: 1;
   }
 
   .before_party_bottle {
@@ -1215,14 +1258,91 @@
     order: -1;
   }
 
+  .light_blue_bg .mobile_left_letters_section {
+    left: -200px;
+  }
+
+  .light_blue_bg .mobile_left_letters_section .i_letter {
+    width: 150px;
+    top: -50px;
+    left: 50px;
+  }
+
+  .light_blue_bg .focus_mobile_j {
+    position: absolute;
+    width: 300px;
+    top: 900px;
+    left: -100px;
+  }
+
+  .light_blue_bg .mobile_left_letters_section .y_letter {
+    top: 100px;
+    left: 0px;
+    transform: rotate(150grad);
+  }
+
+  .light_blue_bg .mobile_e_letter,
+  .light_blue_bg .mobile_i_letter {
+    position: relative;
+    width: 200px !important;
+  }
+
+  .light_blue_bg .mobile_e_letter {
+    top: 150px !important;
+  }
+
+  .light_blue_bg .mobile_i_letter {
+    top: -450px !important;
+    transform: rotate(120grad);
+  }
+
+  .pink_bg .mobile_left_letters_section img{
+   position: relative;
+   transform: rotate(-90grad);
+  }
+
+  .pink_bg .mobile_left_letters_section img:last-child{
+    top:100px
+   }
+
+  .pink_bg .mobile_left_letters_section{
+    left: -200px;
+  }
+
+  .pink_bg .mobile_right_letters_section .mobile_y_letter,
+  .pink_bg .mobile_right_letters_section .mobile_i_letter{
+    position: relative;
+    transform: rotate(-90grad);
+    z-index: -1;
+  }
+
+  .pink_bg .mobile_right_letters_section .mobile_i_letter{
+    margin-bottom: 100px;
+  }
+  .pink_bg .mobile_right_letters_section .mobile_y_letter{
+    left: -150px;
+  }
+
+  .pink_bg .focus_mobile_b,
+  .pink_bg .e1_letter{
+    border: 2px solid;
+    display: none;
+  }
+
+  .pink_bg .y1_letter{
+    position: relative;
+    width: 350px !important;
+    left: 400px;
+    top: -50px !important;
+  }
+
   .collagen_person {
     display: flex;
     justify-content: center;
     align-items: center;
-      /* Optional: Add some padding or margin around the image if necessary */
-      margin: 0 auto;
-      left: -50%;
-  
+    /* Optional: Add some padding or margin around the image if necessary */
+    margin: 0 auto;
+    left: -50%;
   }
 
   .collagen_person {
@@ -1269,9 +1389,9 @@
 
   .blue_dark_bg .person_img_area .e_letter {
     bottom: 50% !important;
-    width: 500px;
-    opacity: 0.5;
-    right:400px !important;
+    width: 300px;
+    opacity: 1;
+    right: 400px !important;
   }
 
   .pink_bg .bottle_section img {
@@ -1297,7 +1417,7 @@
     bottom: -1.5rem;
   }
 
-  .focus_mobile_b{
+  .focus_mobile_b {
     position: absolute;
     display: block;
     width: 300px;
@@ -1412,19 +1532,16 @@
     text-align: center; /* Centers the text inside the h1 */
     padding: 1rem; /* Optional: Add some padding inside the h1 */
     margin-top: -2.5rem;
-}
+  }
 
-  
-
-.collagen_person {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  .collagen_person {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     /* Optional: Add some padding or margin around the image if necessary */
     margin: 0 auto;
     left: -50%;
-
-}
+  }
 
   .after_party_person {
     width: 120%;
@@ -1433,19 +1550,15 @@
     margin-bottom: 60px;
     right: 20%;
     margin-left: 150px;
-    
   }
 
   .why_bg_section {
     margin-top: -1rem;
-
   }
 
   .why_content {
     margin-top: 130px;
-    
   }
-
 
   .elemento_grafico_why {
     top: -25%;
@@ -1530,7 +1643,6 @@
     margin-top: -70px !important;
   }
 
-
   .black_bg h1 {
     font-size: 55px;
   }
@@ -1555,5 +1667,12 @@
 
   .context_area_ab_us {
     font-size: 22px;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  #why-blendy {
+    margin-top: 7rem;
+    margin-bottom: 11rem;
   }
 }

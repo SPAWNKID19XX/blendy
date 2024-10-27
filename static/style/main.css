@@ -1073,7 +1073,7 @@ html {
 .before_party_Y_letter {
   right: 100%;
   transform: rotate(-50grad);
-  bottom: 300px;
+  bottom: 17%;
   z-index: -1;
 }
 
@@ -1283,7 +1283,7 @@ h1 {
   transform: scaleX(-1);
   position: relative;
   width: 150% !important;
-  left: -13% !important;
+  left: -15% !important;
   margin-bottom: -400px;
 }
 
@@ -1299,7 +1299,7 @@ h1 {
   position: relative;
   width: 500px;
   top: 600px;
-  right: 200px;
+  right: 20%;
   z-index: -1;
 }
 
