@@ -283,6 +283,14 @@
     display: none;
   }
 
+  .columns_about_us {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    gap: 5rem;
+    left: 5%;
+  }
+
   .father .center_blendy_img {
     margin: auto;
   }
@@ -442,11 +450,6 @@
 
   .yellow_bg .foto_person_container img {
     width: 500% !important;
-  }
-
-  .columns_about_us {
-    display: block;
-    left: 14%;
   }
 
   .column_about_us {
@@ -949,6 +952,10 @@
   .green_bg .top_flor .mobile_left_letters_section {
     position: absolute;
     left: -200px !important;
+  }
+
+  .columns_about_us {
+    left: 6% !important;
   }
 
   .green_bg .top_flor .e_letter {
@@ -1491,6 +1498,10 @@
     font-size: 25px;
     line-height: 1.5;
     color: white;
+  }
+
+  .columns_about_us {
+    display: block;
   }
 
   .column_about_us {
