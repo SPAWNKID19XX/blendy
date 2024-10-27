@@ -18,10 +18,10 @@ const translations = {
     point3: "Have higher concentration of active ingredients",
     "point3-desc":
       "They contain a larger amount of active ingridients allowing for higher dosses in one serving",
-    point4: "Can be taken anywhere... and they look splendid",
+    point4: "Can be taken anywhere...and they look splendid!",
     "point4-desc":
       "No need to drag a whole pharmacy with you. at work, on holidays during travels, while driving... you can take a Blendy out and instantly provide your body with all the nutrients it needs. Convenient isn't it? And looks astonishing",
-    point5: "Lack fillers",
+    point5: "Lack of fillers",
     "point5-desc":
       "Unlike tablets and capsuls, our shots contain fewer - or do not include at all - addicional ingridients, such as counting or fillers. There is simply no need for them.",
     point6: "Act faster",
@@ -36,15 +36,15 @@ const translations = {
     collagen: "Collagen",
     power: "Power",
     "prevents-negative":
-      ' PREVENTS THE <span class="white_color_dark_bg">NEGATIVE </span> EFFECTS OF <span class="white_color_dark_bg">ALCOHOL</span> CONSUMPTION',
+      ' PREVENTS<br> THE <span class="white_color_dark_bg">NEGATIVE<br> </span> EFFECTS<br> OF <span class="white_color_dark_bg">ALCOHOL</span><br> CONSUMPTION',
     "eliminate-negative":
-      '<span class="black_color_white_bg"> ELIMINATES </span> THE NEGATIVE EFFECTS OF <span class="black_color_white_bg">ALCOHOL </span> CONSUMPTION',
+      '<span class="black_color_white_bg"> ELIMINATES<br> </span> THE NEGATIVE<br> EFFECTS <br>OF <span class="black_color_white_bg">ALCOHOL <br></span> CONSUMPTION',
     "helps-improve":
-      'HELPS IMPROVE <span class="white_color_dark_bg"> FOCUS </span>- LOWERS CORTISOL, SUPPORTS THE INCREASE OF <span class="white_color_dark_bg"> DOPAMINE </span> AND SEROTONIN',
+      'HELPS IMPROVE<br> <span class="white_color_dark_bg"> FOCUS </span>- LOWERS<br> CORTISOL,<br> SUPPORTS THE <br>INCREASE <br>OF <span class="white_color_dark_bg"> DOPAMINE <br></span> AND SEROTONIN',
     "keeps-skin-young":
-      'HELPS KEEP THE SKIN <span class="white_color_dark_bg"> YOUNG </span> & <span class="white_color_dark_bg"> BEAUTIFUL </span>',
+      'HELPS KEEP <br> THE SKIN <br><span class="white_color_dark_bg"> YOUNG </span><br> & <span class="white_color_dark_bg"> BEAUTIFUL </span>',
     "boosts-energy":
-      'BOOSTS THE <span class="white_color_dark_bg"> ENERGY </span> LEVELS.',
+      'BOOSTS <br> THE <span class="white_color_dark_bg"> ENERGY </span> <br> LEVELS',
     "about-us-title": "About us",
     "about-us-1":
       "We create functional products that answer all your needs: support health, providing the body with necessary vitamins and minerals in optimal amount; boost energy, help maintain young and beautiful skin; and many more.",
@@ -198,15 +198,15 @@ const translations = {
     collagen: "Collagen",
     power: "Power",
     "prevents-negative":
-      'PREVINE OS EFEITOS <span class="white_color_dark_bg"> NEGATIVOS </span> DO CONSUMO DE <span class="white_color_dark_bg"> ÁLCOOL </span>',
+      'PREVINE<br> OS EFEITOS <br><span class="white_color_dark_bg"> NEGATIVOS </span> DO <br>CONSUMO DE <span class="white_color_dark_bg"> <br>ÁLCOOL </span>',
     "eliminate-negative":
-      '<span class="black_color_white_bg"> ELIMINA </span> OS EFEITOS NEGATIVOS DO  CONSUMO DE <span class="black_color_white_bg">ÁLCOOL</span>',
+      '<span class="black_color_white_bg"> ELIMINA<br> </span> OS EFEITOS <br>NEGATIVOS DO <br> CONSUMO<br> DE <span class="black_color_white_bg">ÁLCOOL</span>',
     "helps-improve":
-      'AJUDA A MELHORAR O <span class="white_color_dark_bg"> Focus </span> - REDUZ O CORTISOL, APOIA O AUMENTO DE <span class="white_color_dark_bg"> DOPAMINA </span> E SEROTONINA',
+      'AJUDA A MELHORAR<br> O <span class="white_color_dark_bg"> FOCO </span> - REDUZ <br>O CORTISOL<br>, APOIA O <br>AUMENTO <br>DA <span class="white_color_dark_bg"> DOPAMINA <br></span> E SEROTONINA',
     "keeps-skin-young":
-      'AJUDA A MANTER A PELE <span class="white_color_dark_bg"> JOVEM </span> E <span class="white_color_dark_bg"> BONITA </span>',
+      'AJUDA A MANTER<br> A PELE <br><span class="white_color_dark_bg"> JOVEM<br> </span> E <span class="white_color_dark_bg"> BONITA </span>',
     "boosts-energy":
-      'AUMENTA OS NÍVEIS DE <span class="white_color_dark_bg"> Power.</span>',
+      'AUMENTA<br> OS NÍVEIS DE<br> <span class="white_color_dark_bg"> ENERGIA.</span>',
     "about-us-title": "Sobre nós",
     "about-us-1":
       "Criamos produtos funcionais que atendem a todas as suas necessidades: apoiam a saúde, fornecendo ao corpo as vitaminas e minerais necessários em quantidade ideal; aumentam a Power, ajudam a manter a pele jovem e bonita; e muito mais.",

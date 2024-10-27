@@ -124,6 +124,8 @@
   .father .center_blendy_img img {
   }
 
+  
+
   .bottle_tilted_area {
     width: 50%;
   }
@@ -219,11 +221,22 @@
   }
 }
 
+@media only screen and (max-width: 390px){
+  #why-blendy {
+    margin-top: 7rem;
+    margin-bottom: 11rem;
+  }
+
+  
+}
+
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (max-width: 1200px) {
   .why_content {
     margin-top: 150px;
   }
+
+  
 
   .left_bottle_section {
     left: 0;
@@ -398,6 +411,9 @@
     margin-top: 0;
   }
 
+  
+  
+
   .title_section_area {
     display: block;
     width: 100%;
@@ -496,6 +512,8 @@
   .father img {
     width: 200px !important;
   }
+
+  
   .columns_white_curved_line {
     position: static;
   }
@@ -525,6 +543,8 @@
   .father .center_blendy_img img {
     right: 18%;
   }
+
+  
   .green_bg .foto_person_container {
     right: 50px;
   }
@@ -620,10 +640,94 @@
   }
 }
 
+
+
 @media only screen and (max-width: 768px) {
   .elemento_grafico_D_ybg,
   .elemento_grafico_E_ybg {
     display: block;
+  }
+
+  #bp_2{
+    margin-left: 4rem;
+  }
+
+  #ing_bp {
+    display: flex;
+    justify-content: space-around; /* Spreads columns across the container */
+    width: fit-content;
+    margin: 0 auto;
+     
+  }
+
+  #ap_column2{
+    margin-left: 2rem;
+  }
+  
+  #ap_ing {
+    display: flex;
+    justify-content: space-between; /* Spreads columns across the container */
+    width: 40vh;
+    margin: 0 auto;
+    margin-top: -3rem;  
+  }
+
+  #focus_ing{
+    display: flex;
+    justify-content: space-around; /* Spreads columns across the container */
+    width: 40vh;
+    margin: 0 auto;
+  }
+
+  /* #collagen_ing{
+    display: flex;
+    justify-content: space-around; /* Spreads columns across the container 
+    width:30vh;
+    margin: 0 auto; 
+  } */
+
+  .bottle_section img {
+    position: relative;
+    left: -1%;
+  }
+
+  #collagen_pink {
+    position: relative;
+    left: -10%;
+  }
+
+  #collagen_h1 {
+    margin: 1rem auto; /* Centers the h1 element horizontally */
+    width: fit-content; /* Makes the width just enough to fit the content */
+    text-align: center; /* Centers the text inside the h1 */
+    padding: 1rem; /* Optional: Add some padding inside the h1 */
+    margin-top: 5rem;
+}
+
+  #bp_eliminate {
+    margin-top: -160px;
+  }
+
+  .after_party_person {
+    left: -80%;
+    width: 450px;
+    margin-bottom: 100px;
+  }
+
+  .after_party_bottle {
+    position: relative;
+    height: auto; /* Maintains the aspect ratio of the image */
+    margin: 0 auto; /* Centers the image horizontally */
+    max-width: 100%; /* Ensures the image doesn't overflow its container */
+    width: 80%; /* Controls image size relative to the container width */
+  }
+
+  .why_bg_section {
+    margin-top: -6rem;
+  }
+
+  #why-blendy {
+    margin-bottom: 13rem;
   }
 
   .before_party_mobile_b{
@@ -818,6 +922,29 @@
     width: 100%;
     justify-content: space-around;
   }
+
+  #collagen_list {
+      display: flex;
+      width: fit-content;
+      margin: 0 auto;
+      justify-content: space-between;
+      gap: 30px; /* Adjust the value to increase/decrease the space */
+  }
+
+  
+  #columns_afterparty {
+    display: flex;
+    max-width: 1200px;    /* This restricts the content from becoming too wide on large screens */
+    margin-left: auto;
+    margin-right: auto;   /* Auto margins center the element */
+    padding-left: 2rem;   /* Add padding for smaller screens */
+    padding-right: -19rem;
+    gap: 1rem;
+}
+
+
+
+
 
   .elemento_grafico_E {
     display: none;
@@ -1032,7 +1159,12 @@
 
   .before_party_person {
     position: relative;
+    left: 30%;
     z-index: 5;
+  }
+
+  .left_person_img_area img {
+    width: 140%;
   }
 
   .green_bg .person_img_area .mobile_left_letters_section {
@@ -1059,10 +1191,24 @@
 
   .before_party_bottle {
     position: relative;
+    height: auto; /* Maintains the aspect ratio of the image */
+    margin: 0 auto; /* Centers the image horizontally */
+    max-width: 100%; /* Ensures the image doesn't overflow its container */
+    width: 80%; /* Controls image size relative to the container width */
   }
 
   .blue_dark_bg .bottle_section {
     order: -1;
+  }
+
+  .collagen_person {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      /* Optional: Add some padding or margin around the image if necessary */
+      margin: 0 auto;
+      left: -50%;
+  
   }
 
   .collagen_person {
@@ -1125,9 +1271,16 @@
     top: -100px;
   }
 
+  #power_h1 {
+    margin-bottom: -5rem;
+  }
+
   .power_person {
     position: relative;
     z-index: 5;
+    left: -20%;
+    max-width: 150%;
+    bottom: -1.5rem;
   }
 
   .focus_mobile_b{
@@ -1164,6 +1317,7 @@
 
   .mobile_title_section_area {
     display: block;
+    margin-bottom: 2rem;
   }
 
   .title_section_area {
@@ -1211,14 +1365,73 @@
   }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 450px) {
   .elemento_grafico_b {
     display: none;
   }
 
-  .why_content {
-    margin-top: 150px;
+  #collagen_pink {
+    position: relative;
+    left: 1%;
   }
+
+  .bottle_section img {
+    position: relative;
+    left: 2%;
+  }
+
+  .power_person {
+    position: relative;
+    z-index: 5;
+    left: 15%;
+    max-width: 100%;
+    bottom: -1.5rem;
+  }
+
+  #power_h1 {
+    margin-bottom: -5rem;
+  }
+
+  #collagen_h1 {
+    margin: 1rem auto; /* Centers the h1 element horizontally */
+    width: fit-content; /* Makes the width just enough to fit the content */
+    text-align: center; /* Centers the text inside the h1 */
+    padding: 1rem; /* Optional: Add some padding inside the h1 */
+    margin-top: -2.5rem;
+}
+
+  
+
+.collagen_person {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    /* Optional: Add some padding or margin around the image if necessary */
+    margin: 0 auto;
+    left: -50%;
+
+}
+
+  .after_party_person {
+    width: 120%;
+    transform: scaleX(-1);
+    margin-top: 200px;
+    margin-bottom: 60px;
+    right: 20%;
+    margin-left: 150px;
+    
+  }
+
+  .why_bg_section {
+    margin-top: -1rem;
+
+  }
+
+  .why_content {
+    margin-top: 130px;
+    
+  }
+
 
   .elemento_grafico_why {
     top: -25%;
@@ -1300,7 +1513,7 @@
   }
 
   .blue_dark_bg .vantagens h1 {
-    margin-top: -150px !important;
+    margin-top: -70px !important;
   }
 
 

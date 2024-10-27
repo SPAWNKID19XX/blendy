@@ -1243,6 +1243,28 @@ html {
   display: none;
   text-align: center;
 }
+/*
+.mobile_title_section_area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+}*/
+
+h1 {
+  text-align: center; /* Center the text if needed */
+}
+
+.before {
+  display: block; /* Forces "Before" onto its own line */
+}
+
+.party {
+  display: block; /* Forces "party" onto the next line */
+  margin-top: 5px; /* Optional: Add some space between the lines */
+}
 
 .mobile_title_section_area h1 {
   font-size: 30px;
@@ -1567,6 +1589,24 @@ html {
 .faq-answer.show {
   max-height: 500px;
   padding: 15px;
+}
+
+/*side scrollbar*/
+/* Style for Chrome, Safari, Edge */
+/* Style for Chrome, Safari, Edge */
+body::-webkit-scrollbar {
+  width: 6px; /* Width of the vertical scrollbar */
+  height: 6px; /* Height of the horizontal scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: rgba(87, 87, 78, 0.2); /* Lightly shaded track */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(87, 87, 78); /* Color of the draggable thumb */
+  border-radius: 100px; /* Rounded corners */
+  border: 3px solid transparent; /* Creates space around the thumb */
 }
 
 
