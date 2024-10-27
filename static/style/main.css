@@ -591,21 +591,21 @@ html {
 .first_row_letter {
   display: flex;
   position: relative;
-  top: -200px;
   justify-content: space-between;
 }
 
 .elemento_grafico_Y {
   position: relative;
   transform: rotate(-45grad);
-  right: -5%;
+  top: 50px;
+  right: 0;
   width: 25%;
   z-index: 0;
 }
 
 .elemento_grafico_E {
   position: relative;
-  top: 0px;
+  top: 100px;
   width: 20%;
   height: 20%;
   right: -20%;
@@ -613,10 +613,9 @@ html {
 }
 
 .elemento_grafico_L {
-  display: none;
   position: relative;
-  top: 100% !important;
-  right: -5%;
+  top: 200px;
+  right: 0%;
   width: 20%;
   height: 20%;
 }
@@ -637,7 +636,7 @@ html {
   height: 30%;
   position: absolute;
   left: -5%;
-  top: 100px;
+  top: 400px;
   opacity: 0.7;
 }
 
@@ -649,12 +648,12 @@ html {
 
 .elemento_grafico_b {
   opacity: 0.7;
-  width: 15%;
+  width: 20%;
   transform: scaleX(-1);
   transform: rotate(-120grad);
   position: absolute;
-  right: 10%;
-  margin-top: 3%;
+  right: 0%;
+  margin-top: 25%;
 }
 
 .elemento_grafico_why {
@@ -895,8 +894,8 @@ html {
 
 .e_letter {
   position: relative;
-  transform: rotate(-45grad);
   right: 15%;
+  top: 10%;
 }
 
 .bottle_section img {
@@ -1072,10 +1071,10 @@ html {
 }
 
 .before_party_Y_letter {
-  right: 0;
+  right: 100%;
   transform: rotate(-50grad);
-  top: 250px;
-  z-index: 0;
+  bottom: 300px;
+  z-index: -1;
 }
 
 /*blue_dark_bg*/
@@ -1191,26 +1190,29 @@ html {
   position: absolute;
   z-index: -1;
   left: -175%;
-  top: 300px;
   width: 350px !important;
 }
 
 .j_letter_pink_bg {
-  width: 250px !important;
+  width: 300px !important;
   left: 0;
+  position: relative;
+  top: 25% !important;
+  transform: rotate(15grad);
 }
 
 .d_letter_pink_bg {
   position: absolute;
   width: 500px;
-  left: -200px;
-  top: -250px;
+  left: -300px;
+  transform: rotate(170grad);
+  top: 250px;
 }
 
 .b_letter_pink_bg {
   position: absolute;
   width: 350px !important;
-  right: 100px;
+  right: -40%;
 }
 
 .pink_bg .vantagens {
@@ -1237,6 +1239,8 @@ html {
 
 .d_letter_focus_top_flor {
   left: -200px;
+  position: relative;
+  width: 500px !important;
 }
 
 .mobile_title_section_area {
@@ -1278,18 +1282,32 @@ h1 {
 .yellow_bg .left_person_img_area {
   transform: scaleX(-1);
   position: relative;
-  width: 60% !important;
-  left: -200px !important;
-  margin-bottom: -200px;
+  width: 150% !important;
+  left: -13% !important;
+  margin-bottom: -400px;
 }
 
 .left_person_img_area img {
   width: 100%;
 }
 
+.yellow_bg .bottom_flor{
+  margin-top: -300px;
+}
+
+.power_d_letter{
+  position: relative;
+  width: 500px;
+  top: 600px;
+  right: 200px;
+  z-index: -1;
+}
+
 .yellow_bg .vantagens {
   position: relative;
-  left: -30% !important;
+  left: -40% !important;
+  margin-top: 30%;
+  width: 1000px !important;
 }
 
 /*DARk BG about Us*/
