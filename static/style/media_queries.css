@@ -610,7 +610,7 @@
   }
 
   .blue_dark_bg .e_letter {
-    right: 432px !important;
+    right: 200px !important;
   }
 
   .vantagens {
@@ -1098,6 +1098,12 @@
     margin-top: 0 !important;
   }
 
+
+  .blue_dark_bg .e_letter {
+    left: -300px !important;
+    width: 150px;
+    top: 50px;
+  }
   .columns_white_curved_line {
     margin-top: 50px;
     display: grid;
@@ -1349,6 +1355,7 @@
   }
 
   .light_blue_bg .focus_mobile_j {
+    display: block;
     position: absolute;
     width: 300px;
     top: 900px;
@@ -1405,7 +1412,6 @@
 
   .pink_bg .focus_mobile_b,
   .pink_bg .e1_letter {
-    border: 2px solid;
     display: none;
   }
 
@@ -1467,12 +1473,6 @@
     left: -50% !important;
   }
 
-  .blue_dark_bg .person_img_area .e_letter {
-    bottom: 50% !important;
-    width: 300px;
-    opacity: 1;
-    right: 400px !important;
-  }
 
   .pink_bg .bottle_section img {
     width: 125% !important;
@@ -1757,10 +1757,15 @@
   }
 
   .blue_dark_bg .person_img_area .e_letter {
-    width: 300px;
+    width: 200px;
     bottom: -250px;
-    right: 200px !important;
+    right: 100px !important;
   }
+
+  .columns_about_us{
+
+    margin-bottom: -10rem !important;
+  } 
 
   .blue_dark_bg .person_img_area {
     width: 60% !important;
@@ -1816,3 +1821,16 @@
     margin-bottom: 11rem;
   }
 }
+
+
+
+
+
+
+@media only screen and (max-width: 374px) {
+  .black_bg p{
+    line-height: 33px;
+  }
+}
+
+
