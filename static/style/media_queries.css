@@ -651,6 +651,75 @@
   .elemento_grafico_E_ybg {
     display: block;
   }
+  .yellow_bg .top_flor .mobile_left_letters_section{
+    left: -100px;
+  }
+
+  .yellow_bg .top_flor .mobile_left_letters_section img{
+    transform: rotate(-90grad);
+  }
+
+  .yellow_bg .top_flor .mobile_left_letters_section .i_letter{
+    transform: rotate(-10grad);
+    left: -30%;
+  }
+
+  .yellow_bg .top_flor .mobile_right_letters_section .mobile_j_letter{
+    left: -100px;
+  }
+
+  .yellow_bg .top_flor .mobile_right_letters_section .mobile_e_letter{
+    left: 0px;
+  }
+
+  .yellow_bg .top_flor .mobile_right_letters_section{
+    position: absolute;
+    z-index: -1;
+
+  }
+
+  .yellow_bg .top_flor .mobile_right_letters_section img{
+    transform: rotate(-30grad);
+  }
+
+  .yellow_bg .bottom_flor{
+    margin-top: 100px;
+  }
+
+  .yellow_bg .focus_mobile_b{
+    display: none;
+  }
+
+  .yellow_bg .vantagens{
+    width: 50%;
+    margin: 0;
+  }
+
+  .yellow_bg_right_letters_section{
+    position: relative;
+    top:0;
+  }
+
+  .yellow_bg_right_letters_section .mobile_i_letter{
+    width: 300px;
+  }
+
+  .yellow_bg .bottom_flor .mobile_left_letters_section{
+    top: -50px;
+    left: 70% !important;
+  }
+
+  .yellow_bg .bottom_flor .mobile_left_letters_section img{
+    width: 250px;
+  }
+
+  .yellow_bg .bottom_flor .mobile_left_letters_section .b_letter{
+    left: 0;
+  }
+
+  .yellow_bg .bottom_flor .mobile_left_letters_section img{
+    width: 250px;
+  }
 
   .elemento_grafico_B_ybg {
     width: 350px;
@@ -1629,9 +1698,7 @@
     right: 200px !important;
   }
 
-  .yellow_bg .vantagens {
-    left: 30px;
-  }
+
 
   .blue_dark_bg .person_img_area {
     width: 60% !important;
