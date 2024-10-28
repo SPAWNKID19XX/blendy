@@ -1296,7 +1296,7 @@ h1 {
 }
 
 .yellow_bg .bottom_flor{
-  margin-top: -300px;
+  margin-top: -150px;
 }
 
 .power_d_letter{
@@ -1374,6 +1374,10 @@ h1 {
   display: flex;
   justify-content: space-around;
   width: 85%;
+}
+
+.yellow_bg .bottle_section{
+  width: 125%;
 }
 
 .context_aria_about_us_letters {

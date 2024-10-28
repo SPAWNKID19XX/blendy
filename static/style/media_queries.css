@@ -1,5 +1,18 @@
 /* Extra large devices (large laptops and desktops, 1700px and up) */
 @media only screen and (max-width: 1700px) {
+  .pink_bg .bottle_section .collagen_bottle {
+    width: 125% !important;
+    position: relative;
+    right: 55% !important;
+  }
+  .yellow_bg .bottle_section .power_bottle {
+    width: 125%;
+  }
+
+  .l_letter_pink_bg {
+    bottom: -150px;
+  }
+
   .why_text {
     width: 50%;
     left: 25%;
@@ -177,6 +190,16 @@
     font-size: 55px !important;
   }
 
+  .pink_bg .bottle_section .collagen_bottle {
+    width: 100% !important;
+    position: relative;
+    right: 20% !important;
+  }
+
+  .yellow_bg .bottle_section .power_bottle {
+    width: 100%;
+  }
+
   .columns_about_us {
     position: absolute;
   }
@@ -204,6 +227,15 @@
 @media only screen and (max-width: 1200px) {
   .why_content {
     margin-top: 150px;
+  }
+
+
+  .pink_bg .bottle_section .collagen_bottle {
+    width: 150% !important;
+  }
+
+  .yellow_bg .bottle_section .power_bottle {
+    width: 150% !important;
   }
 
   .left_bottle_section {
@@ -644,6 +676,16 @@
 
     justify-content: center;
   }
+
+  .blue_dark_bg .ingredients_area {
+    right: 0%;
+  }
+
+  .light_blue_bg .vantagens {
+    margin-top: 20%;
+    font-size: 40px !important;
+    width: 50%;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -652,7 +694,22 @@
     display: block;
   }
   .yellow_bg .top_flor .mobile_left_letters_section {
-    left: -100px;
+    left: 80px;
+  }
+
+  .yellow_bg .bottle_section .power_bottle {
+    width: 48% !important;
+    left: -10% !important;
+  }
+
+  .yellow_bg .mobile_left_letters_section{
+    width: 20%;
+    left: 10% !important;
+  }
+
+  .yellow_bg .mobile_right_letters_section{
+    right: 20%;
+    width: 20%;
   }
 
   .yellow_bg .top_flor .mobile_left_letters_section img {
@@ -1022,6 +1079,11 @@
     left: -200px !important;
   }
 
+  .green_bg .top_flor .mobile_left_letters_section .y_letter {
+    left: 50px !important;
+    top: 200px;
+  }
+
   .columns_about_us {
     left: 6% !important;
   }
@@ -1097,7 +1159,6 @@
   .left_fourth_rec {
     margin-top: 0 !important;
   }
-
 
   .blue_dark_bg .e_letter {
     left: -300px !important;
@@ -1182,7 +1243,7 @@
     order: 3;
   }
 
-  .green_bg .bottom_flor .e_letter{
+  .green_bg .bottom_flor .e_letter {
     position: absolute;
     top: -500px;
   }
@@ -1330,6 +1391,7 @@
   .blue_dark_bg .columns {
     position: relative;
     z-index: 1;
+    margin-left: 25px;
   }
 
   .before_party_bottle {
@@ -1473,7 +1535,6 @@
     left: -50% !important;
   }
 
-
   .pink_bg .bottle_section img {
     width: 125% !important;
     right: 0px !important;
@@ -1579,6 +1640,15 @@
     position: static;
   }
 
+  .yellow_bg .ingredients_area {
+    position: static;
+  }
+
+  .yellow_bg .column {
+    position: static;
+    width: 250px;
+  }
+
   .context_area_ab_us {
     font-size: 25px;
     line-height: 1.5;
@@ -1596,23 +1666,20 @@
 }
 
 @media only screen and (max-width: 450px) {
-
-  .light_blue_bg .top_flor .focus_mobile_j{
+  .light_blue_bg .top_flor .focus_mobile_j {
     z-index: -1;
   }
 
-
-  .light_blue_bg .top_flor .mobile_left_letters_section{
+  .light_blue_bg .top_flor .mobile_left_letters_section {
     left: -100px;
   }
 
-  .light_blue_bg .top_flor .mobile_right_letters_section{
+  .light_blue_bg .top_flor .mobile_right_letters_section {
     right: 20px;
     z-index: -1;
   }
 
-
-  .blue_dark_bg .mobile_left_letters_section .e_letter{
+  .blue_dark_bg .mobile_left_letters_section .e_letter {
     top: 200px;
     z-index: -1;
   }
@@ -1620,25 +1687,23 @@
   .j1_letter_pink_bg {
     width: 250px;
     left: 150px !important;
-   }
+  }
 
-  .yellow_bg .bottom_flor .mobile_right_letters_section{
+  .yellow_bg .bottom_flor .mobile_right_letters_section {
     left: 100px;
-  } 
+  }
 
-
-  .green_bg .top_flor .mobile_left_letters_section .e_letter{
+  .green_bg .top_flor .mobile_left_letters_section .e_letter {
     left: -50px !important;
   }
-  .green_bg .top_flor .mobile_left_letters_section{
+  .green_bg .top_flor .mobile_left_letters_section {
     left: -50px !important;
     top: 150px;
   }
 
-  .green_bg .top_flor .mobile_right_letters_section .mobile_b_letter{
+  .green_bg .top_flor .mobile_right_letters_section .mobile_b_letter {
     left: -100px !important;
   }
-
 
   .elemento_grafico_b {
     display: none;
@@ -1762,10 +1827,9 @@
     right: 100px !important;
   }
 
-  .columns_about_us{
-
+  .columns_about_us {
     margin-bottom: -10rem !important;
-  } 
+  }
 
   .blue_dark_bg .person_img_area {
     width: 60% !important;
@@ -1822,15 +1886,8 @@
   }
 }
 
-
-
-
-
-
 @media only screen and (max-width: 374px) {
-  .black_bg p{
+  .black_bg p {
     line-height: 33px;
   }
 }
-
-
