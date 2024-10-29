@@ -1073,6 +1073,10 @@
     margin-top: 100px;
   }
 
+  .green_bg .bottom_flor {
+    margin-top: 0;
+  }
+
   .person_img_area {
     margin: auto;
     position: static;
@@ -1700,7 +1704,8 @@
 @media only screen and (max-width: 500px) {
   
   .slide img {
-    margin-top: 50px;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
   }
 
   .green_bg .bottom_flor{
@@ -1953,6 +1958,11 @@
 
   .blue_dark_bg .columns {
     margin-left: 0px;
+  }
+
+  .blue_dark_bg .vantagens {
+    position: static;
+    margin-top: 50px !important;
   }
 
   .slide img {

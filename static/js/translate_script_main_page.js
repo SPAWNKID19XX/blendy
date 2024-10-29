@@ -11,25 +11,25 @@ const translations = {
       'BECAUSE OUR SHOTS ARE <span class="white_color_dark_bg"> A TASTY AND EFFICIENT</span>  ALTERNATIVE TO TRADITIONAL TABLETS OR CAPSULES. THEY:',
     point1: "Are better absorbed",
     "point1-desc":
-      "The active ingridients in Blendy are already disolved witch facilitates their absorption in the digestive tract.",
+      "The active ingredients in Blendy are already dissolved, which facilitates their absorption in the digestive tract.",
     point2: "Can be consumed with ease",
     "point2-desc":
-      "There is no need to swallow tablets, which may cause dificulties to some of us.",
-    point3: "Have higher concentration of active ingredients",
+      "There is no need to swallow tablets, which may cause difficulties for some of us.",
+    point3: "Has a higher concentration of active ingredients.",
     "point3-desc":
-      "They contain a larger amount of active ingridients allowing for higher dosses in one serving",
+      "They contain a larger amount of active ingredients, allowing for higher doses in one serving.",
     point4: "Can be taken anywhere...and they look splendid!",
     "point4-desc":
-      "No need to drag a whole pharmacy with you. at work, on holidays during travels, while driving... you can take a Blendy out and instantly provide your body with all the nutrients it needs. Convenient isn't it? And looks astonishing",
-    point5: "Lack of fillers",
+      "No need to drag an entire pharmacy with you—whether at work, on holiday, during travel, or while driving. You can simply take out a Blendy and instantly provide your body with all the nutrients it needs. Convenient, isn’t it? And it looks astonishing!",
+    point5: "Lacks of fillers",
     "point5-desc":
-      "Unlike tablets and capsuls, our shots contain fewer - or do not include at all - addicional ingridients, such as counting or fillers. There is simply no need for them.",
+      "Unlike tablets and capsules, our shots contain fewer - or do not include at all - additional ingredients, such as coatings or fillers. There is simply no need for them.",
     point6: "Act faster",
     "point6-desc":
-      "Due to better absorption the effect of Blendy are felf fester then those of pills, powder or tablets.",
+      "Due to better absorption, the effects of Blendy are felt faster than those of pills, powders, or tablets.",
     point7: "Taste great!",
     "point7-desc":
-      "Our shots come in a variety of flavors, which makes the consumption experience enjoyble and yummy",
+      "Our shots come in a variety of flavors, which makes the consumption experience enjoyable and yummy",
     "before-party": "Before party",
     "after-party": "After party",
     focus: "Focus",
@@ -47,11 +47,11 @@ const translations = {
       'BOOSTS <br> THE <span class="white_color_dark_bg"> ENERGY </span> <br> LEVELS',
     "about-us-title": "About us",
     "about-us-1":
-      "We create functional products that answer all your needs: support health, providing the body with necessary vitamins and minerals in optimal amount; boost energy, help maintain young and beautiful skin; and many more.",
+      "We create functional products that answer all your needs: support health, providing the body with necessary vitamins and minerals in optimal amounts; boost energy, help maintain young and beautiful skin; and many more.",
     "about-us-2":
-      "Our products are easily digestible and small bottles make them not only eco-friendly, but also very convenient to use. You can basically take them anywhere and they come in very handy in many occasions.",
+      "Our products are easily digestible and the small bottles make them not only eco-friendly, but also very convenient to use. You can basically take them anywhere and they come in very handy in many occasions.",
     "about-us-3":
-      "We pay attention to the high quality of ingredients and natural tastes, which are guaranteed by the international Food Safety certificate.",
+      "We pay attention to the high quality of ingredients and natural tastes, which are guaranteed by the international Food Safety certification.",
     "faq-title":
       'Frequently Asked Questions',
     "faq-side-title":
