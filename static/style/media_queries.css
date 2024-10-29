@@ -1,5 +1,6 @@
 /* Extra large devices (large laptops and desktops, 1700px and up) */
 @media only screen and (max-width: 1700px) {
+
   .pink_bg .bottle_section .collagen_bottle {
     width: 125% !important;
     position: relative;
@@ -92,6 +93,8 @@
 
 /* Extra large devices (large laptops and desktops, 1500px and up) */
 @media only screen and (max-width: 1500px) {
+
+
   .yellow_bg .vantagens {
     margin-top: 15%;
   }
@@ -237,8 +240,6 @@
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (max-width: 1200px) {
-
-
 
   .yellow_bg .vantagens {
     margin-top: 10% !important;
@@ -579,6 +580,7 @@
 }
 
 @media only screen and (max-width: 992px) {
+
   .father .center_blendy_img img {
     right: 18%;
   }

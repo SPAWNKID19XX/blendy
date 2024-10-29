@@ -1188,8 +1188,13 @@ html {
   width: 100%;
 }
 
+.nav_bar_bg_yellow{
+  background-color: #ffd007 !important;
+  height: 90px;
+}
+
 .blendy_and_bottles_sedction{
-  margin-top: 73px;
+  margin-top: -5%;
 }
 
 .j1_letter_pink_bg {
@@ -1562,12 +1567,9 @@ h1 {
   color: black;
   cursor: pointer;
   transition: all 0.3s;
-  border-radius: 5px;
-  font-size: 1rem;
   flex: 1 1 auto;
-  max-width: 200px;
-
-  font-size: 45px;
+  max-width: 220px;
+  font-size: 25px;
   align-items: center;
   justify-content: center;
   font-family: "scale-variable", sans-serif;
