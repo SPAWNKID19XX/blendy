@@ -917,7 +917,7 @@
   }
 
   .blendy_bg {
-    top: 35px;
+    top: -10px !important;
   }
 
   .nav-links {
@@ -1039,7 +1039,7 @@
 
   .slide img {
     max-width: 90%;
-
+    margin-top: 150px;
     max-height: 90%;
     object-fit: contain;
     border-radius: 10px;
@@ -1703,6 +1703,14 @@
     z-index: -1;
   }
 
+  .blendy_bg {
+    top: 10px !important;
+  }
+
+  .slide img {
+    margin-top: 50px;
+  }
+
   .light_blue_bg .top_flor .mobile_left_letters_section {
     left: -100px;
   }
@@ -1925,6 +1933,10 @@
     margin-top: 7rem;
     margin-bottom: 11rem;
   }
+
+  .slide img {
+    margin-top: 0px;
+  }
 }
 
 @media only screen and (max-width: 374px) {
@@ -1934,5 +1946,14 @@
 
   .blue_dark_bg .columns {
     margin-left: 0px;
+  }
+
+  .slide img {
+    margin-top: -100px;
+  }
+
+  #why-blendy {
+    margin-top: 20px;
+    margin-bottom: 250px;
   }
 }
