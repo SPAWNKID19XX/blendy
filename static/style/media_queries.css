@@ -1,4 +1,3 @@
-/* Extra large devices (large laptops and desktops, 1700px and up) */
 @media only screen and (max-width: 1700px) {
 
   .pink_bg .bottle_section .collagen_bottle {
@@ -91,7 +90,6 @@
   }
 }
 
-/* Extra large devices (large laptops and desktops, 1500px and up) */
 @media only screen and (max-width: 1500px) {
 
 
@@ -238,7 +236,6 @@
   }
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (max-width: 1200px) {
 
   .yellow_bg .vantagens {
@@ -917,8 +914,10 @@
   }
 
   .blendy_bg {
-    top: -10px !important;
+    top: 10px !important;
   }
+
+
 
   .nav-links {
     position: fixed;
@@ -1698,17 +1697,25 @@
   }
 }
 
+@media only screen and (max-width: 500px) {
+  
+  .slide img {
+    margin-top: 50px;
+  }
+
+  .green_bg .bottom_flor{
+    margin-top: 0;
+  }
+
+}
+
 @media only screen and (max-width: 450px) {
   .light_blue_bg .top_flor .focus_mobile_j {
     z-index: -1;
   }
 
-  .blendy_bg {
-    top: 10px !important;
-  }
-
   .slide img {
-    margin-top: 50px;
+    margin-top: 20px;
   }
 
   .light_blue_bg .top_flor .mobile_left_letters_section {
@@ -1935,7 +1942,7 @@
   }
 
   .slide img {
-    margin-top: 0px;
+    margin-top: -50px;
   }
 }
 
