@@ -63,6 +63,15 @@ nav {
   
 }
 
+.nav-links a {
+  text-decoration: none;
+  color: black; /* Default color */
+}
+
+.nav-links a.active {
+  color: #ffd007;
+}
+
 .nav-container {
   max-width: 1200px;
   margin: 0 auto;

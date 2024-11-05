@@ -1408,7 +1408,7 @@
           </svg>
         </div>
       </div>
-      <div class="my_custom_container_about_us">
+      <div class="my_custom_container_about_us" id="about-us">
         <div class="context_area_ab_us">
           <div class="about_us_title">
             <h1 data-translate="about-us-title">About us</h1>
@@ -1538,7 +1538,7 @@
             <div class="footer_logo">
               <img src="./static/img/logo/Blendy-logo-biale_1.png" alt="" />
             </div>
-            <div class="footer-contacts">
+            <div class="footer-contacts" id="contact">
               <div class="footer_contact_title" id="footer_contact_title">
                 <h1 data-translate="cont">Contact</h1>
               </div>
@@ -1560,6 +1560,44 @@
         </div>
       </div>
     </div>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        const links = document.querySelectorAll('.nav-links a');
+        const sections = document.querySelectorAll('.why_content, #before_party_bottle, .my_custom_container_about_us, .footer-contacts');
+    
+        // Function to remove active class from all links
+        function removeActiveClasses() {
+          links.forEach(link => link.classList.remove('active'));
+        }
+    
+        // Intersection Observer callback
+        function observerCallback(entries) {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              const sectionId = entry.target.id; // Get the ID of the intersecting section
+              const activeLink = document.querySelector(`.nav-links a[href="#${sectionId}"]`);
+              if (activeLink) {
+                removeActiveClasses(); // Remove active class from all links
+                activeLink.classList.add('active'); // Add active class to the current link
+                console.log(`Active link: ${sectionId}`); // Log active link for debugging
+              }
+            }
+          });
+        }
+    
+        // Observer options: Trigger when section is at least 20% visible
+        const observerOptions = {
+          root: null, // Uses viewport as root
+          threshold: 0.2 // Section is active when 20% in view
+        };
+    
+        const observer = new IntersectionObserver(observerCallback, observerOptions);
+    
+        // Observe each section
+        sections.forEach(section => observer.observe(section));
+      });
+    </script>
     <!--Bootstrap-->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
